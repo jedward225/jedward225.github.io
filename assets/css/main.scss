@@ -147,7 +147,7 @@ h1, h2, h3, h4, h5, h6 {
 .home .profile {
   display: flex;
   align-items: center;
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
 }
 
 .profile-image {
@@ -181,23 +181,25 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Projects Page */
 .project-item {
-  margin-bottom: 2.5rem;
-  padding: 1.5rem;
-  background-color: var(--accent-color);
-  border-radius: 8px;
-  border: 1px solid var(--border-color);
-  transition: background-color 0.3s, border-color 0.3s;
+  margin-bottom: 2rem;
 }
 
 .project-title {
-  font-size: 1.5rem;
+  font-size: 1.1rem;
+  font-weight: bold;
   margin-bottom: 0.25rem;
 }
 
-.project-role {
-  font-style: italic;
+.project-title span {
+  font-size: 0.9rem;
+  font-weight: normal;
   color: #6c757d;
-  margin-bottom: 1rem;
+  margin-left: 0.5rem;
+}
+
+.project-description {
+  font-size: 0.95rem;
+  margin: 0.5rem 0;
 }
 
 /* Interests Page */
@@ -271,4 +273,84 @@ h1, h2, h3, h4, h5, h6 {
   border-bottom: none;
   border-bottom-left-radius: 8px;
   border-bottom-right-radius: 8px;
+}
+
+/* New Homepage Sections */
+.home > div {
+  margin-bottom: 2.5rem;
+  border-bottom: 1px solid var(--border-color);
+  padding-bottom: 2rem;
+}
+.home > div:last-child {
+  border-bottom: none;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.home h2 {
+  font-size: 1.8rem;
+  margin-bottom: 1.5rem;
+  border-left: 4px solid var(--link-color);
+  padding-left: 1rem;
+}
+
+/* Publications */
+.publication-item {
+  margin-bottom: 2rem;
+}
+.publication-title {
+  font-size: 1.1rem;
+  font-weight: bold;
+  margin-bottom: 0.25rem;
+}
+.publication-authors {
+  font-size: 0.95rem;
+  color: #555;
+  margin-bottom: 0.5rem;
+}
+[data-theme='dark'] .publication-authors {
+  color: #bbb;
+}
+.publication-links a {
+  margin-right: 0.75rem;
+  font-size: 0.9rem;
+  font-weight: bold;
+}
+.publication-description {
+  font-size: 0.95rem;
+  margin: 0.5rem 0;
+}
+.publication-venue {
+  font-size: 0.9rem;
+  color: #6c757d;
+}
+
+/* Project Items - similar to publications */
+.project-item {
+  margin-bottom: 2rem;
+}
+.project-title {
+  font-size: 1.1rem;
+  font-weight: bold;
+  margin-bottom: 0.25rem;
+}
+.project-title span {
+  font-size: 0.9rem;
+  font-weight: normal;
+  color: #6c757d;
+  margin-left: 0.5rem;
+}
+.project-description {
+  font-size: 0.95rem;
+  margin: 0.5rem 0;
+}
+
+/* Generic lists for Honors, Experiences, etc. */
+.honors ul, .experiences ul, .internships ul, .education ul, .research ul, .services ul {
+  list-style: none;
+  padding-left: 0;
+}
+.honors ul li, .experiences ul li, .internships ul li, .education ul li, .research ul li, .services ul li {
+  margin-bottom: 0.75rem;
+  line-height: 1.6;
 } 
