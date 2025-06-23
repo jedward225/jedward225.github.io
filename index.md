@@ -26,7 +26,7 @@ layout: default
       Hi there 👋 , I'm Jiajun Liu (刘嘉俊), a second-year undergraduate at <a href="http://ai.ruc.edu.cn/">Gaoling School of Artificial Intelligence</a>, Renmin University of China.
     </p>
     <p>
-      My research interests lie in Reinforcement Learning, Multimodal Models, and Generative AI. I am currently working with <a href="https://zhenxuan00.github.io/">Prof. Chongxuan Li</a> on Deep Generative Models, with a focus on 3D world models.
+      My research interests lie in <strong>Reinforcement Learning, Multimodal Models, and Generative AI</strong>. I am currently working with <a href="https://zhenxuan00.github.io/">Prof. Chongxuan Li</a> on Deep Generative Models, with a focus on 3D world models.
     </p>
     <p>
       I am gooda at Python, C/C++, and Linux development environments. I have hands-on experience with deep learning frameworks like PyTorch.
