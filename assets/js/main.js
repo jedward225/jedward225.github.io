@@ -27,4 +27,23 @@
     const newTheme = body.dataset.theme === 'dark' ? 'light' : 'dark';
     applyTheme(newTheme);
   });
+})();
+
+// Image gallery for interests page
+(function() {
+  const gallery = document.querySelector('.interests-gallery');
+  if (!gallery) return; // Only run on a page with a gallery
+
+  const images = gallery.querySelectorAll('.gallery-image');
+  if (images.length <= 1) return;
+
+  let currentIndex = 0;
+
+  function showNextImage() {
+    images[currentIndex].classList.remove('active');
+    currentIndex = (currentIndex + 1) % images.length;
+    images[currentIndex].classList.add('active');
+  }
+
+  setInterval(showNextImage, 4000); // Change image every 4 seconds
 })(); 
