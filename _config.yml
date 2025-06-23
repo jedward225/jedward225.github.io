@@ -27,7 +27,7 @@ twitter_username: JEdwardlui
 theme: null
 plugins:
   - jekyll-feed
-  - jekyll-scholar
+  - jekyll-seo-tag
 
 # Markdown Processing
 markdown: kramdown
