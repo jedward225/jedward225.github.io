@@ -1,31 +1,45 @@
----
-layout: compress
----
+<!DOCTYPE html>
+<html lang="en">
 
-{% include base_path %}
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>{{ site.title }}</title>
+  <meta name="description" content="{{ site.description }}">
+  
+  <!-- Style -->
+  <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
 
-<!doctype html>
-<html lang="{{ site.locale | slice: 0,2 }}" class="no-js"{% if site.site_theme == "dark" %} data-theme="dark"{% endif %}>
-  <head>
-    {% include head.html %}
-    {% include head/custom.html %}
-  </head>
+  <!-- Math -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/katex.min.css" integrity="sha384-Xi8rHCmBmhbuyyhbI88391ZKP2dmfnOl4rT9ZfRI7zTDRG/2SdGz/3phgCmuI/4k" crossorigin="anonymous">
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/katex.min.js" integrity="sha384-X/XCfMm41VSsqRNwNEgm9vVtxokblAPmvoxM9bbeMNiPpT4GjWsECCZNKA3riENE" crossorigin="anonymous"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/contrib/auto-render.min.js" integrity="sha384-+XBljXPPiv+OzfbB3cVmLHf4hdUFHlWNZN5spNQ7rmHTXpd7WvJum6fIACpNNfIR" crossorigin="anonymous"></script>
 
-  <body>
+</head>
 
-    {% include browser-upgrade.html %}
-    {% include masthead.html %}
+<body>
 
+  {% include header.html %}
+
+  <main class="container">
     {{ content }}
+  </main>
 
-    <div class="page__footer">
-      <footer>
-        {% include footer/custom.html %}
-        {% include footer.html %}
-      </footer>
-    </div>
+  {% include footer.html %}
 
-    {% include scripts.html %}
+  <!-- Scripts -->
+  <script src="{{ '/assets/js/main.js' | relative_url }}"></script>
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+      renderMathInElement(document.body, {
+        delimiters: [
+          {left: "$$", right: "$$", display: true},
+          {left: "$", right: "$", display: false}
+        ]
+      });
+    });
+  </script>
 
-  </body>
-</html>
+</body>
+
+</html> 

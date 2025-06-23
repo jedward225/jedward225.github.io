@@ -1,43 +1,212 @@
----
----
+// 1. Variables
+:root {
+  --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --font-family-monospace: "SF Mono", "Menlo", "Monaco", "Consolas", "Liberation Mono", "Courier New", monospace;
 
-/*
- * This file controls what is imported from /_sass
- *
- * Note that the files are processed in the order they are imported, so they are partly
-   sorted by the dependencies. Also, the first two lines of the file are required by Jekyll.
- */
+  // Light theme
+  --bg-color: #ffffff;
+  --text-color: #212529;
+  --link-color: #0056b3;
+  --link-hover-color: #003d80;
+  --accent-color: #f8f9fa;
+  --border-color: #dee2e6;
+  --header-bg: rgba(255, 255, 255, 0.85);
+  --switcher-bg: #f8f9fa;
+}
 
-@import
-    "vendor/breakpoint/breakpoint",
+[data-theme='dark'] {
+  --bg-color: #121212;
+  --text-color: #e0e0e0;
+  --link-color: #66b2ff;
+  --link-hover-color: #99ccff;
+  --accent-color: #1e1e1e;
+  --border-color: #444444;
+  --header-bg: rgba(18, 18, 18, 0.85);
+  --switcher-bg: #2a2a2a;
+}
 
-    "themes",
-    "theme/default",
-    "theme/dark",
+// 2. Global Styles
+body {
+  font-family: var(--font-family-sans-serif);
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  transition: background-color 0.3s, color 0.3s;
+  margin: 0;
+  padding-top: 80px; // Space for the fixed header
+}
 
-    "include/mixins",
-    "vendor/susy/susy",
+a {
+  color: var(--link-color);
+  text-decoration: none;
+  transition: color 0.2s;
+}
 
-    "layout/reset",
-    "layout/base",
+a:hover {
+  color: var(--link-hover-color);
+  text-decoration: underline;
+}
 
-    "include/utilities",
-    "layout/tables",
-    "layout/buttons",
-    "layout/notices",
-    "layout/masthead",
-    "layout/navigation",
-    "layout/footer",
-    "syntax",
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
 
-    "layout/forms",
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem 1.5rem;
+}
 
-    "layout/page",
-    "layout/archive",
-    "layout/sidebar",
+// 3. Layout
+.header {
+  background-color: var(--header-bg);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-bottom: 1px solid var(--border-color);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  transition: background-color 0.3s, border-color 0.3s;
+}
 
-    "vendor/font-awesome/fontawesome",
-    "vendor/font-awesome/solid",
-    "vendor/font-awesome/brands",
-    "vendor/magnific-popup/magnific-popup"
-;
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+  height: 60px;
+}
+
+.footer {
+  text-align: center;
+  padding: 2rem 0;
+  margin-top: 2rem;
+  font-size: 0.9em;
+  color: #6c757d;
+  border-top: 1px solid var(--border-color);
+  transition: border-color 0.3s;
+}
+
+// 4. Components
+.navbar-brand {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+.navbar-brand:hover {
+  text-decoration: none;
+}
+
+.nav-link {
+  margin-left: 1.5rem;
+  font-size: 1rem;
+}
+
+.nav-link.active {
+    font-weight: bold;
+}
+
+/* Theme Switcher */
+#theme-toggle-btn {
+  background: var(--switcher-bg);
+  border: 1px solid var(--border-color);
+  border-radius: 30px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 26px;
+  padding: 3px;
+  position: relative;
+  transition: background-color 0.3s, border-color 0.3s;
+}
+
+#theme-toggle-btn .sun-icon,
+#theme-toggle-btn .moon-icon {
+  font-size: 0.8rem;
+  position: absolute;
+  transition: opacity 0.3s, transform 0.3s;
+}
+
+#theme-toggle-btn .sun-icon { opacity: 0; }
+#theme-toggle-btn .moon-icon { opacity: 1; }
+
+[data-theme='dark'] #theme-toggle-btn .sun-icon { opacity: 1; }
+[data-theme='dark'] #theme-toggle-btn .moon-icon { opacity: 0; }
+
+// 5. Page-specific styles
+
+/* Home Page */
+.home .profile {
+  display: flex;
+  align-items: center;
+  margin-bottom: 3rem;
+}
+
+.profile-image {
+  flex-shrink: 0;
+  margin-right: 2rem;
+}
+
+.profile-image img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid var(--border-color);
+}
+
+.profile-info h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.profile-info .meta {
+  font-size: 1.1rem;
+  color: #6c757d;
+  margin-bottom: 1rem;
+}
+
+.social-links a {
+  margin-right: 1rem;
+  font-weight: 500;
+}
+
+/* Projects Page */
+.project-item {
+  margin-bottom: 2.5rem;
+  padding: 1.5rem;
+  background-color: var(--accent-color);
+  border-radius: 8px;
+  border: 1px solid var(--border-color);
+  transition: background-color 0.3s, border-color 0.3s;
+}
+
+.project-title {
+  font-size: 1.5rem;
+  margin-bottom: 0.25rem;
+}
+
+.project-role {
+  font-style: italic;
+  color: #6c757d;
+  margin-bottom: 1rem;
+}
+
+/* Interests Page */
+.interests-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.interests-list li {
+  margin-bottom: 1.5rem;
+}
+
+.interests-list h3 {
+  margin-bottom: 0.5rem;
+} 
