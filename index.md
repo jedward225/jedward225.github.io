@@ -11,7 +11,6 @@ layout: default
     </div>
     <div class="profile-info">
       <h1>Jiajun Liu</h1>
-      <p class="meta">Undergraduate Student at Gaoling School of Artificial Intelligence, Renmin University of China.</p>
       <div class="social-links">
         <a href="mailto:{{ site.email }}">Email</a>
         <a href="https://github.com/{{ site.github_username }}" target="_blank" rel="noopener noreferrer">GitHub</a>
@@ -26,11 +25,12 @@ layout: default
     <p>
       Hi there 👋 , I'm Jiajun Liu (刘嘉俊), a second-year undergraduate at <a href="http://ai.ruc.edu.cn/">Gaoling School of Artificial Intelligence</a>, Renmin University of China.
     </p>
-    <ul>
-      <li><b>Research Interest:</b> Reinforcement Learning, Multimodal Large Language Model, Generative Models</li>
-      <li><b>Language Proficiency:</b> Mandarin (Native), English (Fluent, CET-6: 569)</li>
-      <li><b>Professional Skills:</b> Linux, Python, C/C++, PyTorch. Currently learning Ray.</li>
-    </ul>
+    <p>
+      My research interests lie in Reinforcement Learning, Multimodal Models, and Generative AI. I am currently working with <a href="https://zhenxuan00.github.io/">Prof. Chongxuan Li</a> on Deep Generative Models, with a focus on 3D world models.
+    </p>
+    <p>
+      I am gooda at Python, C/C++, and Linux development environments. I have hands-on experience with deep learning frameworks like PyTorch.
+    </p>
   </div>
 
   <!-- Research Experience Section -->
