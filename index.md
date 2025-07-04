@@ -29,7 +29,7 @@ layout: default
       My research interests lie in <strong>Reinforcement Learning, Spatial Intelligence, and Generative AI</strong>. I am currently working with <a href="https://zhenxuan00.github.io/">Prof. Chongxuan Li</a> on Deep Generative Models, with a focus on 3D world models.
     </p>
     <p>
-      I am gooda at Python, C/C++, and Linux development environments. I have hands-on experience with deep learning frameworks like PyTorch.
+      I am good at Python, C/C++, and Linux development environments. I have hands-on experience with deep learning frameworks like PyTorch.
     </p>
   </div>
 
