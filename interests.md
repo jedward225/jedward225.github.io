@@ -9,9 +9,9 @@ permalink: /interests/
   
   <div class="interests-container">
     <div class="interests-gallery">
-      <img src="/assets/img/interests/coding.png" alt="Coding Contest" class="gallery-image active">
-      <img src="/assets/img/interests/basketball.png" alt="Basketball" class="gallery-image">
-      <img src="/assets/img/interests/sailing.png" alt="Sailing" class="gallery-image">
+      <img src="/assets/img/interests/coding.jpg" alt="Coding Contest" class="gallery-image active">
+      <img src="/assets/img/interests/basketball.jpg" alt="Basketball" class="gallery-image">
+      <img src="/assets/img/interests/sailing.jpg" alt="Sailing" class="gallery-image">
       
       <!-- Navigation buttons -->
       <button class="gallery-nav gallery-nav-left" id="prev-btn">
