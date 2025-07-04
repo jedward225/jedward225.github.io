@@ -26,7 +26,7 @@ layout: default
       Hi there 👋 , I'm Jiajun Liu (刘嘉俊), a second-year undergraduate at <a href="http://ai.ruc.edu.cn/">Gaoling School of Artificial Intelligence</a>, Renmin University of China.
     </p>
     <p>
-      My research interests lie in <strong>Reinforcement Learning, Multimodal Models, and Generative AI</strong>. I am currently working with <a href="https://zhenxuan00.github.io/">Prof. Chongxuan Li</a> on Deep Generative Models, with a focus on 3D world models.
+      My research interests lie in <strong>Reinforcement Learning, Spatial Intelligence, and Generative AI</strong>. I am currently working with <a href="https://zhenxuan00.github.io/">Prof. Chongxuan Li</a> on Deep Generative Models, with a focus on 3D world models.
     </p>
     <p>
       I am gooda at Python, C/C++, and Linux development environments. I have hands-on experience with deep learning frameworks like PyTorch.
@@ -40,7 +40,7 @@ layout: default
       <li>
         <strong>Jan 2025 - Present</strong> | Renmin University, China <br>
         <em>Advisor: <a href="https://zhenxuan00.github.io/">Chongxuan Li</a></em><br>
-        Topic: Learning the latest knowledge of Deep Generative Models. Currently focus on 3D world models - <a href="https://ml-gsai.github.io/FlexWorld/">FlexWorld</a>.
+        Topic: Learning the latest knowledge of Deep Generative Models. Currently focus on 3D world models, e.g. <a href="https://ml-gsai.github.io/FlexWorld/">FlexWorld</a>.
       </li>
     </ul>
   </div>
@@ -98,8 +98,13 @@ layout: default
     <h2>Education Experience</h2>
     <ul>
        <li><strong>Sep 2023 - Present</strong> | Bachelor's degree, Gaoling School of Artificial Intelligence, Renmin University of China</li>
-       <li><em>GPA: 3.85/4.00 (Rank 5 / 59), ranked 1st in the major in the first and third semesters.</em></li>
+       <li><em>GPA: 3.86/4.00 (Rank 3 / 61), ranked 1st in the major in the first and third semesters.</em></li>
     </ul>
+  </div>
+
+  <!-- Last Modified Time -->
+  <div class="last-modified">
+    <p>Last updated: {{ page.last_modified_at | default: site.time | date: "%B %d, %Y" }}</p>
   </div>
 
 </div> 

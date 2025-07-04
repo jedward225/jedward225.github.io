@@ -35,15 +35,75 @@
   if (!gallery) return; // Only run on a page with a gallery
 
   const images = gallery.querySelectorAll('.gallery-image');
+  const dots = gallery.querySelectorAll('.dot');
+  const prevBtn = document.getElementById('prev-btn');
+  const nextBtn = document.getElementById('next-btn');
+  
   if (images.length <= 1) return;
 
   let currentIndex = 0;
+  let autoPlayInterval;
 
-  function showNextImage() {
-    images[currentIndex].classList.remove('active');
-    currentIndex = (currentIndex + 1) % images.length;
-    images[currentIndex].classList.add('active');
+  function showImage(index) {
+    // Remove active class from all images and dots
+    images.forEach(img => img.classList.remove('active'));
+    dots.forEach(dot => dot.classList.remove('active'));
+    
+    // Add active class to current image and dot
+    images[index].classList.add('active');
+    if (dots[index]) dots[index].classList.add('active');
+    
+    currentIndex = index;
   }
 
-  setInterval(showNextImage, 4000); // Change image every 4 seconds
+  function showNextImage() {
+    const nextIndex = (currentIndex + 1) % images.length;
+    showImage(nextIndex);
+  }
+
+  function showPrevImage() {
+    const prevIndex = (currentIndex - 1 + images.length) % images.length;
+    showImage(prevIndex);
+  }
+
+  function startAutoPlay() {
+    autoPlayInterval = setInterval(showNextImage, 4000); // Change image every 4 seconds
+  }
+
+  function stopAutoPlay() {
+    clearInterval(autoPlayInterval);
+  }
+
+  // Event listeners
+  if (nextBtn) {
+    nextBtn.addEventListener('click', () => {
+      stopAutoPlay();
+      showNextImage();
+      startAutoPlay(); // Restart auto-play
+    });
+  }
+
+  if (prevBtn) {
+    prevBtn.addEventListener('click', () => {
+      stopAutoPlay();
+      showPrevImage();
+      startAutoPlay(); // Restart auto-play
+    });
+  }
+
+  // Dots navigation
+  dots.forEach((dot, index) => {
+    dot.addEventListener('click', () => {
+      stopAutoPlay();
+      showImage(index);
+      startAutoPlay(); // Restart auto-play
+    });
+  });
+
+  // Start auto-play
+  startAutoPlay();
+
+  // Pause auto-play on hover
+  gallery.addEventListener('mouseenter', stopAutoPlay);
+  gallery.addEventListener('mouseleave', startAutoPlay);
 })(); 

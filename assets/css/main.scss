@@ -251,6 +251,65 @@ h1, h2, h3, h4, h5, h6 {
   scale: 1;
 }
 
+/* Gallery Navigation */
+.gallery-nav {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  transition: background-color 0.3s, opacity 0.3s;
+  opacity: 0.7;
+  z-index: 10;
+}
+
+.gallery-nav:hover {
+  background: rgba(0, 0, 0, 0.8);
+  opacity: 1;
+}
+
+.gallery-nav-left {
+  left: 10px;
+}
+
+.gallery-nav-right {
+  right: 10px;
+}
+
+/* Gallery Dots */
+.gallery-dots {
+  position: absolute;
+  bottom: 15px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 8px;
+  z-index: 10;
+}
+
+.dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.5);
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.dot.active,
+.dot:hover {
+  background: rgba(255, 255, 255, 0.9);
+}
+
 .interests-list-new {
   list-style: none;
   padding: 0;
@@ -353,4 +412,18 @@ h1, h2, h3, h4, h5, h6 {
 .honors ul li, .experiences ul li, .internships ul li, .education ul li, .research ul li, .services ul li {
   margin-bottom: 0.75rem;
   line-height: 1.6;
+}
+
+/* Last Modified Time */
+.last-modified {
+  text-align: center;
+  font-size: 0.85rem;
+  color: #6c757d;
+  margin-top: 2rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--border-color);
+}
+
+[data-theme='dark'] .last-modified {
+  color: #aaa;
 } 
