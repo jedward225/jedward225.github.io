@@ -426,4 +426,45 @@ h1, h2, h3, h4, h5, h6 {
 
 [data-theme='dark'] .last-modified {
   color: #aaa;
+}
+
+/* Interests Descriptions */
+.interests-descriptions {
+  margin-top: 3rem;
+  padding-top: 2rem;
+  border-top: 1px solid var(--border-color);
+}
+
+.interests-descriptions h2 {
+  font-size: 1.8rem;
+  margin-bottom: 1.5rem;
+  border-left: 4px solid var(--link-color);
+  padding-left: 1rem;
+}
+
+.interest-description {
+  margin-bottom: 1.5rem;
+  padding: 1.5rem;
+  background-color: var(--accent-color);
+  border-radius: 8px;
+  border: 1px solid var(--border-color);
+  transition: background-color 0.3s, border-color 0.3s;
+}
+
+.interest-description:hover {
+  background-color: var(--bg-color);
+  border-color: var(--link-color);
+}
+
+.interest-description h3 {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+  color: var(--text-color);
+}
+
+.interest-description p {
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: var(--text-color);
+  margin: 0;
 } 

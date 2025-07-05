@@ -12,7 +12,6 @@ permalink: /interests/
       <img src="/assets/img/interests/coding.jpg" alt="Coding Contest" class="gallery-image active">
       <img src="/assets/img/interests/basketball.jpg" alt="Basketball" class="gallery-image">
       <img src="/assets/img/interests/sailing.jpg" alt="Sailing" class="gallery-image">
-      <img src="/assets/img/interests/video-editing.jpg" alt="Video Editing" class="gallery-image">
       
       <!-- Navigation buttons -->
       <button class="gallery-nav gallery-nav-left" id="prev-btn">
@@ -27,7 +26,6 @@ permalink: /interests/
         <span class="dot active" data-slide="0"></span>
         <span class="dot" data-slide="1"></span>
         <span class="dot" data-slide="2"></span>
-        <span class="dot" data-slide="3"></span>
       </div>
     </div>
     <div class="interests-list-container">
@@ -38,6 +36,35 @@ permalink: /interests/
         <li>Coding Contest</li>
         <li>Video Editing</li>
       </ul>
+    </div>
+  </div>
+
+  <!-- Detailed Descriptions -->
+  <div class="interests-descriptions">
+    <h2>About My Interests</h2>
+    <div class="interest-description">
+      <h3>🏀 Basketball</h3>
+      <p>I enjoy playing basketball as it helps me stay active and develop teamwork skills. The sport teaches me about strategy, coordination, and the importance of practice and persistence.</p>
+    </div>
+    
+    <div class="interest-description">
+      <h3>⛵ Sailing</h3>
+      <p>Sailing represents my love for adventure and the sea. It's a sport that requires patience, understanding of weather patterns, and the ability to work with natural elements.</p>
+    </div>
+    
+    <div class="interest-description">
+      <h3>🎵 Music</h3>
+      <p>Music is my creative outlet and a way to relax. I appreciate various genres and find that music helps me focus during work and provides inspiration for my projects.</p>
+    </div>
+    
+    <div class="interest-description">
+      <h3>💻 Coding Contest</h3>
+      <p>Competitive programming challenges me intellectually and helps me improve my problem-solving skills. It's a great way to stay sharp with algorithms and data structures.</p>
+    </div>
+    
+    <div class="interest-description">
+      <h3>🎬 Video Editing</h3>
+      <p>Video editing allows me to express creativity through visual storytelling. I enjoy the process of combining footage, music, and effects to create engaging content.</p>
     </div>
   </div>
 
