@@ -12,6 +12,7 @@ permalink: /interests/
       <img src="/assets/img/interests/coding.jpg" alt="Coding Contest" class="gallery-image active">
       <img src="/assets/img/interests/basketball.jpg" alt="Basketball" class="gallery-image">
       <img src="/assets/img/interests/sailing.jpg" alt="Sailing" class="gallery-image">
+      <img src="/assets/img/interests/video-editing.jpg" alt="Video Editing" class="gallery-image">
       
       <!-- Navigation buttons -->
       <button class="gallery-nav gallery-nav-left" id="prev-btn">
@@ -26,6 +27,7 @@ permalink: /interests/
         <span class="dot active" data-slide="0"></span>
         <span class="dot" data-slide="1"></span>
         <span class="dot" data-slide="2"></span>
+        <span class="dot" data-slide="3"></span>
       </div>
     </div>
     <div class="interests-list-container">
@@ -34,6 +36,7 @@ permalink: /interests/
         <li>Sailing</li>
         <li>Music</li>
         <li>Coding Contest</li>
+        <li>Video Editing</li>
       </ul>
     </div>
   </div>
