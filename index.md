@@ -98,7 +98,7 @@ layout: default
     <h2>Education Experience</h2>
     <ul>
        <li><strong>Sep 2023 - Present</strong> | Bachelor's degree, Gaoling School of Artificial Intelligence, Renmin University of China</li>
-       <li><em>With a GPA of 3.86/4.00 (Rank 3 / 61)</em></li>
+       <li><em>With a GPA of 3.86/4.00 (Rank 3 / 60)</em></li>
     </ul>
   </div>
 
