@@ -41,14 +41,14 @@ layout: default
       <li>
         <strong>Jan 2025 - Present</strong> | Renmin University, China <br>
         <em>Advisor: <a href="https://zhenxuan00.github.io/">Chongxuan Li</a></em><br>
-        Topic: 3D Scene Generation - FlexWorld</a>.
+        Topic: 3D Scene Generation - FlexWorld.
       </li>
     </ul>
     <ul>
       <li>
         <strong>June 2025 - Present</strong> | Northwestern University, USA <br>
         <em>Advisor: <a href="https://limanling.github.io/">Manling Li</a></em><br>
-        Topic: Reasoning Models and Spatial VLM </a>.
+        Topic: Reasoning Models and Spatial VLM.
       </li>
     </ul>
   </div>
