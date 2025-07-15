@@ -9,19 +9,19 @@ permalink: /projects/
   <div class="projects-list">
 
     <div class="project-item">
-      <h2 class="project-title">Embodied-Reasoner</h2>
+      <h2 class="project-title">Embodied-Reasoner (working on right now)</h2>
       <p class="project-role">Main Contributor</p>
       <p class="project-description">
         Official implementation of <a href="https://arxiv.org/abs/2503.21696">Embodied-Reasoner: Synergizing Visual Search, Reasoning, and Action for Embodied Interactive Tasks</a>, a multimodal model designed for deep reasoning and long-horizon interaction in embodied environments. It features a trajectory engine, multi-stage training, and robust evaluation benchmarks.<br>
-        <strong>With OSAPP ("开源之夏", similar to GSoC) funding, I contributed to resolving two key navigation bottlenecks</strong>—ambiguity in identical object instances and imprecise targeting of large objects—by integrating 3D pose estimation, semantic region labeling, and dialogue-based disambiguation. These solutions significantly improved spatial accuracy and interaction robustness.
+        <strong>With OSPP ("开源之夏", similar to GSoC) funding, I contributed to resolving two key navigation bottlenecks</strong>—ambiguity in identical object instances and imprecise targeting of large objects—by integrating 3D pose estimation, semantic region labeling, and dialogue-based disambiguation. These solutions significantly improved spatial accuracy and interaction robustness.
       </p>
       <p class="project-links">
         🤗 <a href="https://huggingface.co/datasets/zwq2018/embodied_reasoner">Dataset</a> |
         📂 <a href="https://github.com/zwq2018/embodied_reasonere">GitHub</a> |
-        🏅 <a href="https://summer-ospp.ac.cn/org/prodetail/251760142?lang=zh&list=pro">OSAPP</a>
+        🏅 <a href="https://summer-ospp.ac.cn/org/prodetail/251760142?lang=zh&list=pro">OSPP</a>
       </p>
     </div>
-
+    
     <div class="project-item">
       <h2 class="project-title">The Application of Reinforcement Learning for Agents in Automated Bidding Scenarios</h2>
       <p class="project-role">Leader</p>
@@ -30,7 +30,7 @@ permalink: /projects/
       </p>
       <a href="https://github.com/jedward225/rl4agents-in-AutoBidding-Scenarios" class="project-link" target="_blank" rel="noopener noreferrer">View on GitHub</a>
     </div>
-
+    
     <div class="project-item">
       <h2 class="project-title">RAGEN: Training Agents by Reinforcing Reasoning</h2>
       <p class="project-role">Contributor</p>
@@ -39,7 +39,7 @@ permalink: /projects/
       </p>
       <a href="https://github.com/RAGEN-AI/RAGEN" class="project-link" target="_blank" rel="noopener noreferrer">View on GitHub</a>
     </div>
-
+    
     <div class="project-item">
       <h2 class="project-title">WeaveWave: Towards Multimodal Music Generation</h2>
       <p class="project-role">Main Contributor</p>

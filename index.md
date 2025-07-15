@@ -26,12 +26,13 @@ layout: default
       Hi there 👋 , I'm Jiajun Liu (刘嘉俊), a second-year undergraduate at <a href="http://ai.ruc.edu.cn/">Gaoling School of Artificial Intelligence</a>, Renmin University of China.
     </p>
     <p>
-      My research interests lie in <strong>Reinforcement Learning, Spatial Intelligence, and Generative AI</strong>. I am currently working with <a href="https://zhenxuan00.github.io/">Prof. Chongxuan Li</a> on Deep Generative Models, with a focus on 3D world models.
+      My research interests lie in <strong>Reinforcement Learning, Spatial Intelligence, and Generative AI</strong>. I am currently advised by <a href="https://zhenxuan00.github.io/">Prof. Chongxuan Li</a> on Deep Generative Models, with a focus on 3D world models.
     </p>
     <p>
       I am good at Python, C/C++, and Linux development environments. I have hands-on experience with deep learning frameworks like PyTorch.
     </p>
   </div>
+
 
   <!-- Research Experience Section -->
   <div class="research">
@@ -40,33 +41,42 @@ layout: default
       <li>
         <strong>Jan 2025 - Present</strong> | Renmin University, China <br>
         <em>Advisor: <a href="https://zhenxuan00.github.io/">Chongxuan Li</a></em><br>
-        Topic: Learning the latest knowledge of Deep Generative Models. Currently focus on 3D world models, e.g. <a href="https://ml-gsai.github.io/FlexWorld/">FlexWorld</a>.
+        Topic: 3D Scene Generation - \nhref{https://ml-gsai.github.io/FlexWorld/}{FlexWorld}</a>.
+      </li>
+    </ul>
+    <ul>
+      <li>
+        <strong>June 2025 - Present</strong> | Northwestern University, USA <br>
+        <em>Advisor: <a href="https://limanling.github.io/">Manling Li</a></em><br>
+        Topic: Reasoning Models and Spatial VLM </a>.
       </li>
     </ul>
   </div>
 
+
   <!-- Project Experience Section -->
   <div class="projects">
+    <div class="project-item">
+      <p class="project-title">
+        Embodied Reasoner (With OSPP's funding) <span>Main Contributor</span>
+        <a href="https://summer-ospp.ac.cn/org/prodetail/251760142?lang=zh&list=pro" class="project-links">[Page]</a>
+      </p>
+      <p class="project-description">
+        Embodied-Reasoner is a multimodal model designed for deep reasoning and long-horizon interaction in embodied environments. I'm contributing to resolving two key bottlenecks — ambiguity in identical object instances and imprecise targeting of large objects, aiming to improve spatial accuracy and interaction robustness.
+      </p>
+    </div>
     <h2>Project Experience</h2>
     <div class="project-item">
       <p class="project-title">
-        RAGEN: Training Agents by Reinforcing Reasoning <span>Contributor</span>
+        RAGEN \& VAGEN: Training Agents by Reinforcing Reasoning}{Contributor <span>Contributor</span>
         <a href="https://github.com/RAGEN-AI/RAGEN" class="project-links">[Code]</a>
       </p>
       <p class="project-description">
-        RAGEN focuses on LLM reasoning agents, utilizing RL to operate effectively in interactive and stochastic environments. It addresses the challenges of extending RL beyond static, single-turn tasks by handling multi-turn interactions and environmental uncertainty.
-      </p>
-    </div>
-    <div class="project-item">
-      <p class="project-title">
-        WeaveWave: Towards Multimodal Music Generation <span>Main Contributor</span>
-        <a href="https://github.com/Audiofool934/WeaveWave" class="project-links">[Code]</a>
-      </p>
-      <p class="project-description">
-        WeaveWave explores multimodal music generation, aiming to create music from diverse inputs. It bridged existing MLLMs and Text-to-Music systems, proposing end-to-end architectures, and developing a unified generation framework with a custom training pipeline.
+       This pair of projects utilize RL to operate effectively in interactive and stochastic environments. They address the challenges of extending RL beyond static, single-turn tasks by handling multi-turn interactions and environmental uncertainty. I contributed to developing env.spoc and bug detection.
       </p>
     </div>
   </div>
+
 
   <!-- Honors and Awards Section -->
   <div class="honors">
@@ -92,7 +102,7 @@ layout: default
       <li><strong>Video: "My Experience Using AI+ Tools to Create Videos"</strong> (Oct 2024)</li>
     </ul>
   </div>
-  
+
   <!-- Education Section -->
   <div class="education">
     <h2>Education Experience</h2>
