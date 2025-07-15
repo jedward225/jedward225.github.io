@@ -46,12 +46,13 @@ layout: default
     </ul>
     <ul>
       <li>
-        <strong>June 2025 - Present</strong> | Northwestern University, USA <br>
+        <strong>Jun 2025 - Present</strong> | Northwestern University, USA <br>
         <em>Advisor: <a href="https://limanling.github.io/">Manling Li</a></em><br>
         Topic: Reasoning Models and Spatial VLM.
       </li>
     </ul>
   </div>
+
 
 
   <!-- Project Experience Section -->
@@ -68,7 +69,7 @@ layout: default
     </div>
     <div class="project-item">
       <p class="project-title">
-        RAGEN & VAGEN: Training Agents by Reinforcing Reasoning}{Contributor <span>Contributor</span>
+        RAGEN & VAGEN: Training Agents by Reinforcing Reasoning <span>Contributor</span>
         <a href="https://github.com/RAGEN-AI/RAGEN" class="project-links">[Code]</a>
       </p>
       <p class="project-description">

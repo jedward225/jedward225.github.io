@@ -12,7 +12,7 @@ permalink: /projects/
       <h2 class="project-title">Embodied-Reasoner (working on right now)</h2>
       <p class="project-role">Main Contributor</p>
       <p class="project-description">
-        Official implementation of <a href="https://arxiv.org/abs/2503.21696">Embodied-Reasoner: Synergizing Visual Search, Reasoning, and Action for Embodied Interactive Tasks</a>, a multimodal model designed for deep reasoning and long-horizon interaction in embodied environments. It features a trajectory engine, multi-stage training, and robust evaluation benchmarks.<br>
+        Embodied-Reasoner is a multimodal model designed for deep reasoning and long-horizon interaction in embodied environments. It features a trajectory engine, multi-stage training, and robust evaluation benchmarks.<br>
         <strong>With OSPP ("开源之夏", similar to GSoC) funding, I contributed to resolving two key navigation bottlenecks</strong>—ambiguity in identical object instances and imprecise targeting of large objects—by integrating 3D pose estimation, semantic region labeling, and dialogue-based disambiguation. These solutions significantly improved spatial accuracy and interaction robustness.
       </p>
       <p class="project-links">
