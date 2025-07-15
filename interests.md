@@ -44,12 +44,13 @@ permalink: /interests/
     <h2>About My Interests</h2>
     <div class="interest-description">
       <h3>🏀 Basketball</h3>
-      <p>I enjoy playing basketball as it helps me stay active and develop teamwork skills. The sport teaches me about strategy, coordination, and the importance of practice and persistence.</p>
+      <p>I enjoy playing basketball as it helps me stay active and develop teamwork skills. The sport teaches me about strategy, coordination, and the importance of practice and persistence. I once won the All-Star championship of the Freshman basketball game.</p>
     </div>
+
 
     <div class="interest-description">
       <h3>⛵ Sailing</h3>
-      <p>Sailing represents my love for adventure and the sea. It's a sport that requires patience, understanding of weather patterns, and the ability to work with natural elements.</p>
+      <p>Sailing represents my love for adventure and the sea. It's a sport that requires patience, understanding of weather patterns, and the ability to work with natural elements. I once won the runner-up in the National Amateur Sailing Promotion Competition</p>
     </div>
     
     <div class="interest-description">
