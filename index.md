@@ -41,7 +41,7 @@ layout: default
       <li>
         <strong>Jan 2025 - Present</strong> | Renmin University, China <br>
         <em>Advisor: <a href="https://zhenxuan00.github.io/">Chongxuan Li</a></em><br>
-        Topic: 3D Scene Generation - \nhref{https://ml-gsai.github.io/FlexWorld/}{FlexWorld}</a>.
+        Topic: 3D Scene Generation - FlexWorld</a>.
       </li>
     </ul>
     <ul>
@@ -55,6 +55,7 @@ layout: default
 
 
   <!-- Project Experience Section -->
+<h2>Project Experience</h2>
   <div class="projects">
     <div class="project-item">
       <p class="project-title">
@@ -65,10 +66,9 @@ layout: default
         Embodied-Reasoner is a multimodal model designed for deep reasoning and long-horizon interaction in embodied environments. I'm contributing to resolving two key bottlenecks — ambiguity in identical object instances and imprecise targeting of large objects, aiming to improve spatial accuracy and interaction robustness.
       </p>
     </div>
-    <h2>Project Experience</h2>
     <div class="project-item">
       <p class="project-title">
-        RAGEN \& VAGEN: Training Agents by Reinforcing Reasoning}{Contributor <span>Contributor</span>
+        RAGEN & VAGEN: Training Agents by Reinforcing Reasoning}{Contributor <span>Contributor</span>
         <a href="https://github.com/RAGEN-AI/RAGEN" class="project-links">[Code]</a>
       </p>
       <p class="project-description">
