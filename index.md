@@ -83,7 +83,7 @@ layout: default
   <div class="honors">
     <h2>Selected Honors and Awards</h2>
     <ul>
-      <li><strong>Silver Medal</strong>, International Collegiate Programming Contest (ICPC) East-Asia Continent Final (Dec 2024)</li>
+      <li><strong>Silver Medal</strong>, International Collegiate Programming Contest (ICPC) <strong>East-Asia Continent Final</strong> (Dec 2024)</li>
       <li><strong>Gold Medal</strong>, "Xiaomi Cup" China Collegiate Programming Contest (CCPC) Invitational Contest (Apr 2025)</li>
       <li><strong>Silver Medal</strong>, International Collegiate Programming Contest (ICPC) Asia Continent Regional (Nanjing) (Nov 2024)</li>
       <li><strong>Silver Medal</strong>, 2024 CCF Collegiate Computer Systems & Programming Contest (CCSP) (Oct 2024)</li>
@@ -109,7 +109,7 @@ layout: default
     <h2>Education Experience</h2>
     <ul>
        <li><strong>Sep 2023 - Present</strong> | Bachelor's degree, Gaoling School of Artificial Intelligence, Renmin University of China</li>
-       <li><em>With a GPA of 3.86/4.00 (Rank 3 / 60)</em></li>
+       <li><em>With a GPA of 3.86/4.00 (Rank 3 / 60), and rank1 in the first and fourth semester</em></li>
     </ul>
   </div>
 
