@@ -56,7 +56,7 @@ layout: default
 
 
   <!-- Project Experience Section -->
-<h2>Project Experience</h2>
+<h2>Selteced Project Experience</h2>
   <div class="projects">
     <div class="project-item">
       <p class="project-title">
@@ -79,9 +79,10 @@ layout: default
   </div>
 
 
+
   <!-- Honors and Awards Section -->
   <div class="honors">
-    <h2>Selected Honors and Awards</h2>
+    <h2>Selected Awards and Scholarship</h2>
     <ul>
       <li><strong>Silver Medal</strong>, International Collegiate Programming Contest (ICPC) <strong>East-Asia Continent Final</strong> (Dec 2024)</li>
       <li><strong>Gold Medal</strong>, "Xiaomi Cup" China Collegiate Programming Contest (CCPC) Invitational Contest (Apr 2025)</li>
@@ -93,6 +94,7 @@ layout: default
       <li><strong>National Second Prize</strong>, Chinese Physics Olympiad for High School Students (CPhO) (Oct 2021)</li>
     </ul>
   </div>
+
 
   <!-- Services and Presentations Section -->
   <div class="services">
