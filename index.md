@@ -23,7 +23,7 @@ layout: default
   <div class="about">
     <h2>Basic Infomation</h2>
     <p>
-      Hi there 👋 , I'm Jiajun Liu (刘嘉俊), a third-year undergraduate at <a href="http://ai.ruc.edu.cn/">Gaoling School of Artificial Intelligence</a>, Renmin University of China.
+      Hi there 👋 , I'm Jiajun Liu (刘嘉俊), a second-year undergraduate at <a href="http://ai.ruc.edu.cn/">Gaoling School of Artificial Intelligence</a>, Renmin University of China.
     </p>
     <p>
       My research interests lie in <strong>Reinforcement Learning, Spatial Intelligence, and Generative AI</strong>. I am currently advised by <a href="https://zhenxuan00.github.io/">Prof. Chongxuan Li</a> on 3D world models.
