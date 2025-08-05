@@ -23,13 +23,13 @@ layout: default
   <div class="about">
     <h2>Basic Infomation</h2>
     <p>
-      Hi there 👋 , I'm Jiajun Liu (刘嘉俊), a second-year undergraduate at <a href="http://ai.ruc.edu.cn/">Gaoling School of Artificial Intelligence</a>, Renmin University of China.
+      Hi there 👋 , I'm Jiajun Liu (刘嘉俊), a third-year undergraduate at <a href="http://ai.ruc.edu.cn/">Gaoling School of Artificial Intelligence</a>, Renmin University of China.
     </p>
     <p>
-      My research interests lie in <strong>Reinforcement Learning, Spatial Intelligence, and Generative AI</strong>. I am currently advised by <a href="https://zhenxuan00.github.io/">Prof. Chongxuan Li</a> on Deep Generative Models, with a focus on 3D world models.
+      My research interests lie in <strong>Reinforcement Learning, Spatial Intelligence, and Generative AI</strong>. I am currently advised by <a href="https://zhenxuan00.github.io/">Prof. Chongxuan Li</a> on 3D world models.
     </p>
     <p>
-      I am good at Python, C/C++, and Linux development environments. I have hands-on experience with deep learning frameworks like PyTorch.
+      I am good at Python, C/C++, and Linux development environments. I have hands-on experience with deep learning frameworks like PyTorch. I'm a firm open source contributor.
     </p>
   </div>
 
@@ -41,7 +41,7 @@ layout: default
       <li>
         <strong>Jan 2025 - Present</strong> | Renmin University, China <br>
         <em>Advisor: <a href="https://zhenxuan00.github.io/">Chongxuan Li</a></em><br>
-        Topic: 3D Scene Generation - FlexWorld.
+        Topic: 3D World Model - FlexWorld.
       </li>
     </ul>
     <ul>

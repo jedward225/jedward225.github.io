@@ -44,29 +44,28 @@ permalink: /interests/
     <h2>About My Interests</h2>
     <div class="interest-description">
       <h3>🏀 Basketball</h3>
-      <p>I enjoy playing basketball as it helps me stay active and develop teamwork skills. The sport teaches me about strategy, coordination, and the importance of practice and persistence. I once won the All-Star championship of the Freshman basketball game.</p>
+      <p>I enjoy playing basketball as it helps me stay active and develop teamwork skills. It teaches me about strategy, coordination, and the importance of practice and persistence. I once won the All-Star championship of the Freshman basketball game.</p>
     </div>
 
 
     <div class="interest-description">
       <h3>⛵ Sailing</h3>
-      <p>Sailing represents my love for adventure and the sea. It's a sport that requires patience, understanding of weather patterns, and the ability to work with natural elements. I once won the runner-up in the National Amateur Sailing Promotion Competition</p>
+      <p>Sailing represents my love for adventure and the sea. It's a sport that requires patience, understanding of weather patterns, and the ability to work with natural elements. I once won the runner-up in the National Amateur Sailing Promotion Competition.</p>
     </div>
     
     <div class="interest-description">
       <h3>🎵 Music</h3>
-      <p>Music is my creative outlet and a way to relax. I appreciate various genres and find that music helps me focus during work and provides inspiration for my projects. My favourite singers are Talor Swift and Ed Sheeran.</p>
+      <p>Music is my creative outlet and a way to relax. I appreciate various genres and find that music helps me focus during work and provides inspiration for my projects. I like singing as well. My favourite singers are Talor Swift and Ed Sheeran.</p>
     </div>
     
     <div class="interest-description">
       <h3>💻 Coding Contest</h3>
-      <p>I have no OI experience during my high school and I learnt all by myself and was fortunate to have my best two teammates who had no prior experience before either. Competitive programming challenges me intellectually and gives me great passion during my first year at college.</p>
+      <p>Unlike most algorithm competition medalists, I have no OI experience in high school. Fortunately, I had two best like-minded teammates who also started from scratch. Together, we trained and grew. Programming contests like ICPC challenge me intellectually and ignite my passion throughout my college years.</p>
     </div>
     
     <div class="interest-description">
       <h3>🎬 Video Editing</h3>
-      <p>Video editing allows me to express creativity through visual storytelling. I enjoy the process of combining footage, music, and effects to create engaging content. Welcome to follow me at bilibili - https://space.bilibili.com/453798427</p>
+      <p>Video editing enables me to express my creativity through visual storytelling. I enjoy blending footage, music, and especially visual effects to craft engaging content. Feel free to follow me on <a href="https://space.bilibili.com/453798427" target="_blank" rel="noopener noreferrer">Bilibili</a>.</p>
     </div>
   </div>
-
 </div> 
