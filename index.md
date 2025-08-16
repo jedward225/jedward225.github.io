@@ -28,7 +28,7 @@ layout: default
       Hi there 👋 , I'm Jiajun Liu (刘嘉俊), a second-year undergraduate at <a href="http://ai.ruc.edu.cn/">Gaoling School of Artificial Intelligence</a>, Renmin University of China.
     </p>
     <p>
-      My research interests lie in <strong>Reinforcement Learning, Spatial Intelligence, and Generative AI</strong>. I am currently advised by <a href="https://zhenxuan00.github.io/">Prof. Chongxuan Li</a> on 3D world models.
+        My research interests lie in <strong>Spatial Intelligence, Reinforcement Learning, and Generative AI</strong>, aiming to empower <strong>embodied agents</strong> with <strong>world models</strong>. I am currently advised by <a href="https://zhenxuan00.github.io/">Prof. Chongxuan Li</a> on 3D world models.
     </p>
     <p>
       I am good at Python, C/C++, and Linux development environments. I have hands-on experience with deep learning frameworks like PyTorch. I'm a firm open source contributor.

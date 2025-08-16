@@ -16,7 +16,7 @@ permalink: /projects/
         <strong>With OSPP funding, I contributed to resolving two key navigation bottlenecks</strong>—ambiguity in identical object instances and imprecise targeting of large objects—by integrating 3D pose estimation, semantic region labeling, and dialogue-based disambiguation. These solutions significantly improved spatial accuracy and interaction robustness.
       </p>
       <p class="project-links">
-        Github <a href="https://github.com/zwq2018/embodied_reasonere">GitHub</a>
+        <a href="https://github.com/zwq2018/embodied_reasonere">View on GitHub</a>
       </p>
     </div>
     
