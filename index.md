@@ -15,9 +15,11 @@ layout: default
         <a href="mailto:{{ site.email }}">Email</a>
         <a href="https://github.com/{{ site.github_username }}" target="_blank" rel="noopener noreferrer">GitHub</a>
         <a href="https://x.com/{{ site.twitter_username }}" target="_blank" rel="noopener noreferrer">Twitter</a>
+        <a href="https://www.xiaohongshu.com/user/profile/64b4c359000000001f007d4f" target="_blank" rel="noopener noreferrer">小红书</a>
       </div>
     </div>
   </div>
+
 
   <!-- About Section -->
   <div class="about">

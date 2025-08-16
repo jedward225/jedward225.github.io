@@ -13,12 +13,10 @@ permalink: /projects/
       <p class="project-role">Main Contributor</p>
       <p class="project-description">
         Embodied-Reasoner is a multimodal model designed for deep reasoning and long-horizon interaction in embodied environments. It features a trajectory engine, multi-stage training, and robust evaluation benchmarks.<br>
-        <strong>With OSPP ("开源之夏", similar to GSoC) funding, I contributed to resolving two key navigation bottlenecks</strong>—ambiguity in identical object instances and imprecise targeting of large objects—by integrating 3D pose estimation, semantic region labeling, and dialogue-based disambiguation. These solutions significantly improved spatial accuracy and interaction robustness.
+        <strong>With OSPP funding, I contributed to resolving two key navigation bottlenecks</strong>—ambiguity in identical object instances and imprecise targeting of large objects—by integrating 3D pose estimation, semantic region labeling, and dialogue-based disambiguation. These solutions significantly improved spatial accuracy and interaction robustness.
       </p>
       <p class="project-links">
-        🤗 <a href="https://huggingface.co/datasets/zwq2018/embodied_reasoner">Dataset</a> |
-        📂 <a href="https://github.com/zwq2018/embodied_reasonere">GitHub</a> |
-        🏅 <a href="https://summer-ospp.ac.cn/org/prodetail/251760142?lang=zh&list=pro">OSPP</a>
+        Github <a href="https://github.com/zwq2018/embodied_reasonere">GitHub</a>
       </p>
     </div>
     
