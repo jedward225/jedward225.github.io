@@ -15,6 +15,9 @@
   --border-color: #dee2e6;
   --header-bg: rgba(255, 255, 255, 0.85);
   --switcher-bg: #f8f9fa;
+  --card-bg-color: #ffffff;
+  --highlight-color: #0056b3;
+  --text-color-secondary: #6c757d;
 }
 
 [data-theme='dark'] {
@@ -26,6 +29,9 @@
   --border-color: #444444;
   --header-bg: rgba(18, 18, 18, 0.85);
   --switcher-bg: #2a2a2a;
+  --card-bg-color: #1e1e1e;
+  --highlight-color: #66b2ff;
+  --text-color-secondary: #adb5bd;
 }
 
 // 2. Global Styles
@@ -180,27 +186,47 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* Projects Page */
-.project-item {
+.project-descriptions {
+  margin-top: 2rem;
+}
+
+.project-description-item {
   margin-bottom: 2rem;
+  padding: 1.5rem;
+  border-radius: 8px;
+  background-color: var(--card-bg-color);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.project-title {
-  font-size: 1.1rem;
+.project-description-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.project-description-item h3 {
+  margin-top: 0;
+  color: var(--highlight-color);
+}
+
+.project-role {
+  font-style: italic;
+  color: var(--text-color-secondary);
+  margin-bottom: 1rem;
+}
+
+.project-links a, .project-link {
+  display: inline-block;
+  margin-top: 1rem;
+  color: var(--highlight-color);
+  text-decoration: none;
   font-weight: bold;
-  margin-bottom: 0.25rem;
 }
 
-.project-title span {
-  font-size: 0.9rem;
-  font-weight: normal;
-  color: #6c757d;
-  margin-left: 0.5rem;
+.project-links a:hover, .project-link:hover {
+  text-decoration: underline;
 }
 
-.project-description {
-  font-size: 0.95rem;
-  margin: 0.5rem 0;
-}
 
 /* Interests Page */
 .interests-list {
@@ -467,4 +493,4 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1.6;
   color: var(--text-color);
   margin: 0;
-} 
+}

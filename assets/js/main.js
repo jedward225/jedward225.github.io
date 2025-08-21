@@ -41,8 +41,8 @@
   
   if (images.length <= 1) return;
 
-  let currentIndex = 0;
   let autoPlayInterval;
+  let autoPlayTimeout;
 
   function showImage(index) {
     // Remove active class from all images and dots
@@ -67,16 +67,18 @@
   }
 
   function startAutoPlay() {
+    stopAutoPlay(); // Ensure no multiple intervals are running
     autoPlayInterval = setInterval(showNextImage, 4000); // Change image every 4 seconds
   }
 
   function stopAutoPlay() {
     clearInterval(autoPlayInterval);
+    clearTimeout(autoPlayTimeout);
   }
 
   function resetAutoPlay() {
     stopAutoPlay();
-    startAutoPlay();
+    autoPlayTimeout = setTimeout(startAutoPlay, 5000); // Restart after 5 seconds of inactivity
   }
 
   // Event listeners
@@ -102,10 +104,10 @@
     });
   });
 
-  // Start auto-play
+  // Start auto-play initially
   startAutoPlay();
 
   // Pause auto-play on hover
   gallery.addEventListener('mouseenter', stopAutoPlay);
-  gallery.addEventListener('mouseleave', startAutoPlay);
+  gallery.addEventListener('mouseleave', resetAutoPlay);
 })(); 
