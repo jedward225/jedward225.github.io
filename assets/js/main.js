@@ -74,29 +74,31 @@
     clearInterval(autoPlayInterval);
   }
 
+  function resetAutoPlay() {
+    stopAutoPlay();
+    startAutoPlay();
+  }
+
   // Event listeners
   if (nextBtn) {
     nextBtn.addEventListener('click', () => {
-      stopAutoPlay();
       showNextImage();
-      startAutoPlay(); // Restart auto-play
+      resetAutoPlay();
     });
   }
 
   if (prevBtn) {
     prevBtn.addEventListener('click', () => {
-      stopAutoPlay();
       showPrevImage();
-      startAutoPlay(); // Restart auto-play
+      resetAutoPlay();
     });
   }
 
   // Dots navigation
   dots.forEach((dot, index) => {
     dot.addEventListener('click', () => {
-      stopAutoPlay();
       showImage(index);
-      startAutoPlay(); // Restart auto-play
+      resetAutoPlay();
     });
   });
 
