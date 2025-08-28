@@ -16,6 +16,12 @@ layout: default
         <a href="https://github.com/{{ site.github_username }}" target="_blank" rel="noopener noreferrer">GitHub</a>
         <a href="https://x.com/{{ site.twitter_username }}" target="_blank" rel="noopener noreferrer">Twitter</a>
         <a href="https://www.xiaohongshu.com/user/profile/64b4c359000000001f007d4f" target="_blank" rel="noopener noreferrer">小红书</a>
+        <span class="wechat-link">
+          公众号
+          <div class="wechat-tooltip">
+            <img src="/assets/img/mp_wechat.jpg" alt="WeChat QR Code">
+          </div>
+        </span>
       </div>
     </div>
   </div>
@@ -25,7 +31,7 @@ layout: default
   <div class="about">
     <h2>Basic Infomation</h2>
     <p>
-      Hi there 👋 , I'm Jiajun Liu (刘嘉俊), a second-year undergraduate at <a href="http://ai.ruc.edu.cn/">Gaoling School of Artificial Intelligence</a>, Renmin University of China.
+      Hi there 👋 , I'm Jiajun Liu (刘嘉俊), a third-year undergraduate at <a href="http://ai.ruc.edu.cn/">Gaoling School of Artificial Intelligence</a>, Renmin University of China.
     </p>
     <p>
         My research interests lie in <strong>Spatial Intelligence, RL, and Gen AI</strong>, aiming to empower <strong>embodied agents</strong> with <strong>world models</strong>.
