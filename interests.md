@@ -55,7 +55,7 @@ permalink: /interests/
     
     <div class="interest-description">
       <h3>🎵 Music</h3>
-      <p>Music is my creative outlet and a way to relax. I appreciate various genres and find that music helps me focus during work and provides inspiration for my projects. I like singing as well. My favourite singers are Talor Swift and Ed Sheeran.</p>
+      <p>Music is my creative outlet and a way to relax. I appreciate various genres and find that music helps me focus during work and provides inspiration for my projects. I like singing as well. My favourite singers are Taylor Swift and Ed Sheeran.</p>
     </div>
     
     <div class="interest-description">

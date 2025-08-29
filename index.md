@@ -37,9 +37,10 @@ layout: default
         My research interests lie in <strong>Spatial Intelligence, RL, and Gen AI</strong>, aiming to empower <strong>embodied agents</strong> with <strong>world models</strong>.
     </p>
     <p>
-      I am proficient in <strong>Linux development</strong>, <strong>Python, C/C++</strong>, and deep learning frameworks like <strong>PyTorch</strong>. I am a firm open source contributor and fluent in both Mandarin and English.
+      I am proficient in <strong>Linux development</strong>, <strong>Python, C/C++</strong>, and deep learning frameworks like <strong>PyTorch</strong>. I am a firm open source contributor.
     </p>
   </div>
+
 
 
 
@@ -50,7 +51,7 @@ layout: default
       <li>
         <strong>Jan 2025 - Aug 2025</strong> | Research Intern, GSAI-ML Group, Renmin University, China <br>
         <em>Advisor: <a href="https://zhenxuan00.github.io/">Chongxuan Li</a></em><br>
-        Topic: 3D world models for explorable scene generation from a single image or text prompt, with prototype implementations combining 3DGS and diffusion models, contributing to an upcoming submission for ICLR 2026.
+        Topic: 3D world models for explorable scene generation from a single image or text prompt, with prototype implementations combining 3DGS and diffusion models, contributing to an upcoming submission for a conference.
       </li>
     </ul>
     <ul>
