@@ -47,20 +47,38 @@ layout: default
   <!-- Research Experience Section -->
   <div class="research">
     <h2>Research Experience</h2>
-    <ul>
-      <li>
-        <strong>Jan 2025 - Aug 2025</strong> | Research Intern, GSAI-ML Group, Renmin University, China <br>
-        <em>Advisor: <a href="https://zhenxuan00.github.io/">Chongxuan Li</a></em><br>
-        Topic: 3D world models for explorable scene generation from a single image or text prompt, with prototype implementations combining 3DGS and diffusion models, contributing to an upcoming submission for a conference.
-      </li>
-    </ul>
-    <ul>
-      <li>
-        <strong>Jun 2025 - Present</strong> | Research Intern, MLL-Lab, Northwestern University, USA <br>
-        <em>Mentor: <a href="https://limanling.github.io/">Manling Li</a></em><br>
-        Topic: Reasoning Models and Spatial VLM. Developing RL-based agents with tool-use abilities to generate novel-view images, and evaluated how these views improve performance on spatial intelligence tasks, in collaboration with Microsoft.
-      </li>
-    </ul>
+
+    <div class="research-item">
+      <div class="research-logo">
+        <img src="/assets/img/Renmin_University_of_China_logo.svg.png" alt="Renmin University">
+      </div>
+      <div class="research-content">
+        <div class="research-header">
+          <div class="research-title">Research Intern, <a href="https://github.com/ML-GSAI/">GSAI-ML Group</a>, Renmin University, China</div>
+          <div class="research-date">Jan 2025 - Aug 2025</div>
+        </div>
+        <div class="research-details">
+          <p><strong>Advisor:</strong> <a href="https://zhenxuan00.github.io/">Chongxuan Li</a></p>
+          <p><strong>Topic:</strong> 3D world model for explorable scene generation from a single image or text prompt.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="research-item">
+      <div class="research-logo">
+        <img src="/assets/img/Northwestern_University_seal.svg.png" alt="Northwestern University">
+      </div>
+      <div class="research-content">
+        <div class="research-header">
+          <div class="research-title">Research Intern, <a href="https://mll-lab-nu.github.io/">MLL-Lab</a>, Northwestern University, USA</div>
+          <div class="research-date">Jun 2025 - Sep 2025</div>
+        </div>
+        <div class="research-details">
+          <p><strong>Mentor:</strong> <a href="https://limanling.github.io/">Manling Li</a></p>
+          <p><strong>Topic:</strong> RL-based VLM agents with tool-use abilities to get novel-view images to help improve performance on spatial intelligence tasks, in collaboration with Microsoft.</p>
+        </div>
+      </div>
+    </div>
   </div>
 
 
@@ -75,7 +93,7 @@ layout: default
         <a href="https://summer-ospp.ac.cn/org/prodetail/251760142?lang=zh&list=pro" class="project-links">[Page]</a>
       </p>
       <p class="project-description">
-        Embodied-Reasoner (ER.) is a multimodal model designed for deep reasoning & long-horizon interaction. In OSPP, similar to GSoC, AGIROS Community selected me as the contributor in charge of ER. from all the applicants. I've committed to testing ER. on Alfred. And I'm contributing to resolving two key bottlenecks — ambiguity in identical object instances & imprecise targeting of large objects, aiming to further improve spatial accuracy and interaction robustness.
+        Embodied-Reasoner (ER.) is a multimodal model designed for deep reasoning & long-horizon interaction. In OSPP, similar to GSoC, AGIROS Community selected me as the contributor in charge of ER. from all the applicants. I've committed to testing ER. on Alfred and contributed to resolving two key bottlenecks — ambiguity in identical object instances & imprecise targeting of large objects, further improving spatial accuracy and interaction robustness.
       </p>
     </div>
     <div class="project-item">
@@ -99,7 +117,7 @@ layout: default
       <li><strong>Silver Medal</strong>, International Collegiate Programming Contest (ICPC) <strong>East-Asia Continent Final</strong> (Dec 2024)</li>
       <li><strong>Gold Medal</strong>, "Xiaomi Cup" China Collegiate Programming Contest (CCPC) Invitational Contest (Apr 2025)</li>
       <li><strong>Silver Medal</strong>, 2024 CCF Collegiate Computer Systems & Programming Contest (CCSP) (Oct 2024)</li>
-      <li><strong>Top 2.6% out of 22k+ Globally</strong>, 2024 Meta Hacker Cup Human track (Oct 2024)</li>
+      <li><strong>National Scholarship</strong> (Sep 2025)</li>
       <li><strong>2025 "Linghang" Intellectual Excellence Dean's Scholarship</strong> (Dec 2024)</li>
       <li><strong>National Second Prize</strong>, Chinese Physics Olympiad for High School Students (CPhO) (Oct 2021)</li>
     </ul>
