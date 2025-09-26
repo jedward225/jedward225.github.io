@@ -338,9 +338,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .publication-image {
-  flex: 0 0 30%;
-  max-width: 200px;
-  min-width: 120px;
+  flex-shrink: 0;
+  width: 240px;
   margin-right: 1.5rem;
 }
 
