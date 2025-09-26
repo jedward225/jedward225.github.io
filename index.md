@@ -110,16 +110,25 @@ layout: default
 
 
 
-  <!-- Honors and Awards Section -->
-  <div class="honors">
-    <h2>Selected Awards and Scholarship</h2>
+  <!-- Awards Section -->
+  <div class="awards">
+    <h2>🏆 Selected Awards</h2>
     <ul>
-      <li><strong>Silver Medal</strong>, International Collegiate Programming Contest (ICPC) <strong>East-Asia Continent Final</strong> (Dec 2024)</li>
-      <li><strong>Gold Medal</strong>, "Xiaomi Cup" China Collegiate Programming Contest (CCPC) Invitational Contest (Apr 2025)</li>
-      <li><strong>Silver Medal</strong>, 2024 CCF Collegiate Computer Systems & Programming Contest (CCSP) (Oct 2024)</li>
-      <li><strong>National Scholarship</strong> (Sep 2025)</li>
-      <li><strong>2025 "Linghang" Intellectual Excellence Dean's Scholarship</strong> (Dec 2024)</li>
-      <li><strong>National Second Prize</strong>, Chinese Physics Olympiad for High School Students (CPhO) (Oct 2021)</li>
+      <li>🥈 <strong>Silver Medal</strong>, International Collegiate Programming Contest (ICPC) <strong>East-Asia Continent Final</strong> (Dec 2024)</li>
+      <li>🥇 <strong>Gold Medal</strong>, "Xiaomi Cup" China Collegiate Programming Contest (CCPC) Invitational Contest (Apr 2025)</li>
+      <li>🥈 <strong>Silver Medal</strong>, 2024 CCF Collegiate Computer Systems & Programming Contest (CCSP) (Oct 2024)</li>
+      <li>🥉 <strong>Bronze Medal</strong>, 2024 China Collegiate Programming Contest (CCPC) Final (May 2025)</li>
+      <li>💻 <strong>Top 2.6% out of 22k+ Globally</strong>, 2024 Meta Hacker Cup Human track (Oct 2024)</li>
+      <li>🏅 <strong>National Second Prize</strong>, Chinese Physics Olympiad for High School Students (CPhO) (Oct 2021)</li>
+    </ul>
+  </div>
+
+  <!-- Scholarship Section -->
+  <div class="scholarship">
+    <h2>🎓 Scholarship</h2>
+    <ul>
+      <li>🌟 <strong>National Scholarship</strong> (Sep 2025)</li>
+      <li>✨ <strong>2025 "Linghang" Intellectual Excellence Dean's Scholarship</strong> (Dec 2024)</li>
     </ul>
   </div>
 
