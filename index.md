@@ -128,7 +128,7 @@ layout: default
     <h2>🎓 Scholarship</h2>
     <ul>
       <li>🌟 <strong>National Scholarship</strong> (Sep 2025)</li>
-      <li>✨ <strong>2025 "Linghang" Intellectual Excellence Dean's Scholarship</strong> (Dec 2024)</li>
+      <li>✨ <strong>"Linghang" Intellectual Excellence Dean's Scholarship</strong> (Dec 2024)</li>
     </ul>
   </div>
 
