@@ -34,12 +34,13 @@ layout: default
       Hi there 👋 , I'm Jiajun Liu (刘嘉俊), a third-year undergraduate at <a href="http://ai.ruc.edu.cn/">Gaoling School of Artificial Intelligence</a>, Renmin University of China.
     </p>
     <p>
-        My research interests lie in <strong>Spatial Intelligence, RL, and Gen AI</strong>, aiming to empower <strong>embodied agents</strong> with <strong>world models</strong>.
+        My research interests lie in <strong>Spatial Intelligence, World Model, and Embodied AI</strong>.
     </p>
     <p>
       I am proficient in <strong>Linux development</strong>, <strong>Python, C/C++</strong>, and deep learning frameworks like <strong>PyTorch</strong>. I am a firm open source contributor.
     </p>
   </div>
+
 
 
 
@@ -63,7 +64,7 @@ layout: default
         </div>
       </div>
     </div>
-
+    
     <div class="research-item">
       <div class="research-logo">
         <img src="/assets/img/Northwestern_University_seal.svg.png" alt="Northwestern University">
