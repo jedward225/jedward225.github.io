@@ -150,14 +150,14 @@ layout: default
     <h2>Education Experience</h2>
     <ul>
        <li><strong>2023 - 2027</strong> | Bachelor's degree, Gaoling School of Artificial Intelligence, Renmin University of China</li>
-       <li><em>GPA: 3.87/4.00 (Rank 3 / 60), ranking 1-st in the first and fourth semester</em></li>
+       <li><em>GPA: 3.87/4.00 (Rank 3 / 58), ranking 1-st in the first and fourth semester</em></li>
     </ul>
   </div>
 
 
   <!-- Last Modified Time -->
   <div class="last-modified">
-    <p>Last updated: {September, 2025}</p>
+    <p>Last updated: September, 2025</p>
   </div>
 
 </div> 
