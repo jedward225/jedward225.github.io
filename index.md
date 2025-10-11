@@ -130,8 +130,10 @@ layout: default
     <ul>
       <li>🌟 <strong>National Scholarship</strong> (Sep 2025)</li>
       <li>✨ <strong>"Linghang" Intellectual Excellence Dean's Scholarship</strong> (Dec 2024)</li>
+      <li>🌟 <strong>Outstanding Student Leader Scholarship</strong> (Sep 2024)</li>
     </ul>
   </div>
+
 
 
   <!-- Services and Presentations Section -->
@@ -155,7 +157,7 @@ layout: default
 
   <!-- Last Modified Time -->
   <div class="last-modified">
-    <p>Last updated: {{ page.last_modified_at | default: site.time | date: "%B %d, %Y" }}</p>
+    <p>Last updated: {September, 2025}</p>
   </div>
 
 </div> 
