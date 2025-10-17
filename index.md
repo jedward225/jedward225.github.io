@@ -75,7 +75,7 @@ layout: default
           <div class="research-date">Jun 2025 - Sep 2025</div>
         </div>
         <div class="research-details">
-          <p><strong>Mentor:</strong> <a href="https://limanling.github.io/">Manling Li</a></p>
+          <p><strong>Advisor:</strong> <a href="https://limanling.github.io/">Manling Li</a></p>
           <p><strong>Topic:</strong> RL-based VLM agents with tool-use abilities to get novel-view images to help improve performance on spatial intelligence tasks, in collaboration with Microsoft.</p>
         </div>
       </div>
