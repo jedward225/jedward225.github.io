@@ -131,6 +131,7 @@ layout: default
       <li>🌟 <strong>National Scholarship</strong> (Sep 2025)</li>
       <li>✨ <strong>"Linghang" Intellectual Excellence Dean's Scholarship</strong> (Dec 2024)</li>
       <li>🌟 <strong>Outstanding Student Leader Scholarship</strong> (Sep 2024)</li>
+      <li>✨ <strong>Third Prize Scholarship for Excellence in Social Work and Volunteering</strong> (Sep 2025)</li>
     </ul>
   </div>
 
