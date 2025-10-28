@@ -80,6 +80,22 @@ layout: default
         </div>
       </div>
     </div>
+    
+    <div class="research-item">
+      <div class="research-logo">
+        <img src="/assets/img/Tsinghua_University_Logo.svg.png" alt="Tsinghua University">
+      </div>
+      <div class="research-content">
+        <div class="research-header">
+          <div class="research-title">Research Intern, <a href="https://iiis.tsinghua.edu.cn/">IIIS</a>, Tsinghua University, China</div>
+          <div class="research-date">Oct 2025 - Present</div>
+        </div>
+        <div class="research-details">
+          <p><strong>Advisor:</strong> <a href="https://www.mengdixu.me/">Mengdi Xu</a></p>
+          <p><strong>Topic:</strong> In-context robot learning</p>
+        </div>
+      </div>
+    </div>
   </div>
 
 
@@ -158,7 +174,7 @@ layout: default
 
   <!-- Last Modified Time -->
   <div class="last-modified">
-    <p>Last updated: September, 2025</p>
+    <p>Last updated: October, 2025</p>
   </div>
 
 </div> 
