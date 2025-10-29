@@ -48,19 +48,18 @@ layout: default
   <!-- Research Experience Section -->
   <div class="research">
     <h2>Research Experience</h2>
-
     <div class="research-item">
       <div class="research-logo">
-        <img src="/assets/img/Renmin_University_of_China_logo.svg.png" alt="Renmin University">
+        <img src="/assets/img/Tsinghua_University_Logo.svg.png" alt="Tsinghua University">
       </div>
       <div class="research-content">
         <div class="research-header">
-          <div class="research-title">Research Intern, <a href="https://github.com/ML-GSAI/">GSAI-ML Group</a>, Renmin University, China</div>
-          <div class="research-date">Jan 2025 - Aug 2025</div>
+          <div class="research-title">Research Intern, <a href="https://iiis.tsinghua.edu.cn/">IIIS</a>, Tsinghua University, China</div>
+          <div class="research-date">Oct 2025 - Present</div>
         </div>
         <div class="research-details">
-          <p><strong>Advisor:</strong> <a href="https://zhenxuan00.github.io/">Chongxuan Li</a></p>
-          <p><strong>Topic:</strong> 3D world model for explorable scene generation from a single image or text prompt.</p>
+          <p><strong>Advisor:</strong> <a href="https://www.mengdixu.me/">Mengdi Xu</a></p>
+          <p><strong>Topic:</strong> In-context robot learning</p>
         </div>
       </div>
     </div>
@@ -83,16 +82,16 @@ layout: default
     
     <div class="research-item">
       <div class="research-logo">
-        <img src="/assets/img/Tsinghua_University_Logo.svg.png" alt="Tsinghua University">
+        <img src="/assets/img/Renmin_University_of_China_logo.svg.png" alt="Renmin University">
       </div>
       <div class="research-content">
         <div class="research-header">
-          <div class="research-title">Research Intern, <a href="https://iiis.tsinghua.edu.cn/">IIIS</a>, Tsinghua University, China</div>
-          <div class="research-date">Oct 2025 - Present</div>
+          <div class="research-title">Research Intern, <a href="https://github.com/ML-GSAI/">GSAI-ML Group</a>, Renmin University, China</div>
+          <div class="research-date">Jan 2025 - Aug 2025</div>
         </div>
         <div class="research-details">
-          <p><strong>Advisor:</strong> <a href="https://www.mengdixu.me/">Mengdi Xu</a></p>
-          <p><strong>Topic:</strong> In-context robot learning</p>
+          <p><strong>Advisor:</strong> <a href="https://zhenxuan00.github.io/">Chongxuan Li</a></p>
+          <p><strong>Topic:</strong> 3D world model for explorable scene generation from a single image or text prompt.</p>
         </div>
       </div>
     </div>
