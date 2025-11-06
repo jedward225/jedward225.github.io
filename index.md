@@ -131,6 +131,7 @@ layout: default
     <h2>🏆 Selected Awards</h2>
     <ul>
       <li>🥈 <strong>Silver Medal</strong>, International Collegiate Programming Contest (ICPC) <strong>East-Asia Continent Final</strong> (Dec 2024)</li>
+      <li>🥇 <strong>Gold Medal</strong>, International Collegiate Programming Contest (ICPC) Asia Regional (Wuhan) (Nov 2025)</li>
       <li>🥇 <strong>Gold Medal</strong>, "Xiaomi Cup" China Collegiate Programming Contest (CCPC) Invitational Contest (Apr 2025)</li>
       <li>🥈 <strong>Silver Medal</strong>, 2024 CCF Collegiate Computer Systems & Programming Contest (CCSP) (Oct 2024)</li>
       <li>🥉 <strong>Bronze Medal</strong>, 2024 China Collegiate Programming Contest (CCPC) <strong>Final</strong> (May 2025)</li>
@@ -156,8 +157,8 @@ layout: default
   <div class="services">
     <h2>Services and Presentations</h2>
     <ul>
-      <li><strong>Video: "My Experience Using AI+ Tools to Create Videos"</strong> (Oct 2024)</li>
-      <li><strong>Talk: "Algorithm and Artificial Intelligence"</strong> (Mar 2025)</li>
+      <li> <strong>Video: "My Experience Using AI+ Tools to Create Videos"</strong> (Oct 2024)</li>
+      <li> <strong>Talk: "Algorithm and Artificial Intelligence"</strong> (Mar 2025)</li>
     </ul>
   </div>
 
@@ -166,14 +167,14 @@ layout: default
     <h2>Education Experience</h2>
     <ul>
        <li><strong>2023 - 2027</strong> | Bachelor's degree, Gaoling School of Artificial Intelligence, Renmin University of China</li>
-       <li><em>GPA: 3.87/4.00 (Rank 3 / 58), ranking 1-st in the first and fourth semester</em></li>
+       <li><em>GPA: 3.87/4.00 (Rank 3 / 58), ranking 1-st in the first and fourth semester, 2-nd in the third semester</em></li>
     </ul>
   </div>
 
 
   <!-- Last Modified Time -->
   <div class="last-modified">
-    <p>Last updated: October, 2025</p>
+    <p>Last updated: November, 2025</p>
   </div>
 
 </div> 
