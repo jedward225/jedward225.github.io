@@ -9,14 +9,14 @@ permalink: /projects/
   <div class="project-descriptions">
 
     <div class="project-description-item">
-      <h3>Embodied Reasoner (With OSPP's funding, 150+ Github Stars)</h3>
+      <h3>Embodied Reasoner (With OSPP's funding, 170+ Github Stars)</h3>
       <p class="project-role">Main Contributor</p>
       <p>
         Embodied-Reasoner (ER.) is a multimodal model designed for deep reasoning & long-horizon interaction. In OSPP, similar to GSoC, AGIROS Community selected me as the contributor in charge of ER. from all the applicants. I've committed to testing ER. on Alfred and contributed to resolving two key bottlenecks — ambiguity in identical object instances & imprecise targeting of large objects, further improving spatial accuracy and interaction robustness.
       </p>
       <p class="project-links">
         <a href="https://summer-ospp.ac.cn/org/prodetail/251760142?lang=zh&list=pro">Project Page</a> |
-        <a href="https://github.com/zwq2018/embodied_reasonere">View on GitHub</a>
+        <a href="https://github.com/zwq2018/embodied_reasoner">View on GitHub</a>
       </p>
     </div>
     
@@ -37,15 +37,5 @@ permalink: /projects/
       </p>
       <a href="https://github.com/RAGEN-AI/RAGEN" class="project-link" target="_blank" rel="noopener noreferrer">View on GitHub</a>
     </div>
-    
-    <div class="project-description-item">
-      <h3>WeaveWave: Towards Multimodal Music Generation</h3>
-      <p class="project-role">Main Contributor</p>
-      <p>
-        WeaveWave explores multimodal music generation, aiming to create music from diverse inputs. It bridged existing MLLMs and Text-to-Music systems, proposing end-to-end architectures, and developing a unified generation framework with a custom training pipeline.
-      </p>
-      <a href="https://github.com/Audiofool934/WeaveWave" class="project-link" target="_blank" rel="noopener noreferrer">View on GitHub</a>
-    </div>
-
   </div>
 </div>

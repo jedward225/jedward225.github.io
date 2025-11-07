@@ -105,7 +105,7 @@ layout: default
   <div class="projects">
     <div class="project-item">
       <p class="project-title">
-        Embodied Reasoner (With OSPP's funding, 150+ Github Stars) <span>Main contributor</span>
+        Embodied Reasoner (With OSPP's funding, 170+ Github Stars) <span>Main contributor</span>
         <a href="https://summer-ospp.ac.cn/org/prodetail/251760142?lang=zh&list=pro" class="project-links">[Page]</a>
       </p>
       <p class="project-description">
@@ -167,7 +167,7 @@ layout: default
     <h2>Education Experience</h2>
     <ul>
        <li><strong>2023 - 2027</strong> | Bachelor's degree, Gaoling School of Artificial Intelligence, Renmin University of China</li>
-       <li><em>GPA: 3.87/4.00 (Rank 3 / 58), ranking 1-st in the first and fourth semester, 2-nd in the third semester</em></li>
+       <li><em>GPA: 3.87/4.00 (Rank 3 / 58), ranking 1-st in the first and fourth semester, 2-nd in the third semester respectively</em></li>
     </ul>
   </div>
 
