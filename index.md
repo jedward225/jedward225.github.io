@@ -40,6 +40,9 @@ layout: default
     <p>
       I am proficient in <strong>Linux development</strong>, <strong>Python, C/C++</strong>, and <strong>PyTorch</strong>. I am an active open-source contributor.
     </p>
+    <p>
+      I am always open to collaborations, discussions, and making new friends. Feel free to <a href="mailto:{{ site.email }}">reach out</a>!
+    </p>
   </div>
 
 
