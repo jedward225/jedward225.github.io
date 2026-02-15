@@ -11,7 +11,7 @@
   // Check for saved theme in localStorage or user's system preference
   const savedTheme = localStorage.getItem('theme');
   const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-  
+
   let currentTheme = 'light'; // default theme
 
   if (savedTheme) {
@@ -29,85 +29,38 @@
   });
 })();
 
-// Image gallery for interests page
+// Interests carousel
 (function() {
-  const gallery = document.querySelector('.interests-gallery');
-  if (!gallery) return; // Only run on a page with a gallery
-
-  const images = gallery.querySelectorAll('.gallery-image');
-  const dots = gallery.querySelectorAll('.dot');
+  const slides = document.querySelectorAll('.carousel-slide');
+  const dots = document.querySelectorAll('.carousel-dots .dot');
   const prevBtn = document.getElementById('prev-btn');
   const nextBtn = document.getElementById('next-btn');
-  
-  if (images.length <= 1) return;
 
-  let autoPlayInterval;
-  let autoPlayTimeout;
+  if (!slides.length) return;
 
-  function showImage(index) {
-    // Remove active class from all images and dots
-    images.forEach(img => img.classList.remove('active'));
-    dots.forEach(dot => dot.classList.remove('active'));
-    
-    // Add active class to current image and dot
-    images[index].classList.add('active');
+  let currentIndex = 0;
+
+  function showSlide(index) {
+    slides.forEach(s => s.classList.remove('active'));
+    dots.forEach(d => d.classList.remove('active'));
+    slides[index].classList.add('active');
     if (dots[index]) dots[index].classList.add('active');
-    
     currentIndex = index;
-  }
-
-  function showNextImage() {
-    const nextIndex = (currentIndex + 1) % images.length;
-    showImage(nextIndex);
-  }
-
-  function showPrevImage() {
-    const prevIndex = (currentIndex - 1 + images.length) % images.length;
-    showImage(prevIndex);
-  }
-
-  function startAutoPlay() {
-    stopAutoPlay(); // Ensure no multiple intervals are running
-    autoPlayInterval = setInterval(showNextImage, 4000); // Change image every 4 seconds
-  }
-
-  function stopAutoPlay() {
-    clearInterval(autoPlayInterval);
-    clearTimeout(autoPlayTimeout);
-  }
-
-  function resetAutoPlay() {
-    stopAutoPlay();
-    autoPlayTimeout = setTimeout(startAutoPlay, 5000); // Restart after 5 seconds of inactivity
-  }
-
-  // Event listeners
-  if (nextBtn) {
-    nextBtn.addEventListener('click', () => {
-      showNextImage();
-      resetAutoPlay();
-    });
   }
 
   if (prevBtn) {
     prevBtn.addEventListener('click', () => {
-      showPrevImage();
-      resetAutoPlay();
+      showSlide((currentIndex - 1 + slides.length) % slides.length);
     });
   }
 
-  // Dots navigation
-  dots.forEach((dot, index) => {
-    dot.addEventListener('click', () => {
-      showImage(index);
-      resetAutoPlay();
+  if (nextBtn) {
+    nextBtn.addEventListener('click', () => {
+      showSlide((currentIndex + 1) % slides.length);
     });
+  }
+
+  dots.forEach((dot, i) => {
+    dot.addEventListener('click', () => showSlide(i));
   });
-
-  // Start auto-play initially
-  startAutoPlay();
-
-  // Pause auto-play on hover
-  gallery.addEventListener('mouseenter', stopAutoPlay);
-  gallery.addEventListener('mouseleave', resetAutoPlay);
-})(); 
+})();
