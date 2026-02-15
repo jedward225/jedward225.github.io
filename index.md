@@ -162,7 +162,7 @@ layout: default
         </div>
       </div>
       <p>
-        Embodied-Reasoner (ER.) is a multimodal model designed for deep reasoning & long-horizon interaction. In OSPP, similar to GSoC, AGIROS Community selected me as the contributor in charge of ER. from all the applicants. I've committed to testing ER. on Alfred and contributed to resolving two key bottlenecks — ambiguity in identical object instances & imprecise targeting of large objects, further improving spatial accuracy and interaction robustness.
+        Embodied-Reasoner (ER.) is a multimodal model designed for deep reasoning and long-horizon interaction. Through OSPP, similar to GSoC, I was selected by the <a href="https://www.agiros.org.cn/#/index">AGIROS</a> Community as the contributor responsible for ER. I took charge of benchmarking ER. on ALFRED and contributed to resolving two key bottlenecks: ambiguity in distinguishing identical object instances and imprecise targeting of large objects, thereby improving spatial accuracy and interaction robustness.
       </p>
     </div>
 
