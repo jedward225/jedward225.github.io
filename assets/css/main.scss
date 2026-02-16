@@ -502,9 +502,6 @@ h1, h2, h3, h4, h5, h6 {
 .awards ul li, .scholarship ul li {
   margin-bottom: 0.5rem;
   line-height: 1.6;
-}
-
-.scholarship ul li {
   display: flex;
   justify-content: space-between;
   align-items: baseline;
@@ -664,6 +661,14 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* Publications */
+.section-note {
+  font-size: 0.9rem;
+  color: var(--text-color-secondary);
+  margin-top: -0.5rem;
+  font-style: italic;
+  text-align: center;
+}
+
 .publication-item {
   margin-bottom: 2rem;
 }

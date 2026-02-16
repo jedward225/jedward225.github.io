@@ -11,7 +11,7 @@ layout: default
     </div>
     <div class="profile-info">
       <h1>Jiajun Liu</h1>
-      <p class="profile-meta">Pursuing B.S. Engineering, Renmin Univ. | GPA: 3.87 / 4.00 (Rank 3 / 58)</p>
+      <p class="profile-meta">Undergraduate at Renmin University | GPA: 3.87 / 4.00 (Rank 3 / 58)</p>
       <div class="social-links">
         <a href="mailto:{{ site.email }}">Email</a>
         <a href="https://github.com/{{ site.github_username }}" target="_blank" rel="noopener noreferrer">GitHub</a>
@@ -38,7 +38,7 @@ layout: default
         My research interests lie in <strong>Spatial Intelligence, World Model, and Embodied AI</strong>.
     </p>
     <p>
-      I am proficient in <strong>Linux development</strong>, <strong>Python, C/C++</strong>, and <strong>PyTorch</strong>. I am an active open-source contributor.
+      I am proficient in Linux development, Python, C/C++, and PyTorch. I am an active open-source contributor.
     </p>
     <p>
       I am always open to collaborations, discussions, and making new friends. Feel free to <a href="mailto:{{ site.email }}">reach out</a>!
@@ -77,11 +77,11 @@ layout: default
         <div class="research-details">
           <p><strong>Advisor:</strong> <a href="https://limanling.github.io/">Manling Li</a></p>
           <p><strong>Topic:</strong> VLM agents with tool-use for active novel-view synthesis on spatial intelligence tasks, in collaboration with Microsoft.</p>
-
+    
         </div>
       </div>
     </div>
-
+    
     <div class="research-item">
       <div class="research-logo">
         <img src="/assets/img/Renmin_University_of_China_logo.svg.png" alt="Renmin University">
@@ -103,6 +103,7 @@ layout: default
   <!-- Publications Section -->
   <div class="publications" id="publications">
     <h2>📝 Publications & Preprints</h2>
+    <p class="section-note">Sorted by recency. * denotes equal contribution.</p>
 
     <div class="publication-item">
       <div class="publication-image">
@@ -123,7 +124,7 @@ layout: default
         </div>
       </div>
     </div>
-
+    
     <div class="publication-item">
       <div class="publication-image">
         <img src="/assets/img/embodied-reasoner.png" alt="Embodied Reasoner">
@@ -165,7 +166,7 @@ layout: default
         Embodied-Reasoner (ER.) is a multimodal model designed for deep reasoning and long-horizon interaction. Through OSPP, similar to GSoC, I was selected by the <a href="https://www.agiros.org.cn/#/index">AGIROS</a> Community as the contributor responsible for ER. I took charge of benchmarking ER. on ALFRED and contributed to resolving two key bottlenecks: ambiguity in distinguishing identical object instances and imprecise targeting of large objects, thereby improving spatial accuracy and interaction robustness.
       </p>
     </div>
-
+    
     <div class="project-description-item">
       <h3>RAGEN & VAGEN: Training Agents by Reinforcing Reasoning</h3>
       <div class="project-meta">
@@ -186,12 +187,11 @@ layout: default
   <div class="awards" id="awards">
     <h2>🏆 Selected Awards</h2>
     <ul>
-      <li>🥈 <span class="award-highlight">Silver Medal</span>, International Collegiate Programming Contest (ICPC) <span class="award-highlight">East-Asia Continent Final</span></li>
-      <li>🥇 <span class="award-highlight">Gold Medal</span>, International Collegiate Programming Contest (ICPC) Asia Regional (Wuhan)</li>
-      <li>🥇 <span class="award-highlight">Gold Medal</span>, "Xiaomi Cup" China Collegiate Programming Contest (CCPC) Invitational Contest</li>
-      <li>🥈 <span class="award-highlight">Silver Medal</span>, 2024 CCF Collegiate Computer Systems & Programming Contest (CCSP)</li>
-      <li>🏅 <span class="award-highlight">Most Potential Award</span>, Open Source Promotion Plan (OSPP) 2025</li>
-      <li>🏅 <span class="award-highlight">National Second Prize</span>, Chinese Physics Olympiad for High School Students (CPhO)</li>
+      <li><span>🥈 <span class="award-highlight">Silver Medal</span>, International Collegiate Programming Contest (ICPC) <span class="award-highlight">East-Asia Continent Final</span></span> <span class="date-right">Dec 2024</span></li>
+      <li><span>🥇 <span class="award-highlight">Gold Medal</span>, International Collegiate Programming Contest (ICPC) Asia Regional (Wuhan)</span> <span class="date-right">Nov 2025</span></li>
+      <li><span>🥇 <span class="award-highlight">Gold Medal</span>, "Xiaomi Cup" China Collegiate Programming Contest (CCPC) Invitational Contest</span> <span class="date-right">Apr 2025</span></li>
+      <li><span>🥈 <span class="award-highlight">Silver Medal</span>, 2024 CCF Collegiate Computer Systems & Programming Contest (CCSP)</span> <span class="date-right">Oct 2024</span></li>
+      <li><span>🏅 <span class="award-highlight">Most Potential Award</span>, Open Source Promotion Plan (OSPP) 2025</span> <span class="date-right">Dec 2025</span></li>
     </ul>
   </div>
 
@@ -228,7 +228,7 @@ layout: default
         <button class="carousel-nav carousel-nav-left" id="prev-btn">
           <span>‹</span>
         </button>
-
+    
         <div class="carousel-track">
         <div class="carousel-slide active">
           <div class="slide-image">
@@ -239,7 +239,7 @@ layout: default
             <p>I enjoy playing basketball, as it keeps me active and sharpens my teamwork skills. It has taught me the value of strategy, coordination, and the importance of consistent practice and persistence. I once won the All-Star championship in a Freshman basketball tournament.</p>
           </div>
         </div>
-
+    
         <div class="carousel-slide">
           <div class="slide-image">
             <img src="/assets/img/interests/sailing.jpg" alt="Sailing">
@@ -249,7 +249,7 @@ layout: default
             <p>Sailing represents my love for adventure and the sea. It's a sport that requires patience, understanding of weather patterns, and the ability to work with natural elements. I once won the runner-up in the National Amateur Sailing Competition.</p>
           </div>
         </div>
-
+    
         <div class="carousel-slide">
           <div class="slide-image">
             <img src="/assets/img/ed-sheeran.jpg" alt="Music">
@@ -259,7 +259,7 @@ layout: default
             <p>Music is my creative outlet and a way to unwind. I enjoy a wide range of genres — music helps me stay focused during work and sparks inspiration for my projects. I also love singing, and my favorite artists are Taylor Swift and Ed Sheeran.</p>
           </div>
         </div>
-
+    
         <div class="carousel-slide">
           <div class="slide-image">
             <img src="/assets/img/interests/coding.jpg" alt="Coding Contest">
@@ -269,7 +269,7 @@ layout: default
             <p>Unlike most algorithm competition medalists, I had no OI experience in high school. Fortunately, I found two like-minded teammates who also started from scratch. Together, we trained and grew. Programming contests like ICPC challenged me intellectually and ignited my passion throughout college.</p>
           </div>
         </div>
-
+    
         <div class="carousel-slide">
           <div class="slide-image">
             <img src="/assets/img/harry-potter.jpg" alt="Video Editing">
@@ -280,12 +280,12 @@ layout: default
           </div>
         </div>
       </div>
-
+    
         <button class="carousel-nav carousel-nav-right" id="next-btn">
           <span>›</span>
         </button>
       </div>
-
+    
       <!-- Dots indicator -->
       <div class="carousel-dots">
         <span class="dot active" data-slide="0"></span>
