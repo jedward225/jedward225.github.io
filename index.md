@@ -57,7 +57,7 @@ layout: default
       <li><span class="news-date">2025.09</span> Honored with National Scholarship (Top 0.4% Nationwide).</li>
       <li><span class="news-date">2025.05</span> Selected for the Tsinghua College of AI Undergraduate Academic Exchange Program as a sophomore.</li>
     </ul>
-    <button class="news-toggle" id="news-toggle" style="display:none;" onclick="toggleNews()">Show More</button>
+    <button class="news-toggle" id="news-toggle" style="display:none;">Show More</button>
   </div>
 
 
