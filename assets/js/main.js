@@ -27,6 +27,28 @@ document.addEventListener('DOMContentLoaded', function() {
     });
   }
 
+  // News toggle
+  const MAX_NEWS = 5;
+  const newsList = document.getElementById('news-list');
+  const newsToggle = document.getElementById('news-toggle');
+  if (newsList && newsToggle) {
+    const items = newsList.querySelectorAll('li');
+    if (items.length > MAX_NEWS) {
+      items.forEach((item, i) => {
+        if (i >= MAX_NEWS) item.style.display = 'none';
+      });
+      newsToggle.style.display = 'inline-block';
+      let expanded = false;
+      newsToggle.addEventListener('click', () => {
+        expanded = !expanded;
+        items.forEach((item, i) => {
+          if (i >= MAX_NEWS) item.style.display = expanded ? '' : 'none';
+        });
+        newsToggle.textContent = expanded ? 'Show Less' : 'Show More';
+      });
+    }
+  }
+
   // Interests carousel
   const slides = document.querySelectorAll('.carousel-slide');
   const dots = document.querySelectorAll('.carousel-dots .dot');

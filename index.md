@@ -46,6 +46,21 @@ layout: default
   </div>
 
 
+  <!-- News Section -->
+  <div class="news" id="news">
+    <h2>🔥 News</h2>
+    <ul class="news-list" id="news-list">
+      <li><span class="news-date">2026.03</span> Two papers accepted to ICLR 2026 Workshops (<a href="https://sites.google.com/view/world-model-workshop/home" target="_blank">World Models</a> & <a href="https://sites.google.com/view/lifelong-agents" target="_blank">Lifelong Agents</a>)!</li>
+      <li><span class="news-date">2026.02</span> Bronze Medal at the 51st ICPC East Asia Continental Final in Hangzhou.</li>
+      <li><span class="news-date">2026.02</span> New preprint: <a href="https://www.arxiv.org/abs/2602.07854" target="_blank">Geometry-Aware Rotary Position Embedding for Consistent Video World Model</a> is available now!</li>
+      <li><span class="news-date">2025.12</span> Awarded Most Potential Award at Open Source Promotion Plan (OSPP) 2025.</li>
+      <li><span class="news-date">2025.09</span> Honored with National Scholarship (Top 0.4% Nationwide).</li>
+      <li><span class="news-date">2025.05</span> Selected for the Tsinghua College of AI Undergraduate Academic Exchange Program as a sophomore.</li>
+    </ul>
+    <button class="news-toggle" id="news-toggle" style="display:none;" onclick="toggleNews()">Show More</button>
+  </div>
+
+
   <!-- Research Experience Section -->
   <div class="research" id="research">
     <h2>🔬 Research Experience</h2>
@@ -117,7 +132,7 @@ layout: default
           Chendong Xiang*, <strong>Jiajun Liu*</strong>, Jintao Zhang*, Xiao Yang, Zhengwei Fang, Shizun Wang, Zijun Wang, Yingtian Zou, Hang Su, Jun Zhu
         </div>
         <div class="publication-meta">
-          <div class="publication-venue">Preprint</div>
+          <div class="publication-venue">WorldModels@ICLR26'</div>
           <div class="publication-links">
             <a href="https://www.arxiv.org/abs/2602.07854" target="_blank"><img src="https://img.shields.io/badge/arXiv-2602.07854-b31b1b?logo=arxiv" alt="arXiv"></a>
           </div>
@@ -137,7 +152,7 @@ layout: default
           Wenqi Zhang*, Mengna Wang*, Gangao Liu, Huixin Xu, Yiwei Jiang, Yongliang Shen, Guiyang Hou, Zhe Zheng, Hang Zhang, Xin Li, <strong>Jiajun Liu</strong>, Weiming Lu, Peng Li, Yueting Zhuang
         </div>
         <div class="publication-meta">
-          <div class="publication-venue">Preprint</div>
+          <div class="publication-venue">LLAgents@ICLR26'</div>
           <div class="publication-links">
             <a href="https://arxiv.org/abs/2503.21696" target="_blank"><img src="https://img.shields.io/badge/arXiv-2503.21696-b31b1b?logo=arxiv" alt="arXiv"></a>
             <a href="https://embodied-reasoner.github.io/" target="_blank"><img src="https://img.shields.io/badge/Project-Page-blue" alt="Project Page"></a>
@@ -211,7 +226,7 @@ layout: default
   <div class="services" id="services">
     <h2>🎤 Services & Presentations</h2>
     <ul>
-      <li> <strong>Reviewer:</strong> ICLR 2026 World Models Workshop</li>
+      <li> <strong>Reviewer:</strong> ICLR 2026 Workshop on World Models</li>
       <li> <strong>Video:</strong> "My Experience Using AI+ Tools to Create Videos"<div class="service-detail">Invited by CCF for <em>China National Computer Conference (CNCC)</em> Super Forum</div></li>
       <li> <strong>Talk:</strong> "Algorithm and Artificial Intelligence"<div class="service-detail">Invited by Gaoling School of AI & School of Information, Renmin University of China</div></li>
     </ul>
@@ -300,7 +315,7 @@ layout: default
 
   <!-- Last Modified Time -->
   <div class="last-modified">
-    <p>Last Updated: February, 2026</p>
+    <p>Last Updated: March, 2026</p>
   </div>
 
 </div>

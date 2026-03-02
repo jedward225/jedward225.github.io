@@ -728,6 +728,43 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1.6;
 }
 
+/* News Section */
+.news-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.news-list li {
+  margin-bottom: 0.6rem;
+  line-height: 1.6;
+  padding-left: 5.5rem;
+  text-indent: -5.5rem;
+}
+
+.news-date {
+  display: inline-block;
+  width: 5rem;
+  font-weight: bold;
+  color: var(--highlight-color);
+  text-indent: 0;
+}
+
+.news-toggle {
+  background: none;
+  border: 1px solid var(--border-color);
+  border-radius: 6px;
+  color: var(--link-color);
+  cursor: pointer;
+  padding: 0.3rem 1rem;
+  font-size: 0.9rem;
+  margin-top: 0.5rem;
+  transition: background-color 0.2s;
+}
+
+.news-toggle:hover {
+  background-color: var(--accent-color);
+}
+
 /* Last Modified Time */
 .last-modified {
   text-align: center;
