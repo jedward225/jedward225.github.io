@@ -50,7 +50,6 @@ layout: default
   <div class="news" id="news">
     <h2>🔥 News</h2>
     <ul class="news-list" id="news-list">
-      <li><span class="news-date">2026.04</span> <a href="https://embodied-reasoner.github.io/" target="_blank">Embodied Reasoner</a> accepted to <strong>ACL 2026</strong>!</li>
       <li><span class="news-date">2026.03</span> Two papers accepted to ICLR 2026 Workshops (<a href="https://sites.google.com/view/iclr-2026-workshop-world-model/home" target="_blank">World Models</a> & <a href="https://lifelongagent.github.io/" target="_blank">Lifelong Agents</a>)!</li>
       <li><span class="news-date">2026.02</span> New preprint: <a href="https://www.arxiv.org/abs/2602.07854" target="_blank">Geometry-Aware Rotary Position Embedding for Consistent Video World Model</a> is available now!</li>
       <li><span class="news-date">2026.02</span> Bronze Medal at the 50-th ICPC East-Asia Continent Final (EC-Final) at Hangzhou.</li>
