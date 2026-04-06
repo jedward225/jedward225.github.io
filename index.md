@@ -50,6 +50,7 @@ layout: default
   <div class="news" id="news">
     <h2>🔥 News</h2>
     <ul class="news-list" id="news-list">
+      <li><span class="news-date">2026.04</span> <a href="https://embodied-reasoner.github.io/" target="_blank">Embodied Reasoner</a> accepted to <strong>ACL 2026</strong>!</li>
       <li><span class="news-date">2026.03</span> Two papers accepted to ICLR 2026 Workshops (<a href="https://sites.google.com/view/iclr-2026-workshop-world-model/home" target="_blank">World Models</a> & <a href="https://lifelongagent.github.io/" target="_blank">Lifelong Agents</a>)!</li>
       <li><span class="news-date">2026.02</span> New preprint: <a href="https://www.arxiv.org/abs/2602.07854" target="_blank">Geometry-Aware Rotary Position Embedding for Consistent Video World Model</a> is available now!</li>
       <li><span class="news-date">2026.02</span> Bronze Medal at the 50-th ICPC East-Asia Continent Final (EC-Final) at Hangzhou.</li>
@@ -75,7 +76,7 @@ layout: default
         </div>
         <div class="research-details">
           <p><strong>Advisor:</strong> <a href="https://www.mengdixu.me/">Mengdi Xu</a></p>
-          <p><strong>Topic:</strong> In-context robot learning.</p>
+          <p><strong>Topic:</strong> Robot learning with few-shot demonstrations and non-expert data & world action models.</p>
         </div>
       </div>
     </div>
@@ -107,8 +108,8 @@ layout: default
           <div class="research-date">Jan 2025 - Aug 2025</div>
         </div>
         <div class="research-details">
-          <p><strong>Advisor:</strong> <a href="https://zhenxuan00.github.io/">Chongxuan Li</a></p>
-          <p><strong>Topic:</strong> 3D world model for explorable scene generation from a single image or text prompt.</p>
+          <p><strong>Advisor:</strong> <a href="https://zhenxuan00.github.io/">Chongxuan Li</a>, <a href="https://ml.cs.tsinghua.edu.cn/~jun/index.shtml">Jun Zhu</a></p>
+          <p><strong>Topic:</strong> 3D world model for explorable scene generation from a single image or text prompt & interactive video world model.</p>
         </div>
       </div>
     </div>
@@ -152,7 +153,7 @@ layout: default
           Wenqi Zhang*, Mengna Wang*, Gangao Liu, Huixin Xu, Yiwei Jiang, Yongliang Shen, Guiyang Hou, Zhe Zheng, Hang Zhang, Xin Li, <strong>Jiajun Liu</strong>, Weiming Lu, Peng Li, Yueting Zhuang
         </div>
         <div class="publication-meta">
-          <div class="publication-venue">LLAgents@ICLR26'</div>
+          <div class="publication-venue">ACL 2026</div>
           <div class="publication-links">
             <a href="https://arxiv.org/abs/2503.21696" target="_blank"><img src="https://img.shields.io/badge/arXiv-2503.21696-b31b1b?logo=arxiv" alt="arXiv"></a>
             <a href="https://embodied-reasoner.github.io/" target="_blank"><img src="https://img.shields.io/badge/Project-Page-blue" alt="Project Page"></a>
@@ -315,7 +316,7 @@ layout: default
 
   <!-- Last Modified Time -->
   <div class="last-modified">
-    <p>Last Updated: March, 2026</p>
+    <p>Last Updated: April, 2026</p>
   </div>
 
 </div>
