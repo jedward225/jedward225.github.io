@@ -202,6 +202,11 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 500;
 }
 
+.about p {
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
 /* WeChat QR Code Tooltip */
 .wechat-link {
   position: relative;
@@ -271,27 +276,45 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 4px;
 }
 
-/* Research Experience */
+/* Education & Experiences */
+.research {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  align-items: start;
+  gap: 1rem;
+}
+
+.research h2 {
+  grid-column: 1 / -1;
+}
+
 .research-item {
   display: flex;
   align-items: flex-start;
-  margin-bottom: 2rem;
-  padding: 1.5rem;
+  margin-bottom: 0;
+  padding: 1rem;
   background-color: var(--card-bg-color);
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
-  transition: box-shadow 0.3s ease;
+  outline: none;
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
 }
 
-.research-item:hover {
+.research-item:hover,
+.research-item:focus-visible {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transform: translateY(-2px);
+}
+
+.research-aside {
+  flex: 0 0 84px;
+  margin-right: 0.9rem;
 }
 
 .research-logo {
-  flex-shrink: 0;
-  margin-right: 1.5rem;
-  width: 60px;
-  height: 60px;
+  width: 52px;
+  height: 52px;
+  margin: 0 auto 0.45rem;
 }
 
 .research-logo img {
@@ -302,6 +325,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 @media (max-width: 600px) {
+  .research {
+    grid-template-columns: 1fr;
+  }
+
   .research-logo {
     width: 50px;
     height: 50px;
@@ -310,32 +337,40 @@ h1, h2, h3, h4, h5, h6 {
 
 .research-content {
   flex-grow: 1;
+  min-width: 0;
 }
 
 .research-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: baseline;
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.35rem;
 }
 
 .research-title {
   font-weight: bold;
-  font-size: 1.1rem;
+  font-size: 1rem;
   color: var(--highlight-color);
 }
 
 .research-date {
-  font-size: 0.9rem;
+  font-size: 0.76rem;
+  line-height: 1.25;
   color: var(--text-color-secondary);
+  text-align: center;
 }
 
 .research-details {
-  margin-top: 0.5rem;
+  margin-top: 0.35rem;
+  font-size: 0.92rem;
+  line-height: 1.5;
 }
 
 .research-details p {
   margin: 0.25rem 0;
+}
+
+@media (max-width: 900px) {
+  .research {
+    grid-template-columns: 1fr;
+  }
 }
 
 /* Publications */
@@ -360,7 +395,8 @@ h1, h2, h3, h4, h5, h6 {
   margin-right: 1.25rem;
 }
 
-.publication-image img {
+.publication-image img,
+.publication-image video {
   width: 100%;
   height: auto;
   aspect-ratio: 16 / 9;
@@ -461,10 +497,20 @@ h1, h2, h3, h4, h5, h6 {
 
 .project-description-item h3 {
   margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-size: 1.05rem;
+  line-height: 1.35;
   color: var(--highlight-color);
 }
 
+.project-description-item > p {
+  margin: 0.75rem 0 0;
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
 .project-role {
+  font-size: 0.9rem;
   font-style: italic;
   color: var(--text-color-secondary);
   margin-bottom: 1rem;
@@ -500,6 +546,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .awards ul li, .scholarship ul li {
+  font-size: 0.95rem;
   margin-bottom: 0.5rem;
   line-height: 1.6;
   display: flex;
@@ -724,6 +771,7 @@ h1, h2, h3, h4, h5, h6 {
   padding-left: 0;
 }
 .honors ul li, .experiences ul li, .internships ul li, .education ul li, .research ul li, .services ul li {
+  font-size: 0.95rem;
   margin-bottom: 0.75rem;
   line-height: 1.6;
 }
@@ -735,6 +783,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .news-list li {
+  font-size: 0.95rem;
   margin-bottom: 0.6rem;
   line-height: 1.6;
   padding-left: 5.5rem;
@@ -778,4 +827,3 @@ h1, h2, h3, h4, h5, h6 {
 [data-theme='dark'] .last-modified {
   color: #aaa;
 }
-

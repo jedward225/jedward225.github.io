@@ -35,13 +35,16 @@ layout: default
       Hi there 👋 , I'm Jiajun Liu (刘嘉俊), a third-year undergraduate at <a href="http://ai.ruc.edu.cn/">Gaoling School of Artificial Intelligence</a>, Renmin University of China.
     </p>
     <p>
-        My research interests lie in <strong>Spatial Intelligence, World Model, and Embodied AI</strong>.
+      My research interests lie in <strong>Spatial Intelligence, World Models, and Embodied AI</strong>.
     </p>
     <p>
-      I am proficient in Linux development, Python, C/C++, and PyTorch. I am an active open-source contributor.
+      Currently, I focus on <strong>robot learning from non-expert data</strong> under the supervision of Prof. <a href="https://www.mengdixu.me/">Mengdi Xu</a> at <a href="https://iiis.tsinghua.edu.cn/">Institute for Interdisciplinary Information Sciences (IIIS)</a>, Tsinghua University.
     </p>
     <p>
-      I am always open to collaborations, discussions, and making new friends. Feel free to <a href="mailto:{{ site.email }}">reach out</a>!
+      I am proficient in Linux development, Python, C/C++, and PyTorch, and I actively contribute to open-source projects.
+    </p>
+    <p>
+      I am always open to collaborations, discussions, and new connections. Feel free to <a href="mailto:{{ site.email }}">reach out</a>!
     </p>
   </div>
 
@@ -61,54 +64,90 @@ layout: default
   </div>
 
 
-  <!-- Research Experience Section -->
+  <!-- Education & Experiences Section -->
   <div class="research" id="research">
-    <h2>🔬 Research Experience</h2>
-    <div class="research-item">
-      <div class="research-logo">
-        <img src="/assets/img/Tsinghua_University_Logo.svg.png" alt="Tsinghua University">
+    <h2>🔬 Education & Experiences</h2>
+    <div class="research-item" tabindex="0">
+      <div class="research-aside">
+        <div class="research-logo">
+          <img src="/assets/img/BAAI.png" alt="Beijing Academy of Artificial Intelligence">
+        </div>
+        <div class="research-date">Apr 2026 - Present</div>
       </div>
       <div class="research-content">
         <div class="research-header">
-          <div class="research-title">Research Intern, <a href="https://iiis.tsinghua.edu.cn/">Xu-Lab</a>, Tsinghua IIIS & Qizhi Institute, China</div>
-          <div class="research-date">Oct 2025 - Present</div>
+          <div class="research-title">Research Intern, Beijing Academy of Artificial Intelligence, China</div>
         </div>
         <div class="research-details">
-          <p><strong>Advisor:</strong> <a href="https://www.mengdixu.me/">Mengdi Xu</a></p>
-          <p><strong>Topic:</strong> Robot learning with few-shot demonstrations and non-expert data & world action models.</p>
+          <p><strong>Advisor:</strong> <a href="https://scholar.google.com/citations?user=FLkv_vIAAAAJ&hl=zh-CN">Guocai Yao</a>, <a href="https://cuis15.github.io/">Sen Cui</a></p>
         </div>
       </div>
     </div>
 
-    <div class="research-item">
-      <div class="research-logo">
-        <img src="/assets/img/Northwestern_University_seal.svg.png" alt="Northwestern University">
+    <div class="research-item" tabindex="0">
+      <div class="research-aside">
+        <div class="research-logo">
+          <img src="/assets/img/SQZ.png" alt="Shanghai Qizhi Institute">
+        </div>
+        <div class="research-date">Oct 2025 - Present</div>
+      </div>
+      <div class="research-content">
+        <div class="research-header">
+          <div class="research-title">Research Intern, Shanghai Qizhi Institute, China</div>
+        </div>
+        <div class="research-details">
+          <p><strong>Advisor:</strong> <a href="https://www.mengdixu.me/">Mengdi Xu</a></p>
+        </div>
+      </div>
+    </div>
+
+    <div class="research-item" tabindex="0">
+      <div class="research-aside">
+        <div class="research-logo">
+          <img src="/assets/img/Tsinghua_University_Logo.svg.png" alt="Tsinghua University">
+        </div>
+        <div class="research-date">Oct 2025 - Present</div>
+      </div>
+      <div class="research-content">
+        <div class="research-header">
+          <div class="research-title">Research Intern, <a href="https://iiis.tsinghua.edu.cn/">IIIS</a>, Tsinghua University, China</div>
+        </div>
+        <div class="research-details">
+          <p><strong>Advisor:</strong> <a href="https://www.mengdixu.me/">Mengdi Xu</a></p>
+        </div>
+      </div>
+    </div>
+
+    <div class="research-item" tabindex="0">
+      <div class="research-aside">
+        <div class="research-logo">
+          <img src="/assets/img/Northwestern_University_seal.svg.png" alt="Northwestern University">
+        </div>
+        <div class="research-date">Jun 2025 - Sep 2025</div>
       </div>
       <div class="research-content">
         <div class="research-header">
           <div class="research-title">Research Intern, <a href="https://mll-lab-nu.github.io/">MLL-Lab</a>, Northwestern University, USA</div>
-          <div class="research-date">Jun 2025 - Sep 2025</div>
         </div>
         <div class="research-details">
           <p><strong>Advisor:</strong> <a href="https://limanling.github.io/">Manling Li</a></p>
-          <p><strong>Topic:</strong> VLM agents with tool-use for active novel-view synthesis on spatial intelligence tasks, in collaboration with Microsoft.</p>
-    
         </div>
       </div>
     </div>
     
-    <div class="research-item">
-      <div class="research-logo">
-        <img src="/assets/img/Renmin_University_of_China_logo.svg.png" alt="Renmin University">
+    <div class="research-item" tabindex="0">
+      <div class="research-aside">
+        <div class="research-logo">
+          <img src="/assets/img/Renmin_University_of_China_logo.svg.png" alt="Renmin University">
+        </div>
+        <div class="research-date">Jan 2025 - Aug 2025</div>
       </div>
       <div class="research-content">
         <div class="research-header">
           <div class="research-title">Research Intern, <a href="https://github.com/ML-GSAI/">GSAI-ML Group</a>, Renmin University, China</div>
-          <div class="research-date">Jan 2025 - Aug 2025</div>
         </div>
         <div class="research-details">
           <p><strong>Advisor:</strong> <a href="https://zhenxuan00.github.io/">Chongxuan Li</a>, <a href="https://ml.cs.tsinghua.edu.cn/~jun/index.shtml">Jun Zhu</a></p>
-          <p><strong>Topic:</strong> 3D world model for explorable scene generation from a single image or text prompt & interactive video world model.</p>
         </div>
       </div>
     </div>
@@ -118,7 +157,24 @@ layout: default
   <!-- Publications Section -->
   <div class="publications" id="publications">
     <h2>📝 Publications & Preprints</h2>
-    <p class="section-note">Sorted by recency. * denotes equal contribution.</p>
+    <p class="section-note">* denotes equal contribution.</p>
+
+    <div class="publication-item">
+      <div class="publication-image">
+        <img src="/assets/img/roboretry_workshop.drawio.png" alt="RoboRetry">
+      </div>
+      <div class="publication-content">
+        <div class="publication-title">
+          What Do VLAs Actually Learn through In-Context Failure Conditioning?
+        </div>
+        <div class="publication-authors">
+          <strong>Jiajun Liu</strong>, Jieming Li, Zi Zhuang, Hang Yu, Qingli Chen, Liu Cao, Yingxi Lu, Ruoqu Chen, Yuhang Cao, Chenyu Zhang, Yankai Lin, Mengdi Xu
+        </div>
+        <div class="publication-meta">
+          <div class="publication-venue">3D-LLM/VLA@CVPR26'</div>
+        </div>
+      </div>
+    </div>
 
     <div class="publication-item">
       <div class="publication-image">
@@ -136,6 +192,25 @@ layout: default
           <div class="publication-links">
             <a href="https://www.arxiv.org/abs/2602.07854" target="_blank"><img src="https://img.shields.io/badge/arXiv-2602.07854-b31b1b?logo=arxiv" alt="arXiv"></a>
           </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="publication-item">
+      <div class="publication-image">
+        <video autoplay muted loop playsinline preload="metadata" aria-label="HuMiT teaser">
+          <source src="/assets/img/humit.mp4" type="video/mp4">
+        </video>
+      </div>
+      <div class="publication-content">
+        <div class="publication-title">
+          HuMiT: Low-Latency Whole-Body Humanoid Teleoperation via Minimal Reference Tracking
+        </div>
+        <div class="publication-authors">
+          Liu Cao, Botian Xu, Ruoqu Chen, <strong>Jiajun Liu</strong>, Mingzhi Pei, Zihao Wang, Zhongyu Li, Mengdi Xu
+        </div>
+        <div class="publication-meta">
+          <div class="publication-venue">Preprint</div>
         </div>
       </div>
     </div>
