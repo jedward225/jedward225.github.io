@@ -217,7 +217,47 @@ layout: default
         </div>
       </div>
     </div>
-    
+
+    <div class="publication-item">
+      <div class="publication-image">
+        <img src="/assets/img/catok.png" alt="Causal Action Tokenizer">
+      </div>
+      <div class="publication-content">
+        <div class="publication-title">
+          Rethinking Causal Action Tokenization with Conditional Annealing in Flow Matching
+        </div>
+        <div class="publication-authors">
+          <a href="https://chenyuzhangx.github.io/" target="_blank">Chenyu Zhang*</a>, <a href="https://scholar.google.com/citations?user=9SDGjroAAAAJ&" target="_blank">Yuhang Cao*</a>, <a href="https://luyingxi35.github.io/" target="_blank">Yingxi Lu</a>, Daru Du, Jing Shao, <strong>Jiajun Liu</strong>, <a href="https://gcfy63821.github.io/" target="_blank">Ruoqu Chen</a>, <a href="https://xiaohu-art.github.io/" target="_blank">Liu Cao</a>, <a href="https://mrmoore98.github.io/liuyicheng/" target="_blank">Yicheng Liu</a>, <a href="https://hangzhaomit.github.io/" target="_blank">Hang Zhao</a>, <a href="https://www.mengdixu.me/" target="_blank">Mengdi Xu†</a>
+        </div>
+        <div class="publication-meta">
+          <div class="publication-venue">Preprint</div>
+          <div class="publication-links">
+            <a href="https://causalactiontokenizer.github.io/" target="_blank">Project</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="publication-item">
+      <div class="publication-image">
+        <img src="/assets/img/dexx.png" alt="DeXx">
+      </div>
+      <div class="publication-content">
+        <div class="publication-title">
+          Learning Visual-Tactile Dexterous Manipulation From Human Videos with Simulated Interaction
+        </div>
+        <div class="publication-authors">
+          <a href="https://gcfy63821.github.io/" target="_blank">Ruoqu Chen</a>, Feixiang Ruan, <a href="https://xiaohu-art.github.io/" target="_blank">Liu Cao</a>, Zihao Wang, <a href="https://btx0424.github.io/" target="_blank">Botian Xu</a>, Shiqin Tong, <strong>Jiajun Liu</strong>, <a href="https://wlxing1901.github.io/" target="_blank">Wanli Xing</a>, <a href="https://kywind.github.io/" target="_blank">Kaifeng Zhang</a>, <a href="https://www.mengdixu.me/" target="_blank">Mengdi Xu†</a>
+        </div>
+        <div class="publication-meta">
+          <div class="publication-venue">Preprint</div>
+          <div class="publication-links">
+            <a href="https://dexx-code.github.io/dexx-code/" target="_blank">Project</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <div class="publication-item">
       <div class="publication-image">
         <img src="/assets/img/embodied-reasoner.png" alt="Embodied Reasoner">
