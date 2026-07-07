@@ -247,10 +247,10 @@ layout: default
           Learning Visual-Tactile Dexterous Manipulation From Human Videos with Simulated Interaction
         </div>
         <div class="publication-authors">
-          <a href="https://gcfy63821.github.io/" target="_blank">Ruoqu Chen</a>, Feixiang Ruan, <a href="https://xiaohu-art.github.io/" target="_blank">Liu Cao</a>, Zihao Wang, <a href="https://btx0424.github.io/" target="_blank">Botian Xu</a>, Shiqin Tong, <strong>Jiajun Liu</strong>, <a href="https://wlxing1901.github.io/" target="_blank">Wanli Xing</a>, <a href="https://kywind.github.io/" target="_blank">Kaifeng Zhang</a>, <a href="https://www.mengdixu.me/" target="_blank">Mengdi Xu†</a>
+          <a href="https://gcfy63821.github.io/" target="_blank">Ruoqu Chen</a>, Feixiang Ruan, <a href="https://xiaohu-art.github.io/" target="_blank">Liu Cao</a>, Zihao Wang, <a href="https://btx0424.github.io/" target="_blank">Botian Xu</a>, Shiqin Tong, <strong>Jiajun Liu</strong>, <a href="https://wlxing1901.github.io/" target="_blank">Wanli Xing</a>, Kaifeng Zhang, <a href="https://www.mengdixu.me/" target="_blank">Mengdi Xu†</a>
         </div>
         <div class="publication-meta">
-          <div class="publication-venue">Preprint</div>
+          <div class="publication-venue">RSS 2026 Workshop on Dexterous Manipulation <span class="award-highlight">(Spotlight)</span></div>
           <div class="publication-links">
             <a href="https://dexx-code.github.io/dexx-code/" target="_blank">Project</a>
           </div>
@@ -320,6 +320,7 @@ layout: default
   <div class="awards" id="awards">
     <h2>Selected Awards</h2>
     <ul>
+      <li><span><span class="award-highlight">SenseTime Scholarship Nomination Award</span></span> <span class="date-right">Jun 2026</span></li>
       <li><span><span class="award-highlight">Silver Medal</span>, International Collegiate Programming Contest (ICPC) <span class="award-highlight">East-Asia Continent Final</span></span> <span class="date-right">Dec 2024</span></li>
       <li><span><span class="award-highlight">Gold Medal</span>, International Collegiate Programming Contest (ICPC) Asia Regional (Wuhan)</span> <span class="date-right">Nov 2025</span></li>
       <li><span><span class="award-highlight">Gold Medal</span>, "Xiaomi Cup" China Collegiate Programming Contest (CCPC) Invitational Contest</span> <span class="date-right">Apr 2025</span></li>
@@ -332,10 +333,10 @@ layout: default
   <div class="scholarship" id="scholarship">
     <h2>Scholarships</h2>
     <ul>
-      <li><span>National Scholarship</span> <span class="date-right">Sep 2025</span></li>
-      <li><span>"Linghang" Intellectual Excellence Dean's Scholarship</span> <span class="date-right">Dec 2024</span></li>
-      <li><span>Outstanding Student Leader Scholarship</span> <span class="date-right">Sep 2024</span></li>
-      <li><span>Third Prize Scholarship for Excellence in Social Work and Volunteering</span> <span class="date-right">Sep 2025</span></li>
+      <li><span><span class="award-highlight">National Scholarship</span></span> <span class="date-right">Sep 2025</span></li>
+      <li><span><span class="award-highlight">"Linghang" Intellectual Excellence Dean's Scholarship</span></span> <span class="date-right">Dec 2024</span></li>
+      <li><span><span class="award-highlight">Outstanding Student Leader Scholarship</span></span> <span class="date-right">Sep 2024</span></li>
+      <li><span><span class="award-highlight">Third Prize Scholarship for Excellence in Social Work and Volunteering</span></span> <span class="date-right">Sep 2025</span></li>
     </ul>
   </div>
 
