@@ -208,7 +208,7 @@ layout: default
       </div>
     </div>
 
-    <div class="publication-item" data-selected="true">
+    <div class="publication-item" data-selected="false">
       <div class="publication-image">
         <img src="/assets/img/dexx.png" alt="DeXx">
       </div>
@@ -228,7 +228,7 @@ layout: default
       </div>
     </div>
 
-    <div class="publication-item" data-selected="true">
+    <div class="publication-item" data-selected="false">
       <div class="publication-image">
         <img src="/assets/img/embodied-reasoner.png" alt="Embodied Reasoner">
       </div>
