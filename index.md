@@ -34,7 +34,7 @@ layout: default
   <div class="about" id="about">
     <h2>About</h2>
     <p>
-      Hi there 👋🏻, I am Jiajun Liu (刘嘉俊), an undergraduate student at the <a href="http://ai.ruc.edu.cn/">Gaoling School of Artificial Intelligence</a>, Renmin University of China. I will join the <a href="https://iiis.tsinghua.edu.cn/">Institute for Interdisciplinary Information Sciences (IIIS)</a>, Tsinghua University as a Ph.D. student in Fall 2027, advised by Prof. <a href="https://www.mengdixu.me/">Mengdi Xu</a>. Currently, I am working on <strong>robot learning from non-expert data</strong>.
+      Hi there 👋🏻, I am Jiajun Liu (刘嘉俊), a senior undergraduate student at the <a href="http://ai.ruc.edu.cn/">Gaoling School of Artificial Intelligence</a>, Renmin University. I will join the <a href="https://iiis.tsinghua.edu.cn/">Institute for Interdisciplinary Information Sciences (IIIS)</a>, Tsinghua University as a Ph.D. student in Fall 2027, advised by Prof. <a href="https://www.mengdixu.me/">Mengdi Xu</a> with a current focus on <strong>robot learning from non-expert data</strong>.
     </p>
     <p>
       Previously, I spent a rewarding summer at <a href="https://mll-lab-nu.github.io/">MLL Lab</a>, Northwestern University, working with <a href="https://jameskrw.github.io/">Kangrui Wang</a>, <a href="https://zihanwang314.github.io/">Zihan Wang</a> and Prof. <a href="https://limanling.github.io/">Manling Li</a>. Before that, I was fortunate to work with Prof. <a href="https://zhenxuan00.github.io/">Chongxuan Li</a> and Prof. <a href="https://ml.cs.tsinghua.edu.cn/~jun/index.shtml">Jun Zhu</a> on 3D/video world models.
@@ -62,23 +62,6 @@ layout: default
   <!-- Education & Experiences Section -->
   <div class="research" id="research">
     <h2>Education & Experiences</h2>
-    <div class="research-item" tabindex="0">
-      <div class="research-aside">
-        <div class="research-logo">
-          <img src="/assets/img/Tsinghua_University_Logo.svg.png" alt="Tsinghua University">
-        </div>
-        <div class="research-date">Fall 2027 -</div>
-      </div>
-      <div class="research-content">
-        <div class="research-header">
-          <div class="research-title">Incoming Ph.D. Student, <a href="https://iiis.tsinghua.edu.cn/">IIIS</a>, Tsinghua University, China</div>
-        </div>
-        <div class="research-details">
-          <p><strong>Advisor:</strong> <a href="https://www.mengdixu.me/">Mengdi Xu</a></p>
-        </div>
-      </div>
-    </div>
-
     <div class="research-item" tabindex="0">
       <div class="research-aside">
         <div class="research-logo">
@@ -352,7 +335,7 @@ layout: default
   <div class="services" id="services">
     <h2>Services & Presentations</h2>
     <ul>
-      <li> <strong>Reviewer:</strong> ICLR 2026 Workshop on World Models, COLM 2026 Workshop on Lifelong Agents</li>
+      <li> <strong>Reviewer:</strong> ICLR 2026 Workshop on World Models, COLM 2026 Workshop on Lifelong Agents, NeurIPS 2026 Workshop on hysUnderstand</li>
       <li> <strong>Video:</strong> "My Experience Using AI+ Tools to Create Videos"<div class="service-detail">Invited by CCF for <em>China National Computer Conference (CNCC)</em> Super Forum</div></li>
       <li> <strong>Talk:</strong> "Algorithm and Artificial Intelligence"<div class="service-detail">Invited by Gaoling School of AI & School of Information, Renmin University of China</div></li>
     </ul>
