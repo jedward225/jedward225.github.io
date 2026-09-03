@@ -11,7 +11,7 @@ layout: default
     </div>
     <div class="profile-info">
       <h1>Jiajun Liu</h1>
-      <p class="profile-role">Undergraduate, Gaoling School of Artificial Intelligence, Renmin University</p>
+      <p class="profile-role">Incoming Ph.D. Student (Fall 2027), IIIS, Tsinghua University</p>
       <div class="social-links">
         <a href="mailto:{{ site.email }}">Email</a>
         <a href="https://scholar.google.com/citations?user=JIGENycAAAAJ&hl=zh-CN&authuser=1" target="_blank" rel="noopener noreferrer">Google Scholar</a>
@@ -34,7 +34,7 @@ layout: default
   <div class="about" id="about">
     <h2>About</h2>
     <p>
-      Hi there 👋🏻, I am Jiajun Liu (刘嘉俊), a third-year undergraduate student at the <a href="http://ai.ruc.edu.cn/">Gaoling School of Artificial Intelligence</a>, Renmin University of China. Currently, I am working with Prof. <a href="https://www.mengdixu.me/">Mengdi Xu</a> at the <a href="https://iiis.tsinghua.edu.cn/">Institute for Interdisciplinary Information Sciences (IIIS)</a>, Tsinghua University with a focus on <strong>robot learning from non-expert data</strong>.
+      Hi there 👋🏻, I am Jiajun Liu (刘嘉俊), an undergraduate student at the <a href="http://ai.ruc.edu.cn/">Gaoling School of Artificial Intelligence</a>, Renmin University of China. I will join the <a href="https://iiis.tsinghua.edu.cn/">Institute for Interdisciplinary Information Sciences (IIIS)</a>, Tsinghua University as a Ph.D. student in Fall 2027, advised by Prof. <a href="https://www.mengdixu.me/">Mengdi Xu</a>. Currently, I am working on <strong>robot learning from non-expert data</strong>.
     </p>
     <p>
       Previously, I spent a rewarding summer at <a href="https://mll-lab-nu.github.io/">MLL Lab</a>, Northwestern University, working with <a href="https://jameskrw.github.io/">Kangrui Wang</a>, <a href="https://zihanwang314.github.io/">Zihan Wang</a> and Prof. <a href="https://limanling.github.io/">Manling Li</a>. Before that, I was fortunate to work with Prof. <a href="https://zhenxuan00.github.io/">Chongxuan Li</a> and Prof. <a href="https://ml.cs.tsinghua.edu.cn/~jun/index.shtml">Jun Zhu</a> on 3D/video world models.
@@ -62,6 +62,23 @@ layout: default
   <!-- Education & Experiences Section -->
   <div class="research" id="research">
     <h2>Education & Experiences</h2>
+    <div class="research-item" tabindex="0">
+      <div class="research-aside">
+        <div class="research-logo">
+          <img src="/assets/img/Tsinghua_University_Logo.svg.png" alt="Tsinghua University">
+        </div>
+        <div class="research-date">Fall 2027 -</div>
+      </div>
+      <div class="research-content">
+        <div class="research-header">
+          <div class="research-title">Incoming Ph.D. Student, <a href="https://iiis.tsinghua.edu.cn/">IIIS</a>, Tsinghua University, China</div>
+        </div>
+        <div class="research-details">
+          <p><strong>Advisor:</strong> <a href="https://www.mengdixu.me/">Mengdi Xu</a></p>
+        </div>
+      </div>
+    </div>
+
     <div class="research-item" tabindex="0">
       <div class="research-aside">
         <div class="research-logo">
@@ -122,6 +139,26 @@ layout: default
     <div class="publication-filter" aria-label="Publication filter">
       <button class="publication-filter-btn active" type="button" data-publication-filter="selected" aria-pressed="true">Selected</button>
       <button class="publication-filter-btn" type="button" data-publication-filter="all" aria-pressed="false">All</button>
+    </div>
+
+    <div class="publication-item" data-selected="true">
+      <div class="publication-image">
+        <img class="publication-image-contain" src="/assets/img/robocoach.png" alt="RoboCoach">
+      </div>
+      <div class="publication-content">
+        <div class="publication-title">
+          RoboCoach: World Models as Active Coaches for Compositional Robot Skills
+        </div>
+        <div class="publication-authors">
+          <strong>Jiajun Liu</strong>*, <a href="https://cyf-24.github.io/" target="_blank">Yifan Chen</a>*, Yichao Liu*, <a href="https://zhangjiayi24.github.io/" target="_blank">Jiayi Zhang</a>, <a href="https://gcfy63821.github.io/" target="_blank">Ruoqu Chen</a>, Shaoxuan Xie, <a href="https://scholar.google.com/citations?user=FLkv_vIAAAAJ&hl=zh-CN" target="_blank">Guocai Yao</a>, <a href="https://www.mengdixu.me/" target="_blank">Mengdi Xu†</a>, Sen Cui†, <a href="https://scholar.google.com/citations?user=GL9M37YAAAAJ&hl=zh-CN" target="_blank">Changshui Zhang†</a>
+        </div>
+        <div class="publication-meta">
+          <div class="publication-venue">Preprint</div>
+          <div class="publication-links">
+            <a href="https://robocoach-ai.github.io/" target="_blank">Project</a>
+          </div>
+        </div>
+      </div>
     </div>
 
     <div class="publication-item" data-selected="true">
@@ -404,7 +441,7 @@ layout: default
 
   <!-- Last Modified Time -->
   <div class="last-modified">
-    <p>Last Updated: June, 2026</p>
+    <p>Last Updated: Sep., 2026</p>
   </div>
 
 </div>
