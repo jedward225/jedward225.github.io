@@ -240,8 +240,7 @@ layout: default
           <a href="https://gcfy63821.github.io/" target="_blank">Ruoqu Chen</a>, Feixiang Ruan, <a href="https://xiaohu-art.github.io/" target="_blank">Liu Cao</a>, Zihao Wang, <a href="https://btx0424.github.io/" target="_blank">Botian Xu</a>, Shiqin Tong, <strong>Jiajun Liu</strong>, <a href="https://wlxing1901.github.io/" target="_blank">Wanli Xing</a>, Kaifeng Zhang, <a href="https://www.mengdixu.me/" target="_blank">Mengdi Xu†</a>
         </div>
         <div class="publication-meta">
-          <div class="publication-venue">Conference on Robot Learning (CoRL), 2026<span class="award-highlight">(Spotlight)</span></div>
-          <div class="publication-venue">RSS 2026 Workshop on Dexterous Manipulation <span class="award-highlight">(Spotlight)</span></div>
+          <div class="publication-venue">Conference on Robot Learning (CoRL), 2026; RSS 2026 Workshop on Dexterous Manipulation <span class="award-highlight">(Spotlight)</span></div>
           <div class="publication-links">
             <a href="https://dexx-code.github.io/dexx-code/" target="_blank">Project</a>
           </div>
