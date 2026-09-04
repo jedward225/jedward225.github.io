@@ -133,7 +133,7 @@ layout: default
           RoboCoach: World Models as Active Coaches for Compositional Robot Skills
         </div>
         <div class="publication-authors">
-          <strong>Jiajun Liu</strong>*, <a href="https://cyf-24.github.io/" target="_blank">Yifan Chen</a>*, Yichao Liu*, <a href="https://zhangjiayi24.github.io/" target="_blank">Jiayi Zhang</a>, <a href="https://gcfy63821.github.io/" target="_blank">Ruoqu Chen</a>, Shaoxuan Xie, <a href="https://scholar.google.com/citations?user=FLkv_vIAAAAJ&hl=zh-CN" target="_blank">Guocai Yao</a>, <a href="https://www.mengdixu.me/" target="_blank">Mengdi Xu†</a>, Sen Cui†, <a href="https://scholar.google.com/citations?user=GL9M37YAAAAJ&hl=zh-CN" target="_blank">Changshui Zhang†</a>
+          <strong>Jiajun Liu</strong>*, <a href="https://cyf-24.github.io/" target="_blank">Yifan Chen</a>*, Yichao Liu*, <a href="https://zhangjiayi24.github.io/" target="_blank">Jiayi Zhang</a>, <a href="https://gcfy63821.github.io/" target="_blank">Ruoqu Chen</a>, Shaoxuan Xie, <a href="https://scholar.google.com/citations?user=FLkv_vIAAAAJ&hl=zh-CN" target="_blank">Guocai Yao</a>, <a href="https://www.mengdixu.me/" target="_blank">Mengdi Xu†</a>, <a href="https://sencui-thu.github.io/" target="_blank">Sen Cui†</a>, <a href="https://scholar.google.com/citations?user=GL9M37YAAAAJ&hl=zh-CN" target="_blank">Changshui Zhang†</a>
         </div>
         <div class="publication-meta">
           <div class="publication-venue">Preprint</div>
@@ -153,7 +153,7 @@ layout: default
           What Do VLAs Actually Learn through In-Context Failure Conditioning?
         </div>
         <div class="publication-authors">
-          <strong>Jiajun Liu</strong>, Jieming Li, Zi Zhuang, Hang Yu, Qingli Chen, <a href="https://xiaohu-art.github.io/" target="_blank">Liu Cao</a>, <a href="https://luyingxi35.github.io/" target="_blank">Yingxi Lu</a>, <a href="https://gcfy63821.github.io/" target="_blank">Ruoqu Chen</a>, <a href="https://scholar.google.com/citations?user=9SDGjroAAAAJ&" target="_blank">Yuhang Cao</a>, <a href="https://chenyuzhangx.github.io/" target="_blank">Chenyu Zhang</a>, <a href="https://linyankai.github.io/" target="_blank">Yankai Lin</a>, <a href="https://www.mengdixu.me/" target="_blank">Mengdi Xu†</a>
+          <strong>Jiajun Liu</strong>, <a href="https://lijiemingjimmy.github.io/" target="_blank">Jieming Li</a>, Zi Zhuang, Hang Yu, Qingli Chen, <a href="https://xiaohu-art.github.io/" target="_blank">Liu Cao</a>, <a href="https://luyingxi35.github.io/" target="_blank">Yingxi Lu</a>, <a href="https://gcfy63821.github.io/" target="_blank">Ruoqu Chen</a>, <a href="https://scholar.google.com/citations?user=9SDGjroAAAAJ&" target="_blank">Yuhang Cao</a>, <a href="https://chenyuzhangx.github.io/" target="_blank">Chenyu Zhang</a>, <a href="https://linyankai.github.io/" target="_blank">Yankai Lin</a>, <a href="https://www.mengdixu.me/" target="_blank">Mengdi Xu†</a>
         </div>
         <div class="publication-meta">
           <div class="publication-venue">CVPR 2026 Workshop on 3D-LLM/VLA</div>
@@ -240,6 +240,7 @@ layout: default
           <a href="https://gcfy63821.github.io/" target="_blank">Ruoqu Chen</a>, Feixiang Ruan, <a href="https://xiaohu-art.github.io/" target="_blank">Liu Cao</a>, Zihao Wang, <a href="https://btx0424.github.io/" target="_blank">Botian Xu</a>, Shiqin Tong, <strong>Jiajun Liu</strong>, <a href="https://wlxing1901.github.io/" target="_blank">Wanli Xing</a>, Kaifeng Zhang, <a href="https://www.mengdixu.me/" target="_blank">Mengdi Xu†</a>
         </div>
         <div class="publication-meta">
+          <div class="publication-venue">Conference on Robot Learning (CoRL), 2026<span class="award-highlight">(Spotlight)</span></div>
           <div class="publication-venue">RSS 2026 Workshop on Dexterous Manipulation <span class="award-highlight">(Spotlight)</span></div>
           <div class="publication-links">
             <a href="https://dexx-code.github.io/dexx-code/" target="_blank">Project</a>
@@ -310,7 +311,6 @@ layout: default
   <div class="awards" id="awards">
     <h2>Selected Awards</h2>
     <ul>
-      <li><span><span class="award-highlight">SenseTime Scholarship Nomination Award</span></span> <span class="date-right">Jun 2026</span></li>
       <li><span><span class="award-highlight">Silver Medal</span>, International Collegiate Programming Contest (ICPC) <span class="award-highlight">East-Asia Continent Final</span></span> <span class="date-right">Dec 2024</span></li>
       <li><span><span class="award-highlight">Gold Medal</span>, International Collegiate Programming Contest (ICPC) Asia Regional (Wuhan)</span> <span class="date-right">Nov 2025</span></li>
       <li><span><span class="award-highlight">Gold Medal</span>, "Xiaomi Cup" China Collegiate Programming Contest (CCPC) Invitational Contest</span> <span class="date-right">Apr 2025</span></li>
@@ -323,6 +323,7 @@ layout: default
   <div class="scholarship" id="scholarship">
     <h2>Scholarships</h2>
     <ul>
+      <li><span><span class="award-highlight">SenseTime Scholarship Nomination</span></span> <span class="date-right">Jun 2026</span></li>
       <li><span><span class="award-highlight">National Scholarship</span></span> <span class="date-right">Sep 2025</span></li>
       <li><span><span class="award-highlight">"Linghang" Intellectual Excellence Dean's Scholarship</span></span> <span class="date-right">Dec 2024</span></li>
       <li><span><span class="award-highlight">Outstanding Student Leader Scholarship</span></span> <span class="date-right">Sep 2024</span></li>
@@ -335,7 +336,7 @@ layout: default
   <div class="services" id="services">
     <h2>Services & Presentations</h2>
     <ul>
-      <li> <strong>Reviewer:</strong> ICLR 2026 Workshop on World Models, COLM 2026 Workshop on Lifelong Agents, NeurIPS 2026 Workshop on hysUnderstand</li>
+      <li> <strong>Reviewer:</strong> ICLR 2026 @ World Models, COLM 2026 @ Lifelong Agents, NeurIPS 2026 @ PhysUnderstand</li>
       <li> <strong>Video:</strong> "My Experience Using AI+ Tools to Create Videos"<div class="service-detail">Invited by CCF for <em>China National Computer Conference (CNCC)</em> Super Forum</div></li>
       <li> <strong>Talk:</strong> "Algorithm and Artificial Intelligence"<div class="service-detail">Invited by Gaoling School of AI & School of Information, Renmin University of China</div></li>
     </ul>
