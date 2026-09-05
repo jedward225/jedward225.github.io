@@ -17,7 +17,7 @@ Open <http://localhost:4000>. Restart Jekyll after changing `_config.yml`.
 ## Editing content
 
 - `_data/news.yml`: news, sorted newest first. Dates use `YYYY-MM-01` for month precision; only the month is displayed. The DEX-X announcement uses September 2026 as the posting month.
-- `_data/publications.yml`: ordered publications, structured authors, links, media, optional one-sentence summaries, and `selected` status.
+- `_data/publications.yml`: ordered publications, structured authors, links, media, and `selected` status.
 - `_data/experiences.yml`: experiences in display order. Titles and details support inline HTML.
 - `index.md`: biography, projects, awards, services and interests. Update its `last_modified_at` when editing content.
 - `_sass/`: component styles; `assets/css/main.scss` imports them.

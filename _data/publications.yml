@@ -33,7 +33,6 @@
   image: /assets/img/robocoach.png
   image_alt: RoboCoach
   image_fit: contain
-  summary: World models provide active coaching for learning compositional robot skills.
 - id: roboretry
   selected: true
   title: What Do VLAs Actually Learn through In-Context Failure Conditioning?
@@ -68,7 +67,6 @@
     url: https://github.com/jedward225/RoboRetry
   image: /assets/img/roboretry_workshop.drawio.png
   image_alt: RoboRetry
-  summary: Probes how failure context and corrective language help VLA policies improve their next attempt.
 - id: viewrope
   selected: true
   title: Geometry-Aware Rotary Position Embedding for Consistent Video World Model
@@ -105,7 +103,6 @@
     url: https://github.com/jedward225/viewbench-dataset
   image: /assets/img/viewrope.png
   image_alt: ViewRoPE
-  summary: Camera-ray-aware positional encoding helps video world models maintain consistent 3D scenes.
 - id: humit
   selected: false
   title: 'HuMiT: Low-Latency Whole-Body Humanoid Teleoperation via Minimal Reference Tracking'

@@ -14,7 +14,6 @@
   </div>
   <div class="publication-content">
     <h3 class="publication-title">{{ publication.title | escape }}</h3>
-    {% if publication.summary %}<p class="publication-description">{{ publication.summary | escape }}</p>{% endif %}
     <div class="publication-authors">
       {% for author in publication.authors %}
         {%- if author.self -%}<strong>{{ author.name | escape }}{{ author.marker }}</strong>
