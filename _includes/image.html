@@ -1,0 +1,6 @@
+{% assign image = site.data.images[include.src] %}
+<img src="{{ image.src | default: include.src | relative_url }}"
+     alt="{{ include.alt | escape }}"
+     {% if image %}width="{{ image.width }}" height="{{ image.height }}"{% endif %}
+     loading="{{ include.loading | default: 'lazy' }}" decoding="async"
+     {% if include.fit == 'contain' %}class="publication-image-contain"{% endif %}>

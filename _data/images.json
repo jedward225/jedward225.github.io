@@ -1,0 +1,97 @@
+{
+  "/assets/img/1c.png": {
+    "src": "/assets/img/optimized/1c.webp",
+    "width": 264,
+    "height": 265
+  },
+  "/assets/img/BAAI.png": {
+    "src": "/assets/img/optimized/BAAI.webp",
+    "width": 1040,
+    "height": 486
+  },
+  "/assets/img/Northwestern_University_seal.svg.png": {
+    "src": "/assets/img/optimized/Northwestern_University_seal.svg.webp",
+    "width": 104,
+    "height": 104
+  },
+  "/assets/img/Renmin_University_of_China_logo.svg.png": {
+    "src": "/assets/img/optimized/Renmin_University_of_China_logo.svg.webp",
+    "width": 104,
+    "height": 104
+  },
+  "/assets/img/SQZ.png": {
+    "src": "/assets/img/optimized/SQZ.webp",
+    "width": 89,
+    "height": 89
+  },
+  "/assets/img/Tsinghua_University_Logo.svg.png": {
+    "src": "/assets/img/optimized/Tsinghua_University_Logo.svg.webp",
+    "width": 104,
+    "height": 104
+  },
+  "/assets/img/catok.png": {
+    "src": "/assets/img/optimized/catok.webp",
+    "width": 1040,
+    "height": 507
+  },
+  "/assets/img/coffeepig.jpg": {
+    "src": "/assets/img/optimized/coffeepig.webp",
+    "width": 64,
+    "height": 64
+  },
+  "/assets/img/dexx.png": {
+    "src": "/assets/img/optimized/dexx.webp",
+    "width": 1040,
+    "height": 336
+  },
+  "/assets/img/ed-sheeran.jpg": {
+    "src": "/assets/img/optimized/ed-sheeran.webp",
+    "width": 800,
+    "height": 1067
+  },
+  "/assets/img/embodied-reasoner.png": {
+    "src": "/assets/img/optimized/embodied-reasoner.webp",
+    "width": 1040,
+    "height": 633
+  },
+  "/assets/img/harry-potter.jpg": {
+    "src": "/assets/img/optimized/harry-potter.webp",
+    "width": 800,
+    "height": 512
+  },
+  "/assets/img/interests/basketball.jpg": {
+    "src": "/assets/img/optimized/interests/basketball.webp",
+    "width": 800,
+    "height": 600
+  },
+  "/assets/img/interests/coding.jpg": {
+    "src": "/assets/img/optimized/interests/coding.webp",
+    "width": 800,
+    "height": 600
+  },
+  "/assets/img/interests/sailing.jpg": {
+    "src": "/assets/img/optimized/interests/sailing.webp",
+    "width": 800,
+    "height": 600
+  },
+  "/assets/img/mp_wechat.jpg": {
+    "src": "/assets/img/optimized/mp_wechat.webp",
+    "width": 300,
+    "height": 300
+  },
+  "/assets/img/robocoach.png": {
+    "src": "/assets/img/optimized/robocoach.webp",
+    "width": 1040,
+    "height": 472
+  },
+  "/assets/img/roboretry_workshop.drawio.png": {
+    "src": "/assets/img/optimized/roboretry_workshop.drawio.webp",
+    "width": 1040,
+    "height": 565
+  },
+  "/assets/img/viewrope.png": {
+    "src": "/assets/img/optimized/viewrope.webp",
+    "width": 1040,
+    "height": 526
+  }
+}

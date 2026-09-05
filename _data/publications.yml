@@ -1,0 +1,238 @@
+- id: robocoach
+  selected: true
+  title: 'RoboCoach: World Models as Active Coaches for Compositional Robot Skills'
+  authors:
+  - name: Jiajun Liu
+    marker: '*'
+    self: true
+  - name: Yifan Chen
+    marker: '*'
+    url: https://cyf-24.github.io/
+  - name: Yichao Liu
+    marker: '*'
+  - name: Jiayi Zhang
+    url: https://zhangjiayi24.github.io/
+  - name: Ruoqu Chen
+    url: https://gcfy63821.github.io/
+  - name: Shaoxuan Xie
+  - name: Guocai Yao
+    url: https://scholar.google.com/citations?user=FLkv_vIAAAAJ&hl=zh-CN
+  - name: Mengdi Xu
+    marker: †
+    url: https://www.mengdixu.me/
+  - name: Sen Cui
+    marker: †
+    url: https://sencui-thu.github.io/
+  - name: Changshui Zhang
+    marker: †
+    url: https://scholar.google.com/citations?user=GL9M37YAAAAJ&hl=zh-CN
+  venue: Preprint
+  links:
+  - label: Project
+    url: https://robocoach-ai.github.io/
+  image: /assets/img/robocoach.png
+  image_alt: RoboCoach
+  image_fit: contain
+  summary: World models provide active coaching for learning compositional robot skills.
+- id: roboretry
+  selected: true
+  title: What Do VLAs Actually Learn through In-Context Failure Conditioning?
+  authors:
+  - name: Jiajun Liu
+    self: true
+  - name: Jieming Li
+    url: https://lijiemingjimmy.github.io/
+  - name: Zi Zhuang
+  - name: Hang Yu
+  - name: Qingli Chen
+  - name: Liu Cao
+    url: https://xiaohu-art.github.io/
+  - name: Yingxi Lu
+    url: https://luyingxi35.github.io/
+  - name: Ruoqu Chen
+    url: https://gcfy63821.github.io/
+  - name: Yuhang Cao
+    url: https://scholar.google.com/citations?user=9SDGjroAAAAJ&
+  - name: Chenyu Zhang
+    url: https://chenyuzhangx.github.io/
+  - name: Yankai Lin
+    url: https://linyankai.github.io/
+  - name: Mengdi Xu
+    marker: †
+    url: https://www.mengdixu.me/
+  venue: CVPR 2026 Workshop on 3D-LLM/VLA
+  links:
+  - label: Project
+    url: https://jedward225.github.io/RoboRetry/
+  - label: Code
+    url: https://github.com/jedward225/RoboRetry
+  image: /assets/img/roboretry_workshop.drawio.png
+  image_alt: RoboRetry
+  summary: Probes how failure context and corrective language help VLA policies improve their next attempt.
+- id: viewrope
+  selected: true
+  title: Geometry-Aware Rotary Position Embedding for Consistent Video World Model
+  authors:
+  - name: Chendong Xiang
+    marker: '*'
+    url: https://xiang-cd.github.io/
+  - name: Jiajun Liu
+    marker: '*'
+    self: true
+  - name: Jintao Zhang
+    marker: '*'
+    url: https://jt-zhang.github.io/
+  - name: Xiao Yang
+    url: https://ml.cs.tsinghua.edu.cn/~xiaoyang/
+  - name: Zhengwei Fang
+    url: https://scholar.google.com/citations?hl=en&user=v5lIRxUAAAAJ&
+  - name: Shizun Wang
+    url: https://littlepure2333.github.io/home/
+  - name: Zijun Wang
+  - name: Yingtian Zou
+    url: https://yingtian.world/
+  - name: Hang Su
+    marker: †
+    url: https://www.cs.tsinghua.edu.cn/csen/info/1313/4403.htm
+  - name: Jun Zhu
+    marker: †
+    url: https://ml.cs.tsinghua.edu.cn/~jun/index.shtml
+  venue: ICLR 2026 Workshop on World Models
+  links:
+  - label: arXiv
+    url: https://www.arxiv.org/abs/2602.07854
+  - label: Code
+    url: https://github.com/jedward225/viewbench-dataset
+  image: /assets/img/viewrope.png
+  image_alt: ViewRoPE
+  summary: Camera-ray-aware positional encoding helps video world models maintain consistent 3D scenes.
+- id: humit
+  selected: false
+  title: 'HuMiT: Low-Latency Whole-Body Humanoid Teleoperation via Minimal Reference Tracking'
+  authors:
+  - name: Liu Cao
+    url: https://xiaohu-art.github.io/
+  - name: Botian Xu
+    url: https://btx0424.github.io/
+  - name: Ruoqu Chen
+    url: https://gcfy63821.github.io/
+  - name: Jiajun Liu
+    self: true
+  - name: Mingzhi Pei
+  - name: Zihao Wang
+  - name: Zhongyu Li
+    marker: †
+    url: https://zyliatzju.github.io/
+  - name: Mengdi Xu
+    marker: †
+    url: https://www.mengdixu.me/
+  venue: Preprint
+  links:
+  - label: Project
+    url: https://humit-ral.github.io/
+  video: /assets/img/humit-preview.mp4
+  poster: /assets/img/optimized/humit-poster.webp
+  image_alt: HuMiT teleoperation demonstration
+- id: causal-action-tokenizer
+  selected: false
+  title: Rethinking Causal Action Tokenization with Conditional Annealing in Flow Matching
+  authors:
+  - name: Chenyu Zhang
+    marker: '*'
+    url: https://chenyuzhangx.github.io/
+  - name: Yuhang Cao
+    marker: '*'
+    url: https://scholar.google.com/citations?user=9SDGjroAAAAJ&
+  - name: Daru Du
+  - name: Yingxi Lu
+    url: https://luyingxi35.github.io/
+  - name: Jing Shao
+  - name: Ruoqu Chen
+    url: https://gcfy63821.github.io/
+  - name: Jiajun Liu
+    self: true
+  - name: Liu Cao
+    url: https://xiaohu-art.github.io/
+  - name: Yicheng Liu
+    url: https://mrmoore98.github.io/liuyicheng/
+  - name: Hang Zhao
+    url: https://hangzhaomit.github.io/
+  - name: Mengdi Xu
+    marker: †
+    url: https://www.mengdixu.me/
+  venue: Preprint
+  links:
+  - label: Project
+    url: https://causalactiontokenizer.github.io/
+  image: /assets/img/catok.png
+  image_alt: Causal Action Tokenizer
+- id: dexx
+  selected: false
+  title: Learning Visual-Tactile Dexterous Manipulation From Human Videos with Simulated Interaction
+  authors:
+  - name: Ruoqu Chen
+    url: https://gcfy63821.github.io/
+  - name: Feixiang Ruan
+  - name: Liu Cao
+    url: https://xiaohu-art.github.io/
+  - name: Zihao Wang
+  - name: Botian Xu
+    url: https://btx0424.github.io/
+  - name: Shiqin Tong
+  - name: Jiajun Liu
+    self: true
+  - name: Wanli Xing
+    url: https://wlxing1901.github.io/
+  - name: Kaifeng Zhang
+  - name: Mengdi Xu
+    marker: †
+    url: https://www.mengdixu.me/
+  venue: Conference on Robot Learning (CoRL), 2026 · <span class="award-highlight">Spotlight</span> @ RSS 2026 DexManip
+  links:
+  - label: Project
+    url: https://dexx-code.github.io/dexx-code/
+  image: /assets/img/dexx.png
+  image_alt: DEX-X
+- id: embodied-reasoner
+  selected: false
+  title: 'Embodied Reasoner: Synergizing Visual Search, Reasoning, and Action for Embodied Interactive
+    Tasks'
+  authors:
+  - name: Wenqi Zhang
+    marker: '*'
+    url: https://zwq2018.github.io/
+  - name: Mengna Wang
+    marker: '*'
+    url: https://scholar.google.com/citations?user=MOuO2xIAAAAJ&
+  - name: Gangao Liu
+  - name: Huixin Xu
+  - name: Yiwei Jiang
+  - name: Yongliang Shen
+    url: https://person.zju.edu.cn/shenyongliang
+  - name: Guiyang Hou
+    url: https://scholar.google.com/citations?user=vg_WtiYAAAAJ&
+  - name: Zhe Zheng
+  - name: Hang Zhang
+    url: https://scholar.google.com/citations?user=kMpV724AAAAJ&
+  - name: Xin Li
+    url: https://lixin4ever.github.io/
+  - name: Jiajun Liu
+    self: true
+  - name: Weiming Lu
+    url: https://person.zju.edu.cn/lwm
+  - name: Peng Li
+    marker: †
+    url: https://people.ucas.ac.cn/~pli
+  - name: Yueting Zhuang
+    marker: †
+    url: https://person.zju.edu.cn/yzhuang
+  venue: Annual Meeting of the Association for Computational Linguistics (ACL), 2026
+  links:
+  - label: arXiv
+    url: https://arxiv.org/abs/2503.21696
+  - label: Project
+    url: https://embodied-reasoner.github.io/
+  - label: Code
+    url: https://github.com/zwq2018/embodied_reasoner
+  image: /assets/img/embodied-reasoner.png
+  image_alt: Embodied Reasoner

@@ -1,0 +1,7 @@
+<ul class="news-list" id="news-list">
+  {% assign news_items = site.data.news | sort: 'date' | reverse %}
+  {% for item in news_items %}
+  <li><time class="news-date" datetime="{{ item.date | date: '%Y-%m' }}">{{ item.date | date: '%Y.%m' }}</time><span class="news-text">{{ item.text }}</span></li>
+  {% endfor %}
+</ul>
+<button class="news-toggle" id="news-toggle" type="button" aria-controls="news-list" aria-expanded="false" hidden>Show More</button>

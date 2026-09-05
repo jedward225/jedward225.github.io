@@ -1,0 +1,13 @@
+{% assign experience = include.experience %}
+<div class="research-item">
+  <div class="research-aside">
+    <div class="research-logo">
+      {% include image.html src=experience.image alt=experience.image_alt %}
+    </div>
+    <div class="research-date">{{ experience.date }}</div>
+  </div>
+  <div class="research-content">
+    <div class="research-header"><h3 class="research-title">{{ experience.title }}</h3></div>
+    <div class="research-details">{{ experience.details }}</div>
+  </div>
+</div>

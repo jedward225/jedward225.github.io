@@ -1,57 +1,40 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
-
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
 title: Jiajun Liu
+tagline: Robot Learning & World Models
 name: Jiajun Liu
 email: jedward.jiajun@gmail.com
-description: >- # this means to ignore newlines until "baseurl:"
-  A personal academic website.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+description: >-
+  Jiajun Liu (刘嘉俊) studies robot learning, spatial intelligence, and world models.
+  Incoming Ph.D. student at IIIS, Tsinghua University.
+baseurl: ""
+url: "https://jedward225.github.io"
 github_username: jedward225
 twitter_username: JEdwardlui
+author:
+  name: Jiajun Liu
+  twitter: JEdwardlui
+twitter:
+  username: JEdwardlui
+  card: summary
+social:
+  name: Jiajun Liu
+  links:
+    - https://github.com/jedward225
+    - https://x.com/JEdwardlui
 
-# Build settings
 theme: null
 plugins:
-  - jekyll-feed
   - jekyll-seo-tag
-
-# Markdown Processing
 markdown: kramdown
 kramdown:
   input: GFM
   syntax_highlighter: rouge
-  syntax_highlighter_opts:
-    css_class: 'highlight'
-
-# Exclude from processing.
-# The following items will not be processed, by default.
-# Any item listed under the `exclude:` key here will be automatically added to
-# the internal list.
-# Excluded items can be processed by explicitly listing the directories or
-# files' path in the `include:` list.
-#
-# exclude:
-#   - .sass-cache/
-#   - .jekyll-cache/
-#   - gemfiles/
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules/
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/ 
+sass:
+  style: compressed
+exclude:
+  - tmp/
+  - scripts/
+  - tests/
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor/

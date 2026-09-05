@@ -1,18 +1,18 @@
 <header class="header">
-  <nav class="navbar">
+  <nav class="navbar" aria-label="Main navigation">
     <a href="{{ '/' | relative_url }}" class="navbar-brand">{{ site.name }}</a>
     <div class="navbar-links">
-      <a href="#about" class="nav-link">About</a>
-      <a href="#news" class="nav-link">News</a>
-      <a href="#research" class="nav-link">Experience</a>
-      <a href="#publications" class="nav-link">Publications</a>
-      <a href="#projects" class="nav-link">Projects</a>
-      <a href="#interests" class="nav-link">Interests</a>
+      <a href="{{ '/' | relative_url }}#about" class="nav-link">About</a>
+      <a href="{{ '/' | relative_url }}#news" class="nav-link">News</a>
+      <a href="{{ '/' | relative_url }}#research" class="nav-link">Experience</a>
+      <a href="{{ '/' | relative_url }}#publications" class="nav-link">Publications</a>
+      <a href="{{ '/' | relative_url }}#projects" class="nav-link">Projects</a>
+      <a href="{{ '/' | relative_url }}#interests" class="nav-link">Interests</a>
     </div>
     <div class="theme-switcher">
-      <button id="theme-toggle-btn">
-        <span class="sun-icon">☀️</span>
-        <span class="moon-icon">🌙</span>
+      <button id="theme-toggle-btn" type="button" aria-label="Dark mode" aria-pressed="false" hidden>
+        <span class="sun-icon" aria-hidden="true">☀️</span>
+        <span class="moon-icon" aria-hidden="true">🌙</span>
       </button>
     </div>
   </nav>

@@ -1,0 +1,35 @@
+{% assign publication = include.publication %}
+<article class="publication-item" data-selected="{{ publication.selected }}">
+  <div class="publication-image">
+    {% if publication.video %}
+    <video autoplay muted loop playsinline preload="none" width="854" height="480"
+           poster="{{ publication.poster | relative_url }}" aria-label="{{ publication.image_alt | escape }}">
+      <source data-src="{{ publication.video | relative_url }}" type="video/mp4">
+      <a href="{{ publication.video | relative_url }}">Watch the demonstration</a>
+    </video>
+    <noscript><a href="{{ publication.video | relative_url }}">Watch the demonstration</a></noscript>
+    {% else %}
+      {% include image.html src=publication.image alt=publication.image_alt fit=publication.image_fit %}
+    {% endif %}
+  </div>
+  <div class="publication-content">
+    <h3 class="publication-title">{{ publication.title | escape }}</h3>
+    {% if publication.summary %}<p class="publication-description">{{ publication.summary | escape }}</p>{% endif %}
+    <div class="publication-authors">
+      {% for author in publication.authors %}
+        {%- if author.self -%}<strong>{{ author.name | escape }}{{ author.marker }}</strong>
+        {%- elsif author.url -%}<a href="{{ author.url | escape }}" target="_blank" rel="noopener noreferrer">{{ author.name | escape }}{{ author.marker }}</a>
+        {%- else -%}{{ author.name | escape }}{{ author.marker }}{%- endif -%}
+        {%- unless forloop.last -%}, {% endunless %}
+      {% endfor %}
+    </div>
+    <div class="publication-meta">
+      <div class="publication-venue">{{ publication.venue }}</div>
+      <div class="publication-links">
+        {% for link in publication.links %}
+          <a href="{{ link.url | escape }}" target="_blank" rel="noopener noreferrer">{{ link.label | escape }}</a>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</article>

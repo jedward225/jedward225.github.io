@@ -1,5 +1,7 @@
 ---
 layout: default
+image: /assets/img/1c.png
+last_modified_at: 2026-09-05
 ---
 
 <div class="home">
@@ -7,11 +9,12 @@ layout: default
   <!-- Profile Section -->
   <div class="profile" id="profile">
     <div class="profile-image">
-      <img src="/assets/img/1c.png" alt="Jiajun Liu">
+      {% include image.html src="/assets/img/1c.png" alt="Jiajun Liu" loading="eager" %}
     </div>
     <div class="profile-info">
       <h1>Jiajun Liu</h1>
-      <p class="profile-role">Incoming Ph.D. Student (Fall 2027), IIIS, Tsinghua University</p>
+      <p class="profile-role"> Incoming Ph.D. Student, Institute for Interdisciplinary Information Sciences, Tsinghua University</p>
+      <p class="profile-role"> Undergraduate, Gaoling School of Artificial Intelligence, Renmin University of China</p>
       <div class="social-links">
         <a href="mailto:{{ site.email }}">Email</a>
         <a href="https://scholar.google.com/citations?user=JIGENycAAAAJ&hl=zh-CN&authuser=1" target="_blank" rel="noopener noreferrer">Google Scholar</a>
@@ -19,12 +22,12 @@ layout: default
         <a href="{{ '/assets/pdf/CV.pdf' | relative_url }}" download>CV</a>
         <a href="https://x.com/{{ site.twitter_username }}" target="_blank" rel="noopener noreferrer">Twitter / X</a>
         <a href="https://www.xiaohongshu.com/user/profile/64b4c359000000001f007d4f" target="_blank" rel="noopener noreferrer">小红书</a>
-        <span class="wechat-link">
-          公众号
+        <details class="wechat-link">
+          <summary>公众号</summary>
           <div class="wechat-tooltip">
-            <img src="/assets/img/mp_wechat.jpg" alt="WeChat QR Code">
+            {% include image.html src="/assets/img/mp_wechat.jpg" alt="WeChat QR Code" %}
           </div>
-        </span>
+        </details>
       </div>
     </div>
   </div>
@@ -48,227 +51,31 @@ layout: default
   <!-- News Section -->
   <div class="news" id="news">
     <h2>News</h2>
-    <ul class="news-list" id="news-list">
-      <li><span class="news-date">2026.06</span><span class="news-text">Honored with the SenseTime Scholarship Nomination Award. Congrats to my friend <a href="https://hxiang-sun.com/" target="_blank">Haoxiang</a> on receiving the SenseTime Scholarship! We are the first students from RUC to receive this recognition.</span></li>
-      <li><span class="news-date">2026.04</span><span class="news-text"><a href="https://embodied-reasoner.github.io/" target="_blank">Embodied Reasoner</a> was accepted to ACL 2026.</span></li>
-      <li><span class="news-date">2026.02</span><span class="news-text">Bronze Medal at the 50-th ICPC East-Asia Continent Final (EC-Final) at Hangzhou.</span></li>
-      <li><span class="news-date">2025.12</span><span class="news-text">Awarded Most Potential Award at Open Source Promotion Plan (OSPP) 2025.</span></li>
-      <li><span class="news-date">2025.09</span><span class="news-text">Honored with National Scholarship (Top 0.4% Nationwide).</span></li>
-    </ul>
-    <button class="news-toggle" id="news-toggle" style="display:none;">Show More</button>
+    {% include news.html %}
   </div>
 
 
   <!-- Education & Experiences Section -->
   <div class="research" id="research">
     <h2>Education & Experiences</h2>
-    <div class="research-item" tabindex="0">
-      <div class="research-aside">
-        <div class="research-logo">
-          <img src="/assets/img/Tsinghua_University_Logo.svg.png" alt="Tsinghua University">
-        </div>
-        <div class="research-date">Oct 2025 - Present</div>
-      </div>
-      <div class="research-content">
-        <div class="research-header">
-          <div class="research-title">Research Intern, <a href="https://iiis.tsinghua.edu.cn/">IIIS</a>, Tsinghua University, China</div>
-        </div>
-        <div class="research-details">
-          <p><strong>Advisor:</strong> <a href="https://www.mengdixu.me/">Mengdi Xu</a></p>
-        </div>
-      </div>
-    </div>
-
-    <div class="research-item" tabindex="0">
-      <div class="research-aside">
-        <div class="research-logo">
-          <img src="/assets/img/Northwestern_University_seal.svg.png" alt="Northwestern University">
-        </div>
-        <div class="research-date">Jun 2025 - Sep 2025</div>
-      </div>
-      <div class="research-content">
-        <div class="research-header">
-          <div class="research-title">Research Intern, <a href="https://mll-lab-nu.github.io/">MLL-Lab</a>, Northwestern University, USA</div>
-        </div>
-        <div class="research-details">
-          <p><strong>Advisor:</strong> <a href="https://limanling.github.io/">Manling Li</a></p>
-        </div>
-      </div>
-    </div>
-    
-    <div class="research-item" tabindex="0">
-      <div class="research-aside">
-        <div class="research-logo">
-          <img src="/assets/img/Renmin_University_of_China_logo.svg.png" alt="Renmin University">
-        </div>
-        <div class="research-date">Jan 2025 - Aug 2025</div>
-      </div>
-      <div class="research-content">
-        <div class="research-header">
-          <div class="research-title">Research Intern, <a href="https://github.com/ML-GSAI/">GSAI-ML Group</a>, Renmin University, China</div>
-        </div>
-        <div class="research-details">
-          <p><strong>Advisor:</strong> <a href="https://zhenxuan00.github.io/">Chongxuan Li</a>, <a href="https://ml.cs.tsinghua.edu.cn/~jun/index.shtml">Jun Zhu</a></p>
-        </div>
-      </div>
-    </div>
+    {% for experience in site.data.experiences %}
+      {% include experience.html experience=experience %}
+    {% endfor %}
   </div>
 
 
   <!-- Publications Section -->
-  <div class="publications" id="publications" data-filter="selected">
+  <div class="publications" id="publications">
     <h2>Publications & Preprints</h2>
     <p class="section-note">* denotes equal contribution; † denotes corresponding author.</p>
-    <div class="publication-filter" aria-label="Publication filter">
+    <div class="publication-filter" role="group" aria-label="Publication filter" hidden>
       <button class="publication-filter-btn active" type="button" data-publication-filter="selected" aria-pressed="true">Selected</button>
       <button class="publication-filter-btn" type="button" data-publication-filter="all" aria-pressed="false">All</button>
     </div>
 
-    <div class="publication-item" data-selected="true">
-      <div class="publication-image">
-        <img class="publication-image-contain" src="/assets/img/robocoach.png" alt="RoboCoach">
-      </div>
-      <div class="publication-content">
-        <div class="publication-title">
-          RoboCoach: World Models as Active Coaches for Compositional Robot Skills
-        </div>
-        <div class="publication-authors">
-          <strong>Jiajun Liu</strong>*, <a href="https://cyf-24.github.io/" target="_blank">Yifan Chen</a>*, Yichao Liu*, <a href="https://zhangjiayi24.github.io/" target="_blank">Jiayi Zhang</a>, <a href="https://gcfy63821.github.io/" target="_blank">Ruoqu Chen</a>, Shaoxuan Xie, <a href="https://scholar.google.com/citations?user=FLkv_vIAAAAJ&hl=zh-CN" target="_blank">Guocai Yao</a>, <a href="https://www.mengdixu.me/" target="_blank">Mengdi Xu†</a>, <a href="https://sencui-thu.github.io/" target="_blank">Sen Cui†</a>, <a href="https://scholar.google.com/citations?user=GL9M37YAAAAJ&hl=zh-CN" target="_blank">Changshui Zhang†</a>
-        </div>
-        <div class="publication-meta">
-          <div class="publication-venue">Preprint</div>
-          <div class="publication-links">
-            <a href="https://robocoach-ai.github.io/" target="_blank">Project</a>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="publication-item" data-selected="true">
-      <div class="publication-image">
-        <img src="/assets/img/roboretry_workshop.drawio.png" alt="RoboRetry">
-      </div>
-      <div class="publication-content">
-        <div class="publication-title">
-          What Do VLAs Actually Learn through In-Context Failure Conditioning?
-        </div>
-        <div class="publication-authors">
-          <strong>Jiajun Liu</strong>, <a href="https://lijiemingjimmy.github.io/" target="_blank">Jieming Li</a>, Zi Zhuang, Hang Yu, Qingli Chen, <a href="https://xiaohu-art.github.io/" target="_blank">Liu Cao</a>, <a href="https://luyingxi35.github.io/" target="_blank">Yingxi Lu</a>, <a href="https://gcfy63821.github.io/" target="_blank">Ruoqu Chen</a>, <a href="https://scholar.google.com/citations?user=9SDGjroAAAAJ&" target="_blank">Yuhang Cao</a>, <a href="https://chenyuzhangx.github.io/" target="_blank">Chenyu Zhang</a>, <a href="https://linyankai.github.io/" target="_blank">Yankai Lin</a>, <a href="https://www.mengdixu.me/" target="_blank">Mengdi Xu†</a>
-        </div>
-        <div class="publication-meta">
-          <div class="publication-venue">CVPR 2026 Workshop on 3D-LLM/VLA</div>
-          <div class="publication-links">
-            <a href="https://jedward225.github.io/RoboRetry/" target="_blank">Project</a>
-            <a href="https://github.com/jedward225/RoboRetry" target="_blank">Code</a>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="publication-item" data-selected="true">
-      <div class="publication-image">
-        <img src="/assets/img/viewrope.png" alt="ViewRoPE">
-      </div>
-      <div class="publication-content">
-        <div class="publication-title">
-          Geometry-Aware Rotary Position Embedding for Consistent Video World Model
-        </div>
-        <div class="publication-authors">
-          <a href="https://xiang-cd.github.io/" target="_blank">Chendong Xiang*</a>, <strong>Jiajun Liu*</strong>, <a href="https://jt-zhang.github.io/" target="_blank">Jintao Zhang*</a>, <a href="https://ml.cs.tsinghua.edu.cn/~xiaoyang/" target="_blank">Xiao Yang</a>, <a href="https://scholar.google.com/citations?hl=en&user=v5lIRxUAAAAJ&" target="_blank">Zhengwei Fang</a>,  <a href="https://littlepure2333.github.io/home/" target="_blank">Shizun Wang</a>, Zijun Wang, <a href="https://yingtian.world/" target="_blank">Yingtian Zou</a>, <a href="https://www.cs.tsinghua.edu.cn/csen/info/1313/4403.htm" target="_blank">Hang Su†</a>, <a href="https://ml.cs.tsinghua.edu.cn/~jun/index.shtml" target="_blank">Jun Zhu†</a>
-        </div>
-        <div class="publication-meta">
-          <div class="publication-venue">ICLR 2026 Workshop on World Models</div>
-          <div class="publication-links">
-            <a href="https://www.arxiv.org/abs/2602.07854" target="_blank">arXiv</a>
-            <a href="https://github.com/jedward225/viewbench-dataset" target="_blank">Code</a>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="publication-item" data-selected="false">
-      <div class="publication-image">
-        <video autoplay muted loop playsinline preload="metadata" aria-label="HuMiT teaser">
-          <source src="/assets/img/humit.mp4" type="video/mp4">
-        </video>
-      </div>
-      <div class="publication-content">
-        <div class="publication-title">
-          HuMiT: Low-Latency Whole-Body Humanoid Teleoperation via Minimal Reference Tracking
-        </div>
-        <div class="publication-authors">
-          <a href="https://xiaohu-art.github.io/" target="_blank">Liu Cao</a>, <a href="https://btx0424.github.io/" target="_blank">Botian Xu</a>, <a href="https://gcfy63821.github.io/" target="_blank">Ruoqu Chen</a>, <strong>Jiajun Liu</strong>, Mingzhi Pei, Zihao Wang, <a href="https://zyliatzju.github.io/" target="_blank">Zhongyu Li†</a>, <a href="https://www.mengdixu.me/" target="_blank">Mengdi Xu†</a>
-        </div>
-        <div class="publication-meta">
-          <div class="publication-venue">Preprint</div>
-          <div class="publication-links">
-            <a href="https://humit-ral.github.io/" target="_blank">Project</a>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="publication-item" data-selected="false">
-      <div class="publication-image">
-        <img src="/assets/img/catok.png" alt="Causal Action Tokenizer">
-      </div>
-      <div class="publication-content">
-        <div class="publication-title">
-          Rethinking Causal Action Tokenization with Conditional Annealing in Flow Matching
-        </div>
-        <div class="publication-authors">
-          <a href="https://chenyuzhangx.github.io/" target="_blank">Chenyu Zhang*</a>, <a href="https://scholar.google.com/citations?user=9SDGjroAAAAJ&" target="_blank">Yuhang Cao*</a>, Daru Du, <a href="https://luyingxi35.github.io/" target="_blank">Yingxi Lu</a>, Jing Shao, <a href="https://gcfy63821.github.io/" target="_blank">Ruoqu Chen</a>, <strong>Jiajun Liu</strong>, <a href="https://xiaohu-art.github.io/" target="_blank">Liu Cao</a>, <a href="https://mrmoore98.github.io/liuyicheng/" target="_blank">Yicheng Liu</a>, <a href="https://hangzhaomit.github.io/" target="_blank">Hang Zhao</a>, <a href="https://www.mengdixu.me/" target="_blank">Mengdi Xu†</a>
-        </div>
-        <div class="publication-meta">
-          <div class="publication-venue">Preprint</div>
-          <div class="publication-links">
-            <a href="https://causalactiontokenizer.github.io/" target="_blank">Project</a>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="publication-item" data-selected="false">
-      <div class="publication-image">
-        <img src="/assets/img/dexx.png" alt="DeXx">
-      </div>
-      <div class="publication-content">
-        <div class="publication-title">
-          Learning Visual-Tactile Dexterous Manipulation From Human Videos with Simulated Interaction
-        </div>
-        <div class="publication-authors">
-          <a href="https://gcfy63821.github.io/" target="_blank">Ruoqu Chen</a>, Feixiang Ruan, <a href="https://xiaohu-art.github.io/" target="_blank">Liu Cao</a>, Zihao Wang, <a href="https://btx0424.github.io/" target="_blank">Botian Xu</a>, Shiqin Tong, <strong>Jiajun Liu</strong>, <a href="https://wlxing1901.github.io/" target="_blank">Wanli Xing</a>, Kaifeng Zhang, <a href="https://www.mengdixu.me/" target="_blank">Mengdi Xu†</a>
-        </div>
-        <div class="publication-meta">
-          <div class="publication-venue">Conference on Robot Learning (CoRL), 2026; RSS 2026 Workshop on Dexterous Manipulation <span class="award-highlight">(Spotlight)</span></div>
-          <div class="publication-links">
-            <a href="https://dexx-code.github.io/dexx-code/" target="_blank">Project</a>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="publication-item" data-selected="false">
-      <div class="publication-image">
-        <img src="/assets/img/embodied-reasoner.png" alt="Embodied Reasoner">
-      </div>
-      <div class="publication-content">
-        <div class="publication-title">
-          Embodied Reasoner: Synergizing Visual Search, Reasoning, and Action for Embodied Interactive Tasks
-        </div>
-        <div class="publication-authors">
-          <a href="https://zwq2018.github.io/" target="_blank">Wenqi Zhang*</a>, <a href="https://scholar.google.com/citations?user=MOuO2xIAAAAJ&" target="_blank">Mengna Wang*</a>, Gangao Liu, Huixin Xu, Yiwei Jiang, <a href="https://person.zju.edu.cn/shenyongliang" target="_blank">Yongliang Shen</a>, <a href="https://scholar.google.com/citations?user=vg_WtiYAAAAJ&" target="_blank">Guiyang Hou</a>, Zhe Zheng, <a href="https://scholar.google.com/citations?user=kMpV724AAAAJ&" target="_blank">Hang Zhang</a>, <a href="https://lixin4ever.github.io/" target="_blank">Xin Li</a>, <strong>Jiajun Liu</strong>, <a href="https://person.zju.edu.cn/lwm" target="_blank">Weiming Lu</a>, <a href="https://people.ucas.ac.cn/~pli" target="_blank">Peng Li†</a>, <a href="https://person.zju.edu.cn/yzhuang" target="_blank">Yueting Zhuang†</a>
-        </div>
-        <div class="publication-meta">
-          <div class="publication-venue">Annual Meeting of the Association for Computational Linguistics (ACL), 2026</div>
-          <div class="publication-links">
-            <a href="https://arxiv.org/abs/2503.21696" target="_blank">arXiv</a>
-            <a href="https://embodied-reasoner.github.io/" target="_blank">Project</a>
-            <a href="https://github.com/zwq2018/embodied_reasoner" target="_blank">Code</a>
-          </div>
-        </div>
-      </div>
-    </div>
+    {% for publication in site.data.publications %}
+      {% include publication.html publication=publication %}
+    {% endfor %}
   </div>
 
 
@@ -281,8 +88,8 @@ layout: default
       <div class="project-meta">
         <p class="project-role">Main Contributor</p>
         <div class="publication-links">
-          <a href="https://summer-ospp.ac.cn/org/prodetail/251760142?lang=zh&list=pro" target="_blank">Project</a>
-          <a href="https://github.com/zwq2018/embodied_reasoner" target="_blank">Code</a>
+          <a href="https://summer-ospp.ac.cn/org/prodetail/251760142?lang=zh&list=pro" target="_blank" rel="noopener noreferrer">Project</a>
+          <a href="https://github.com/zwq2018/embodied_reasoner" target="_blank" rel="noopener noreferrer">Code</a>
         </div>
       </div>
       <p>
@@ -295,8 +102,8 @@ layout: default
       <div class="project-meta">
         <p class="project-role">Contributor</p>
         <div class="publication-links">
-          <a href="https://ragen-ai.github.io/" target="_blank">Project</a>
-          <a href="https://github.com/RAGEN-AI/RAGEN" target="_blank">Code</a>
+          <a href="https://ragen-ai.github.io/" target="_blank" rel="noopener noreferrer">Project</a>
+          <a href="https://github.com/RAGEN-AI/RAGEN" target="_blank" rel="noopener noreferrer">Code</a>
         </div>
       </div>
       <p>
@@ -320,13 +127,12 @@ layout: default
 
   <!-- Scholarship Section -->
   <div class="scholarship" id="scholarship">
-    <h2>Scholarships</h2>
+    <h2>Selected Scholarships</h2>
     <ul>
       <li><span><span class="award-highlight">SenseTime Scholarship Nomination</span></span> <span class="date-right">Jun 2026</span></li>
       <li><span><span class="award-highlight">National Scholarship</span></span> <span class="date-right">Sep 2025</span></li>
       <li><span><span class="award-highlight">"Linghang" Intellectual Excellence Dean's Scholarship</span></span> <span class="date-right">Dec 2024</span></li>
       <li><span><span class="award-highlight">Outstanding Student Leader Scholarship</span></span> <span class="date-right">Sep 2024</span></li>
-      <li><span><span class="award-highlight">Third Prize Scholarship for Excellence in Social Work and Volunteering</span></span> <span class="date-right">Sep 2025</span></li>
     </ul>
   </div>
 
@@ -349,14 +155,14 @@ layout: default
     <div class="interests-carousel">
       <div class="carousel-main">
         <!-- Navigation buttons -->
-        <button class="carousel-nav carousel-nav-left" id="prev-btn">
+        <button class="carousel-nav carousel-nav-left" id="prev-btn" type="button" aria-label="Previous interest" hidden>
           <span>‹</span>
         </button>
     
-        <div class="carousel-track">
+        <div class="carousel-track" aria-live="polite">
         <div class="carousel-slide active">
           <div class="slide-image">
-            <img src="/assets/img/interests/basketball.jpg" alt="Basketball">
+            {% include image.html src="/assets/img/interests/basketball.jpg" alt="Basketball" %}
           </div>
           <div class="slide-text">
             <h3>Basketball</h3>
@@ -366,7 +172,7 @@ layout: default
     
         <div class="carousel-slide">
           <div class="slide-image">
-            <img src="/assets/img/interests/sailing.jpg" alt="Sailing">
+            {% include image.html src="/assets/img/interests/sailing.jpg" alt="Sailing" %}
           </div>
           <div class="slide-text">
             <h3>Sailing</h3>
@@ -376,7 +182,7 @@ layout: default
     
         <div class="carousel-slide">
           <div class="slide-image">
-            <img src="/assets/img/ed-sheeran.jpg" alt="Music">
+            {% include image.html src="/assets/img/ed-sheeran.jpg" alt="Music" %}
           </div>
           <div class="slide-text">
             <h3>Music</h3>
@@ -386,7 +192,7 @@ layout: default
     
         <div class="carousel-slide">
           <div class="slide-image">
-            <img src="/assets/img/interests/coding.jpg" alt="Coding Contest">
+            {% include image.html src="/assets/img/interests/coding.jpg" alt="Coding Contest" %}
           </div>
           <div class="slide-text">
             <h3>Coding Contest</h3>
@@ -396,7 +202,7 @@ layout: default
     
         <div class="carousel-slide">
           <div class="slide-image">
-            <img src="/assets/img/harry-potter.jpg" alt="Video Editing">
+            {% include image.html src="/assets/img/harry-potter.jpg" alt="Video Editing" %}
           </div>
           <div class="slide-text">
             <h3>Video Editing</h3>
@@ -405,18 +211,18 @@ layout: default
         </div>
       </div>
     
-        <button class="carousel-nav carousel-nav-right" id="next-btn">
+        <button class="carousel-nav carousel-nav-right" id="next-btn" type="button" aria-label="Next interest" hidden>
           <span>›</span>
         </button>
       </div>
     
       <!-- Dots indicator -->
-      <div class="carousel-dots">
-        <span class="dot active" data-slide="0"></span>
-        <span class="dot" data-slide="1"></span>
-        <span class="dot" data-slide="2"></span>
-        <span class="dot" data-slide="3"></span>
-        <span class="dot" data-slide="4"></span>
+      <div class="carousel-dots" role="group" aria-label="Choose an interest" hidden>
+        <button class="dot active" type="button" data-slide="0" aria-label="Show Basketball" aria-pressed="true"></button>
+        <button class="dot" type="button" data-slide="1" aria-label="Show Sailing" aria-pressed="false"></button>
+        <button class="dot" type="button" data-slide="2" aria-label="Show Music" aria-pressed="false"></button>
+        <button class="dot" type="button" data-slide="3" aria-label="Show Coding Contest" aria-pressed="false"></button>
+        <button class="dot" type="button" data-slide="4" aria-label="Show Video Editing" aria-pressed="false"></button>
       </div>
     </div>
   </div>
@@ -424,7 +230,7 @@ layout: default
 
   <!-- Last Modified Time -->
   <div class="last-modified">
-    <p>Last Updated: Sep., 2026</p>
+    <p>Last Updated: {{ page.last_modified_at | date: '%b, %Y' }}</p>
   </div>
 
 </div>

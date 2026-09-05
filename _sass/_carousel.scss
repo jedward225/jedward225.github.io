@@ -1,0 +1,141 @@
+.interests-carousel {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+.carousel-main {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.carousel-track {
+  flex: 1;
+  overflow: hidden;
+}
+
+.carousel-slide {
+  display: flex;
+  align-items: stretch;
+  background-color: var(--card-bg-color);
+  overflow: hidden;
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  box-shadow: none;
+  min-height: 280px;
+  margin-bottom: 0.75rem;
+}
+
+.slide-image {
+  position: relative;
+  flex: 0 0 50%;
+  max-width: 50%;
+  min-height: 200px;
+}
+
+.slide-image img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.slide-text {
+  flex: 1;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-width: 0;
+}
+
+.slide-text h3 {
+  margin-bottom: 1rem;
+  color: var(--text-color);
+  font-size: 0.98rem;
+  font-weight: 650;
+}
+
+.slide-text p {
+  line-height: 1.7;
+  margin: 0;
+  color: var(--text-color-secondary);
+  font-size: 0.95rem;
+}
+
+.carousel-nav {
+  flex-shrink: 0;
+  background: var(--accent-color);
+  border: 1px solid var(--border-color);
+  color: var(--text-color);
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  transition: background-color 0.3s, border-color 0.3s;
+}
+
+.carousel-nav:hover {
+  background: var(--border-color);
+}
+
+.carousel-dots {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  margin-top: 1rem;
+}
+
+.dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: var(--border-color);
+  cursor: pointer;
+  transition: background-color 0.3s;
+  box-sizing: content-box;
+  background-clip: content-box;
+  border: 7px solid transparent;
+  padding: 0;
+}
+
+.dot.active {
+  background: var(--link-color);
+}
+
+.dot:hover {
+  background: var(--link-color);
+}
+
+@media (max-width: 600px) {
+  .carousel-slide {
+    flex-direction: column;
+  }
+
+  .slide-image {
+    flex: none;
+    max-width: 100%;
+    height: 200px;
+  }
+
+  .slide-text {
+    padding: 1rem;
+  }
+
+  .carousel-main {
+    gap: 0.4rem;
+  }
+
+  .carousel-nav {
+    width: 30px;
+    height: 36px;
+  }
+
+}

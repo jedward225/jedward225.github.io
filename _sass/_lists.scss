@@ -1,0 +1,184 @@
+.service-detail {
+  text-align: right;
+  color: var(--text-color-faint);
+  font-size: 0.85rem;
+  font-style: normal;
+}
+
+.award-highlight {
+  color: var(--highlight-color);
+  font-weight: 600;
+}
+
+.awards ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.scholarship ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.awards ul li {
+  margin-bottom: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  color: var(--text-color);
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+.scholarship ul li {
+  margin-bottom: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  color: var(--text-color);
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+.date-right {
+  flex-shrink: 0;
+  margin-left: 1rem;
+  white-space: nowrap;
+  color: var(--text-color-faint);
+  font-size: 0.85rem;
+  font-style: normal;
+}
+
+.services ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.services ul li {
+  margin-bottom: 0.75rem;
+  color: var(--text-color);
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+.news-list {
+  list-style: none;
+  padding-left: 0;
+  overflow: hidden;
+  margin: 0;
+  padding: 0.25rem 1rem;
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  background: transparent;
+}
+
+.news-list li {
+  margin-bottom: 0.6rem;
+  padding-left: 5.5rem;
+  display: grid;
+  grid-template-columns: 5.1rem minmax(0, 1fr);
+  column-gap: 0.8rem;
+  align-items: baseline;
+  margin: 0;
+  padding: 0.62rem 0;
+  border-bottom: 1px solid var(--border-color);
+  color: var(--text-color-secondary);
+  font-size: 0.94rem;
+  line-height: 1.55;
+  text-indent: 0;
+}
+
+.news-date {
+  display: inline-block;
+  text-indent: 0;
+  width: auto;
+  color: var(--link-color);
+  font-size: 0.88rem;
+  font-weight: 700;
+}
+
+.news-toggle {
+  background: none;
+  border: 1px solid var(--border-color);
+  border-radius: 6px;
+  color: var(--link-color);
+  cursor: pointer;
+  padding: 0.3rem 1rem;
+  font-size: 0.9rem;
+  margin-top: 0.5rem;
+  transition: background-color 0.2s;
+}
+
+.news-toggle:hover {
+  background-color: var(--accent-color);
+}
+
+.last-modified {
+  text-align: center;
+  font-size: 0.85rem;
+  margin-top: 2rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--border-color);
+  color: var(--text-color-faint);
+}
+
+[data-theme='dark'] .last-modified {
+  color: var(--text-color-faint);
+}
+
+.news {
+  border-bottom: 1px solid var(--border-color);
+}
+
+.news-list li:last-child {
+  border-bottom: none;
+}
+
+.news-text {
+  min-width: 0;
+}
+
+.news-text a {
+  font-weight: 500;
+}
+
+.awards .award-highlight {
+  color: var(--link-color);
+}
+
+.scholarship .award-highlight {
+  color: var(--link-color);
+}
+
+@media (max-width: 820px) {
+  .news-list {
+    padding: 0.15rem 0.85rem;
+  }
+
+  .news-list li {
+    grid-template-columns: 4.8rem minmax(0, 1fr);
+    row-gap: 0.25rem;
+  }
+
+  .news-text {
+    grid-column: auto;
+  }
+
+}
+
+@media (max-width: 560px) {
+  .awards ul li {
+    display: block;
+  }
+
+  .scholarship ul li {
+    display: block;
+  }
+
+  .date-right {
+    display: block;
+    margin: 0.2rem 0 0;
+  }
+
+}
+
