@@ -30,9 +30,9 @@
   links:
   - label: Project
     url: https://robocoach-ai.github.io/
-  image: /assets/img/robocoach.png
-  image_alt: RoboCoach
-  image_fit: contain
+  video: /assets/img/robocoach-teaser-with-logos-web.mp4
+  poster: /assets/img/robocoach-ai-poster.png
+  image_alt: RoboCoach demonstration of world models coaching compositional robot skills
 - id: roboretry
   selected: true
   title: What Do VLAs Actually Learn through In-Context Failure Conditioning?
@@ -157,7 +157,7 @@
   - name: Mengdi Xu
     marker: †
     url: https://www.mengdixu.me/
-  venue: Preprint
+  venue: Annual Conference on Neural Information Processing Systems (NeurIPS), 2026
   links:
   - label: Project
     url: https://causalactiontokenizer.github.io/

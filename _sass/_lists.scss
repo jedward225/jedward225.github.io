@@ -138,8 +138,13 @@
   min-width: 0;
 }
 
-.news-text a {
+.news-text a,
+.news-highlight {
   font-weight: 500;
+}
+
+.news-highlight {
+  color: var(--link-color);
 }
 
 .awards .award-highlight {
@@ -181,4 +186,3 @@
   }
 
 }
-

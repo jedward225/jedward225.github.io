@@ -1,7 +1,7 @@
 ---
 layout: default
 image: /assets/img/1c.png
-last_modified_at: 2026-09-05
+last_modified_at: 2026-09-26
 ---
 
 <div class="home">
@@ -55,9 +55,9 @@ last_modified_at: 2026-09-05
   </div>
 
 
-  <!-- Education & Experiences Section -->
+  <!-- Research Experiences Section -->
   <div class="research" id="research">
-    <h2>Education & Experiences</h2>
+    <h2>Research Experiences</h2>
     {% for experience in site.data.experiences %}
       {% include experience.html experience=experience %}
     {% endfor %}
@@ -117,11 +117,11 @@ last_modified_at: 2026-09-05
   <div class="awards" id="awards">
     <h2>Selected Awards</h2>
     <ul>
-      <li><span><span class="award-highlight">Silver Medal</span>, International Collegiate Programming Contest (ICPC) <span class="award-highlight">East-Asia Continent Final</span></span> <span class="date-right">Dec 2024</span></li>
+      <li><span><span class="award-highlight">Most Potential Award</span>, Open Source Promotion Plan (OSPP) 2025</span> <span class="date-right">Dec 2025</span></li>
       <li><span><span class="award-highlight">Gold Medal</span>, International Collegiate Programming Contest (ICPC) Asia Regional (Wuhan)</span> <span class="date-right">Nov 2025</span></li>
       <li><span><span class="award-highlight">Gold Medal</span>, "Xiaomi Cup" China Collegiate Programming Contest (CCPC) Invitational Contest</span> <span class="date-right">Apr 2025</span></li>
+      <li><span><span class="award-highlight">Silver Medal</span>, International Collegiate Programming Contest (ICPC) <span class="award-highlight">East-Asia Continent Final</span></span> <span class="date-right">Dec 2024</span></li>
       <li><span><span class="award-highlight">Silver Medal</span>, 2024 CCF Collegiate Computer Systems & Programming Contest (CCSP)</span> <span class="date-right">Oct 2024</span></li>
-      <li><span><span class="award-highlight">Most Potential Award</span>, Open Source Promotion Plan (OSPP) 2025</span> <span class="date-right">Dec 2025</span></li>
     </ul>
   </div>
 
@@ -129,6 +129,7 @@ last_modified_at: 2026-09-05
   <div class="scholarship" id="scholarship">
     <h2>Selected Scholarships</h2>
     <ul>
+      <li><span><span class="award-highlight">China National Petroleum Corporation Scholarship (CNPC Scholarship)</span></span> <span class="date-right">Sep 2026</span></li>
       <li><span><span class="award-highlight">SenseTime Scholarship Nomination</span></span> <span class="date-right">Jun 2026</span></li>
       <li><span><span class="award-highlight">National Scholarship</span></span> <span class="date-right">Sep 2025</span></li>
       <li><span><span class="award-highlight">"Linghang" Intellectual Excellence Dean's Scholarship</span></span> <span class="date-right">Dec 2024</span></li>
@@ -141,9 +142,9 @@ last_modified_at: 2026-09-05
   <div class="services" id="services">
     <h2>Services & Presentations</h2>
     <ul>
-      <li> <strong>Reviewer:</strong> ICLR 2026 @ World Models, COLM 2026 @ Lifelong Agents, NeurIPS 2026 @ PhysUnderstand</li>
-      <li> <strong>Video:</strong> "My Experience Using AI+ Tools to Create Videos"<div class="service-detail">Invited by CCF for <em>China National Computer Conference (CNCC)</em> Super Forum</div></li>
-      <li> <strong>Talk:</strong> "Algorithm and Artificial Intelligence"<div class="service-detail">Invited by Gaoling School of AI & School of Information, Renmin University of China</div></li>
+      <li> <strong>Reviewer:</strong> ICLR 2027</li>
+      <li> <strong>Invited Video:</strong> "My Experience Using AI+ Tools to Create Videos"<div class="service-detail">Invited by CCF for <em>China National Computer Conference (CNCC)</em> Super Forum</div></li>
+      <li> <strong>Invited Talk:</strong> "Algorithm and Artificial Intelligence"<div class="service-detail">Invited by Gaoling School of AI & School of Information, Renmin University of China</div></li>
     </ul>
   </div>
 
