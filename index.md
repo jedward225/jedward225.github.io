@@ -1,7 +1,7 @@
 ---
 layout: default
 image: /assets/img/1c.png
-last_modified_at: 2026-09-26
+last_modified_at: 2026-09-30
 ---
 
 <div class="home">
@@ -129,7 +129,7 @@ last_modified_at: 2026-09-26
   <div class="scholarship" id="scholarship">
     <h2>Selected Scholarships</h2>
     <ul>
-      <li><span><span class="award-highlight">China National Petroleum Corporation Scholarship (CNPC Scholarship)</span></span> <span class="date-right">Sep 2026</span></li>
+      <li><span><span class="award-highlight">China National Petroleum Corporation Scholarship</span></span> <span class="date-right">Sep 2026</span></li>
       <li><span><span class="award-highlight">SenseTime Scholarship Nomination</span></span> <span class="date-right">Jun 2026</span></li>
       <li><span><span class="award-highlight">National Scholarship</span></span> <span class="date-right">Sep 2025</span></li>
       <li><span><span class="award-highlight">"Linghang" Intellectual Excellence Dean's Scholarship</span></span> <span class="date-right">Dec 2024</span></li>

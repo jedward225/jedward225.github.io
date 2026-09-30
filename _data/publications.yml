@@ -157,10 +157,14 @@
   - name: Mengdi Xu
     marker: †
     url: https://www.mengdixu.me/
-  venue: Annual Conference on Neural Information Processing Systems (NeurIPS), 2026
+  venue: Annual Conference on Neural Information Processing Systems (NeurIPS), 2026 · <span class="award-highlight">Oral</span> @ NeurIPS 2026 WRL
   links:
+  - label: arXiv
+    url: https://arxiv.org/abs/2609.35469
   - label: Project
-    url: https://causalactiontokenizer.github.io/
+    url: https://chenyuzhangx.github.io/CATok/
+  - label: Code
+    url: https://github.com/ChenyuZhangX/CausalActionTokenizer
   image: /assets/img/catok.png
   image_alt: Causal Action Tokenizer
 - id: dexx
