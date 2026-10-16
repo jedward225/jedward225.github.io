@@ -28,8 +28,14 @@
     url: https://scholar.google.com/citations?user=GL9M37YAAAAJ&hl=zh-CN
   venue: Preprint
   links:
+  - label: arXiv
+    url: https://arxiv.org/abs/2609.39685
   - label: Project
     url: https://robocoach-ai.github.io/
+  - label: Code
+    url: https://github.com/RoboCoach-AI/CoachWorld
+  - label: Hugging Face
+    url: https://huggingface.co/JEdward/CoachWorld
   video: /assets/img/robocoach-teaser-with-logos-web.mp4
   poster: /assets/img/robocoach-ai-poster.png
   image_alt: RoboCoach demonstration of world models coaching compositional robot skills
@@ -174,6 +180,7 @@
   - name: Ruoqu Chen
     url: https://gcfy63821.github.io/
   - name: Feixiang Ruan
+    url: https://vme0522.github.io/
   - name: Liu Cao
     url: https://xiaohu-art.github.io/
   - name: Zihao Wang
