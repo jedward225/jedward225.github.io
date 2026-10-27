@@ -1,7 +1,7 @@
 ---
 layout: default
 image: /assets/img/1c.png
-last_modified_at: 2026-10-27
+last_modified_at: 2026-10-28
 ---
 
 <div class="home">
@@ -141,8 +141,8 @@ last_modified_at: 2026-10-27
     <h2>Services & Presentations</h2>
     <ul>
       <li> <strong>Conference Reviewer:</strong> ICLR 2027</li>
-      <li> <strong>Invited Talk:</strong> "My Perspective on Embodied AI" (《我眼中的具身智能》)<div class="service-detail">PG Club and IBCA Club, Renmin University of China · Nov 2026</div></li>
-      <li> <strong>Invited Talks:</strong> "Robot Learning from Failure and Physical RSI"<div class="service-detail"><a href="https://ml.cs.tsinghua.edu.cn/" target="_blank" rel="noopener noreferrer">TSAIL</a> (Prof. Jun Zhu) and <a href="https://bigeye.au.tsinghua.edu.cn/" target="_blank" rel="noopener noreferrer">BigEye Lab</a> (Prof. Changshui Zhang), Tsinghua University</div></li>
+      <li> <strong>Invited Talk:</strong> "My Perspective on Embodied AI" (《我眼中的具身智能》)<div class="service-detail">Invited by PG Club and IBCA Club, Renmin University of China</div></li>
+      <li> <strong>Invited Talk:</strong> "Robot Learning from Failure and Physical RSI"<div class="service-detail">Invited by <a href="https://ml.cs.tsinghua.edu.cn/" target="_blank" rel="noopener noreferrer">TSAIL-Group</a> and <a href="https://bigeye.au.tsinghua.edu.cn/" target="_blank" rel="noopener noreferrer">BigEye-Lab</a>, Tsinghua University</div></li>
       <li> <strong>Invited Video:</strong> "My Experience Using AI+ Tools to Create Videos"<div class="service-detail">Invited by CCF for <em>China National Computer Conference (CNCC)</em> Super Forum</div></li>
       <li> <strong>Invited Talk:</strong> "Algorithm and Artificial Intelligence"<div class="service-detail">Invited by Gaoling School of AI & School of Information, Renmin University of China</div></li>
     </ul>

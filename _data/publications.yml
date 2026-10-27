@@ -10,6 +10,7 @@
     url: https://cyf-24.github.io/
   - name: Yichao Liu
     marker: '*'
+    url: https://lyccc23.github.io/#interests
   - name: Jiayi Zhang
     url: https://zhangjiayi24.github.io/
   - name: Ruoqu Chen
@@ -34,7 +35,7 @@
     url: https://robocoach-ai.github.io/
   - label: Code
     url: https://github.com/RoboCoach-AI/CoachWorld
-  - label: Hugging Face
+  - label: Huggingface
     url: https://huggingface.co/JEdward/CoachWorld
   - label: 机器之心
     url: https://mp.weixin.qq.com/s/inifTqjMXpCOvE98Te6Wgw
@@ -73,6 +74,8 @@
     url: https://jedward225.github.io/RoboRetry/
   - label: Code
     url: https://github.com/jedward225/RoboRetry
+  - label: Modelscope
+    url: https://modelscope.cn/datasets/ZZ0131/FailureSlot
   image: /assets/img/roboretry_workshop.drawio.png
   image_alt: RoboRetry
 - id: viewrope
@@ -109,6 +112,10 @@
     url: https://www.arxiv.org/abs/2602.07854
   - label: Code
     url: https://github.com/jedward225/viewbench-dataset
+  - label: Huggingface
+    url: https://huggingface.co/datasets/JEdward/viewbench-dataset
+  - label: Modelscope
+    url: https://modelscope.cn/datasets/JEdward/viewbench-dataset
   image: /assets/img/viewrope.png
   image_alt: ViewRoPE
 - id: humit
@@ -133,8 +140,10 @@
     url: https://www.mengdixu.me/
   venue: Preprint
   links:
+  - label: arXiv
+    url: https://arxiv.org/abs/2610.29903
   - label: Project
-    url: https://humit-ral.github.io/
+    url: https://xiaohu-art.github.io/Track/
   video: /assets/img/humit-preview.mp4
   poster: /assets/img/optimized/humit-poster.webp
   image_alt: HuMiT teleoperation demonstration
@@ -206,6 +215,8 @@
     url: https://arxiv.org/abs/2609.07747
   - label: Project
     url: https://dexx-code.github.io/dexx-code/
+  - label: Code
+    url: https://github.com/gcfy63821/dexx_lab
   image: /assets/img/dexx.png
   image_alt: DEX-X
 - id: embodied-reasoner
@@ -249,6 +260,8 @@
     url: https://embodied-reasoner.github.io/
   - label: Code
     url: https://github.com/zwq2018/embodied_reasoner
+  - label: Huggingface
+    url: https://huggingface.co/datasets/zwq2018/embodied_reasoner
   - label: 机器之心
     url: https://mp.weixin.qq.com/s/yO0uylWGF8Mv7T9y1tjDcA
   - label: 智猩猩
