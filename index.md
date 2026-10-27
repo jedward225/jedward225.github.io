@@ -1,7 +1,7 @@
 ---
 layout: default
 image: /assets/img/1c.png
-last_modified_at: 2026-10-16
+last_modified_at: 2026-10-27
 ---
 
 <div class="home">
@@ -14,12 +14,11 @@ last_modified_at: 2026-10-16
     <div class="profile-info">
       <h1>Jiajun Liu</h1>
       <p class="profile-role"> Incoming Ph.D. Student, Institute for Interdisciplinary Information Sciences, Tsinghua University</p>
-      <p class="profile-role"> Undergraduate, Gaoling School of Artificial Intelligence, Renmin University of China</p>
       <div class="social-links">
         <a href="mailto:{{ site.email }}">Email</a>
         <a href="https://scholar.google.com/citations?user=JIGENycAAAAJ&hl=zh-CN&authuser=1" target="_blank" rel="noopener noreferrer">Google Scholar</a>
         <a href="https://github.com/{{ site.github_username }}" target="_blank" rel="noopener noreferrer">GitHub</a>
-        <a href="{{ '/assets/pdf/CV.pdf' | relative_url }}" download>CV</a>
+        <a href="{{ '/assets/pdf/CV.pdf' | relative_url }}" download>CV(Oct 2026)</a>
         <a href="https://x.com/{{ site.twitter_username }}" target="_blank" rel="noopener noreferrer">Twitter / X</a>
         <a href="https://www.xiaohongshu.com/user/profile/64b4c359000000001f007d4f" target="_blank" rel="noopener noreferrer">小红书</a>
         <details class="wechat-link">
@@ -129,11 +128,10 @@ last_modified_at: 2026-10-16
   <div class="scholarship" id="scholarship">
     <h2>Selected Scholarships</h2>
     <ul>
-      <li><span><span class="award-highlight">China National Petroleum Corporation Scholarship</span></span> <span class="date-right">Sep 2026</span></li>
-      <li><span><span class="award-highlight">SenseTime Scholarship Nomination</span></span> <span class="date-right">Jun 2026</span></li>
-      <li><span><span class="award-highlight">National Scholarship</span></span> <span class="date-right">Sep 2025</span></li>
-      <li><span><span class="award-highlight">"Linghang" Intellectual Excellence Dean's Scholarship</span></span> <span class="date-right">Dec 2024</span></li>
-      <li><span><span class="award-highlight">Outstanding Student Leader Scholarship</span></span> <span class="date-right">Sep 2024</span></li>
+      <li><span>China National Petroleum Corporation Scholarship (<span class="award-highlight">RMB 12,000</span>)</span> <span class="date-right">Sep 2026</span></li>
+      <li><span>National Scholarship (<span class="award-highlight">RMB 10,000</span>)</span> <span class="date-right">Sep 2025</span></li>
+      <li><span>"Linghang" Intellectual Excellence Dean's Scholarship (<span class="award-highlight">RMB 5,000</span>)</span> <span class="date-right">Dec 2024</span></li>
+      <li><span>Outstanding Student Leader Scholarship</span> <span class="date-right">Sep 2024</span></li>
     </ul>
   </div>
 
@@ -142,7 +140,9 @@ last_modified_at: 2026-10-16
   <div class="services" id="services">
     <h2>Services & Presentations</h2>
     <ul>
-      <li> <strong>Reviewer:</strong> ICLR 2027</li>
+      <li> <strong>Conference Reviewer:</strong> ICLR 2027</li>
+      <li> <strong>Invited Talk:</strong> "My Perspective on Embodied AI" (《我眼中的具身智能》)<div class="service-detail">PG Club and IBCA Club, Renmin University of China · Nov 2026</div></li>
+      <li> <strong>Invited Talks:</strong> "Robot Learning from Failure and Physical RSI"<div class="service-detail"><a href="https://ml.cs.tsinghua.edu.cn/" target="_blank" rel="noopener noreferrer">TSAIL</a> (Prof. Jun Zhu) and <a href="https://bigeye.au.tsinghua.edu.cn/" target="_blank" rel="noopener noreferrer">BigEye Lab</a> (Prof. Changshui Zhang), Tsinghua University</div></li>
       <li> <strong>Invited Video:</strong> "My Experience Using AI+ Tools to Create Videos"<div class="service-detail">Invited by CCF for <em>China National Computer Conference (CNCC)</em> Super Forum</div></li>
       <li> <strong>Invited Talk:</strong> "Algorithm and Artificial Intelligence"<div class="service-detail">Invited by Gaoling School of AI & School of Information, Renmin University of China</div></li>
     </ul>

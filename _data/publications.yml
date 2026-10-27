@@ -36,6 +36,8 @@
     url: https://github.com/RoboCoach-AI/CoachWorld
   - label: Hugging Face
     url: https://huggingface.co/JEdward/CoachWorld
+  - label: 机器之心
+    url: https://mp.weixin.qq.com/s/inifTqjMXpCOvE98Te6Wgw
   video: /assets/img/robocoach-teaser-with-logos-web.mp4
   poster: /assets/img/robocoach-ai-poster.png
   image_alt: RoboCoach demonstration of world models coaching compositional robot skills
@@ -189,6 +191,9 @@
   - name: Shiqin Tong
   - name: Jiajun Liu
     self: true
+  - name: Mingzhi Pei
+  - name: Chenyu Zhang
+    url: https://chenyuzhangx.github.io/
   - name: Wanli Xing
     url: https://wlxing1901.github.io/
   - name: Kaifeng Zhang
@@ -197,6 +202,8 @@
     url: https://www.mengdixu.me/
   venue: Conference on Robot Learning (CoRL), 2026 · <span class="award-highlight">Spotlight</span> @ RSS 2026 DexManip
   links:
+  - label: arXiv
+    url: https://arxiv.org/abs/2609.07747
   - label: Project
     url: https://dexx-code.github.io/dexx-code/
   image: /assets/img/dexx.png
@@ -242,5 +249,11 @@
     url: https://embodied-reasoner.github.io/
   - label: Code
     url: https://github.com/zwq2018/embodied_reasoner
+  - label: 机器之心
+    url: https://mp.weixin.qq.com/s/yO0uylWGF8Mv7T9y1tjDcA
+  - label: 智猩猩
+    url: https://www.bilibili.com/video/BV1Cs7Hz4ETk/?t=1623.2
+  - label: AGIROS
+    url: https://www.bilibili.com/video/BV1qqdnYeEB5
   image: /assets/img/embodied-reasoner.png
   image_alt: Embodied Reasoner
